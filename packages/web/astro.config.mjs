@@ -7,5 +7,6 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
   ],
-  site: "https://transparencia.github.io",
+  site: "https://atvinicius.github.io",
+  base: "/transparencia",
 });
