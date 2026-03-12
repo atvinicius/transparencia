@@ -1,0 +1,574 @@
+{
+  "slug": "ciro-gomes",
+  "name": "Ciro Ferreira Gomes",
+  "shortName": "Ciro Gomes",
+  "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001612393/BR",
+  "currentParty": "PDT",
+  "state": "CE",
+  "birthDate": "1957-11-06",
+  "occupation": "Ex-governador do Ceará, ex-candidato à presidência",
+  "officesHeld": [
+    {
+      "role": "Presidente",
+      "location": "BR",
+      "startYear": 2022,
+      "endYear": 2022,
+      "party": "PDT",
+      "elected": false,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001612393",
+        "fetchedAt": "2026-03-12T06:49:17.871Z"
+      }
+    },
+    {
+      "role": "Presidente",
+      "location": "BR",
+      "startYear": 2018,
+      "endYear": 2018,
+      "party": "PDT",
+      "elected": false,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000605589",
+        "fetchedAt": "2026-03-12T06:49:17.941Z"
+      }
+    }
+  ],
+  "votingSummaries": [],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [
+    {
+      "electionYear": 2022,
+      "totalDeclared": 3039761.97,
+      "items": [
+        {
+          "description": "APARTAMENTO 1002 DO EMPREENDIMENTO MAR DE PAULET,SITUADO NA RUA SILVA PAULET, NO 101, DE MATRICULA NO38.671, ADQUIRIDO DE BLOKUS 3 INCORPORACAO ECONSTRUCAO SPE LTDA",
+          "value": 687091.02
+        },
+        {
+          "description": "1/5 DE UM IMOVEL RESIDENCIAL SITUADO NO BOULEVARD CEL. JOAO BARBOSA, N. 518, BAIRRO CENTRO, EM SOBRAL/CE,MATRICULA 12.022, ADQUIRIDO POR HERANCA DO ESPOLIO DE MARIA JOSE SANTOS FERREIRA GOMES",
+          "value": 160000
+        },
+        {
+          "description": "CREDITO COM CIRO SABOYA FERREIRA GOMES, DECORRENTE DA VENDA DO APTO. NA AV. HISTORIADOR RAIMUNDO GIRAO, 594/2104",
+          "value": 51990.69
+        },
+        {
+          "description": "TOYOTA HILUX SW4 SRV 4X4, 2010/2010",
+          "value": 105000
+        },
+        {
+          "description": "12,08% DE PARTICIPACAO NA EMPRESA CORTE OITO CAUCAIAEMPREENDIMENTOS E PARTICIPACOES LTDA",
+          "value": 0
+        },
+        {
+          "description": "VALORES NA POSSE DA SRA. MARIA LUIZA GURGEL SERPA,PARA PAGAMENTO DE DESPESAS CORRENTES DO DECLARANTE",
+          "value": 31916.28
+        },
+        {
+          "description": "VGBL NO BRASILPREV SEGUROS E PREVIDENCIA S.A., EM NOME DO DEPENDENTE.",
+          "value": 28517.32
+        },
+        {
+          "description": "CASA RESIDENCIAL NA AV. DR. JOSE ARIMATEIA MONTE ESILVA, N. 235, NO BAIRRO CAMPO DOS VELHOS, EM SOBRAL/CE, MATRICULA 8421, ADQUIRIDO POR HERANCA DO ESPOLIO DE MARIA JOSE SANTOS FERREIRA GOMES",
+          "value": 300000
+        },
+        {
+          "description": "100% DE PARTICIPAÇÃO (12.000 QUOTAS) DA EMPRESANEWSLETTERS DIGITAL A VOZ DO BRASIL LTDA",
+          "value": 12000
+        },
+        {
+          "description": "CREDITO DECORRENTE DE EMPRESTIMO A SOCIEDADE CIROGOMES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+          "value": 36000
+        },
+        {
+          "description": "CRÉDITO A RECEBER DECORRENTE DA ALIENAÇÃO DAPARTICIPACAO NA EMPRESA CORTE OITO CAUCAIA EMPREENDIMENTOS E PARTICIPACOES LTDA",
+          "value": 1004590.7
+        },
+        {
+          "description": "CREDITO COM YURI SABOYA FERREIRA GOMES, DECORRENTE DA VENDA DO APTO. NA AV. HISTORIADOR RAIMUNDO GIRAO, 594/2104",
+          "value": 51990.68
+        },
+        {
+          "description": "APARTAMENTO NA AV. HISTORIADOR RAIMUNDO GIRAO,700/2302 - EDIF. VISTA DEL MARE, PRAIA DE IRACEMA, NESTACAPITAL, ADQUIRIDO DA CONSTRUTORA ESTRELA LTDA",
+          "value": 381202.9
+        },
+        {
+          "description": "VEICULO HYUNDAI ELANTRA MD 1.8 AUT. 2012/2013, PRATA",
+          "value": 85000
+        },
+        {
+          "description": "100% DE PARTICIPACAO NA EMPRESA CIRO GOMESSOCIEDADE INDIVIDUAL DE ADVOCACIA",
+          "value": 50000
+        },
+        {
+          "description": "CREDITO COM LIVIA SABOYA FERREIRA GOMES, DECORRENTE DA VENDA DO APTO. NA AV. HISTORIADOR RAIMUNDO GIRAO, 594/2104",
+          "value": 51990.69
+        },
+        {
+          "description": "CONTA CORRENTE NO BANCO DO BRASIL",
+          "value": 2471.69
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001612393",
+        "fetchedAt": "2026-03-12T06:49:17.871Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalDeclared": 1695203.1500000001,
+      "items": [
+        {
+          "description": "CREDITO A RECEBER DE LUCIO FERREIRA GOMES, DECORRENTE DA VENDA DE UMA PARTE DE TERRA EQUIVALENTES A 174,2 HECTARES COMARCA DE FORQUILHA, ADQUIRIDA POR HERANCA DO ESPOLIO DE MARIA JOSE SANTOS FERREIRA.",
+          "value": 37477.03
+        },
+        {
+          "description": "CREDITO COM LIVIA SABOYA FERREIRA GOMES, DECORRENTE DA VENDA DO APTO. NA AV. HISTORIADOR RAIMUNDO GIRAO, 594/2104, PRAIA DE IRACEMA, FORTALEZA, CE.",
+          "value": 51990.69
+        },
+        {
+          "description": "VEICULO HYUNDAI ELANTRA MD 1.8 AUT. 2012/2013.",
+          "value": 85000
+        },
+        {
+          "description": "CREDITO A RECEBER DE LUCIO FERREIRA GOMES, DECORRRENTE DA VENDA DA PROPRIEDADE ADQUIRIDA POR HERANCA DO ESPOLIO DE MARIA JOSE SANTOS FERREIRA GOMES.",
+          "value": 13584.22
+        },
+        {
+          "description": "APART. AV. HISTORIADOR RAIMUNDO GIRAO, 700/2302, PRAIA DE IRACEMA, FORTALEZA, CE, ADQUIRIDO DA CONSTRUTORA ESTRELA. BENFEITORIAS NO VALOR TOTAL DE R$ 122.125,66.",
+          "value": 381202.9
+        },
+        {
+          "description": "TOYOTA HILUX SW4 SRV 4X4, 2010/2010.",
+          "value": 105000
+        },
+        {
+          "description": "CREDITO COM YURI SABOYA FERREIRA GOMES, DECORRENTE DA VENDA DO APTO. NA AV. HISTORIADOR RAIMUNDO GIRAO, 594/2104, PRAIA DE IRACEMA, FORTALEZA, CE.",
+          "value": 51990.68
+        },
+        {
+          "description": "APART. 1002, SITUADO NA RUA SILVA PAULET, ALDEOTA, FORTALEZA,CE, NO 101, ADQUIRIDO DE BLOKUS 3 INCORPORACAO E CONSTRUCAO.",
+          "value": 365875.28
+        },
+        {
+          "description": "VALORES NA POSSE DA SRA. MARIA LUIZA GURGEL SERPA, PARA PAGAMENTO DE DESPESAS CORRENTES DO DECLARANTE.",
+          "value": 65624.94
+        },
+        {
+          "description": "UMA CASA NA AV. DR. JOSE ARIMATEIA MONTE E SILVA, 235 BAIRRO CAMPO DOS VELHOS, EM SOBRAL/CE, MATRICULA 8421, ADQUIRIDO POR HERANCA DO ESPOLIO DE MARIA JOSE SANTOS FERREIRA GOMES.",
+          "value": 300000
+        },
+        {
+          "description": "CONTA CORRENTE BANCO DO BRASIL, AG. 5110-1, CONTA 5007-5, PARA DESPESAS CORRENTES A SEREM PAGAS POR MARIA LUIZA GURGEL SERPA.",
+          "value": 466.72
+        },
+        {
+          "description": "1/5 DE UM IMOVEL RESIDENCIAL SITUADO NO BOULEVARD CEL. JOAO BARBOSA, N. 518, BAIRRO CENTRO, EM SOBRAL/CE, ADQUIRIDO POR HERANCA DO ESPOLIO DE MARIA JOSE SANTOS FERREIRA GOMES",
+          "value": 160000
+        },
+        {
+          "description": "CREDITO COM CIRO SABOYA FERREIRA GOMES, DECORRENTE DA VENDA DO APTO. NA AV. HISTORIADOR RAIMUNDO GIRAO, 594/2104, PRAIA DE IRACEMA, FORTALEZA, CE.",
+          "value": 51990.69
+        },
+        {
+          "description": "50% de PARTICIPAÇÃO NA EMPRESA XEREZ SALDANHA VASCONCELOS E CIRO GOMES ADVOGADOS ASSOCIADOS.",
+          "value": 25000
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000605589",
+        "fetchedAt": "2026-03-12T06:49:17.941Z"
+      }
+    }
+  ],
+  "campaignFinances": [
+    {
+      "electionYear": 2022,
+      "totalReceived": 36013770.24,
+      "totalSpent": 36013640.87,
+      "topDonors": [
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 10000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 10000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 6000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 6000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 1400000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 1300000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 857000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "JOSE CARLOS VALENTE PONTES",
+          "amount": 200000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 130935,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "APPCIVICO CONSULTORIA LTDA",
+          "amount": 68607.69,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/12/12/280001612393",
+        "fetchedAt": "2026-03-12T06:49:18.271Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalReceived": 24229484.41,
+      "totalSpent": 24209032.41,
+      "topDonors": [
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 6500000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 6000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 4000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 3500000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 1120000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 850000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 761000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Democrático Trabalhista",
+          "amount": 500000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "GERARDO RODRIGUES BEZERRA",
+          "amount": 200000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "GERARDO RODRIGUES BEZERRA",
+          "amount": 200000,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/12/12/280000605589",
+        "fetchedAt": "2026-03-12T06:49:18.563Z"
+      }
+    }
+  ],
+  "partyHistory": [
+    {
+      "party": "PDT",
+      "startYear": 2018
+    }
+  ],
+  "facts": [
+    {
+      "id": "tse-bens-total-2022",
+      "label": "Bens declarados na eleição de 2022",
+      "value": "R$ 3.039.761,97",
+      "context": "17 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001612393",
+        "fetchedAt": "2026-03-12T06:49:17.871Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-total-2018",
+      "label": "Bens declarados na eleição de 2018",
+      "value": "R$ 1.695.203,15",
+      "context": "14 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000605589",
+        "fetchedAt": "2026-03-12T06:49:17.941Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-evolucao",
+      "label": "Evolução patrimonial declarada",
+      "value": "79% de aumento",
+      "context": "de 2018 (R$ 1.695.203,15) a 2022 (R$ 3.039.761,97)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001612393",
+        "fetchedAt": "2026-03-12T06:49:17.871Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-gasto-campanha-2022",
+      "label": "Gasto de campanha declarado (2022)",
+      "value": "R$ 133.416.046,20",
+      "context": "1º turno: R$ 88.944.030,80 | 2º turno: R$ 44.472.015,40",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001612393",
+        "fetchedAt": "2026-03-12T06:49:17.871Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-gasto-campanha-2018",
+      "label": "Gasto de campanha declarado (2018)",
+      "value": "R$ 105.000.000,00",
+      "context": "1º turno: R$ 70.000.000,00 | 2º turno: R$ 35.000.000,00",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000605589",
+        "fetchedAt": "2026-03-12T06:49:17.941Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-eleicao-2022",
+      "label": "Resultado na eleição de 2022",
+      "value": "Não eleito",
+      "context": "Cargo: Presidente | Partido: PDT",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001612393",
+        "fetchedAt": "2026-03-12T06:49:17.871Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicao-2018",
+      "label": "Resultado na eleição de 2018",
+      "value": "Não eleito",
+      "context": "Cargo: Presidente | Partido: PDT",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000605589",
+        "fetchedAt": "2026-03-12T06:49:17.941Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicoes-total",
+      "label": "Eleições disputadas (registros TSE)",
+      "value": 2,
+      "context": "2022 (Presidente), 2018 (Presidente)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:49:17.941Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "divulgacand-receita-total-280001612393-2022",
+      "label": "Total recebido em doações de campanha (2022)",
+      "value": "R$ 36.013.770,24",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/12/12/280001612393",
+        "fetchedAt": "2026-03-12T06:49:18.271Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-280001612393-2022",
+      "label": "Total gasto em campanha (2022)",
+      "value": "R$ 36.013.640,87",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/12/12/280001612393",
+        "fetchedAt": "2026-03-12T06:49:18.271Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-280001612393-2022",
+      "label": "Número de doadores de campanha (2022)",
+      "value": 25,
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/12/12/280001612393",
+        "fetchedAt": "2026-03-12T06:49:18.271Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-280001612393-2022",
+      "label": "Maior doador de campanha (2022)",
+      "value": "Direção Nacional - Partido Democrático Trabalhista",
+      "context": "R$ 10.000.000,00 — Fundo Especial",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/12/12/280001612393",
+        "fetchedAt": "2026-03-12T06:49:18.271Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-280001612393-2022",
+      "label": "Saldo positivo de campanha (2022)",
+      "value": "R$ 129,37",
+      "context": "Receitas R$ 36.013.770,24 - Despesas R$ 36.013.640,87",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/12/12/280001612393",
+        "fetchedAt": "2026-03-12T06:49:18.271Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-receita-total-280000605589-2018",
+      "label": "Total recebido em doações de campanha (2018)",
+      "value": "R$ 24.229.484,41",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/12/12/280000605589",
+        "fetchedAt": "2026-03-12T06:49:18.563Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-280000605589-2018",
+      "label": "Total gasto em campanha (2018)",
+      "value": "R$ 24.209.032,41",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/12/12/280000605589",
+        "fetchedAt": "2026-03-12T06:49:18.563Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-280000605589-2018",
+      "label": "Número de doadores de campanha (2018)",
+      "value": 37,
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/12/12/280000605589",
+        "fetchedAt": "2026-03-12T06:49:18.563Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-280000605589-2018",
+      "label": "Maior doador de campanha (2018)",
+      "value": "Direção Nacional - Partido Democrático Trabalhista",
+      "context": "R$ 6.500.000,00 — Fundo Especial",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/12/12/280000605589",
+        "fetchedAt": "2026-03-12T06:49:18.563Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-280000605589-2018",
+      "label": "Saldo positivo de campanha (2018)",
+      "value": "R$ 20.452,00",
+      "context": "Receitas R$ 24.229.484,41 - Despesas R$ 24.209.032,41",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/12/12/280000605589",
+        "fetchedAt": "2026-03-12T06:49:18.563Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "role-ciro-gomes",
+      "label": "Cargo/função atual",
+      "value": "Ex-governador do Ceará, ex-candidato à presidência",
+      "source": {
+        "name": "Transparência (curadoria)",
+        "url": "https://atvinicius.github.io/transparencia/metodologia",
+        "fetchedAt": "2026-03-12T06:49:18.564Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Gerais"
+    }
+  ],
+  "lastUpdated": "2026-03-12T06:49:18.564Z",
+  "sources": [
+    "TSE - DivulgaCandContas",
+    "DivulgaCandContas"
+  ]
+}

@@ -1,4 +1,4 @@
-import type { TseCandidatoData } from "../sources/tse.js";
+import type { TseCandidatoData, TseElectionEntry } from "../sources/tse.js";
 import type {
   CandidateProfile,
   AssetDeclaration,
@@ -83,13 +83,33 @@ export function normalizeTse(tseData: TseCandidatoData): TseNormalized {
     }
   }
 
+  // --- Campaign spending from TSE details ---
+
+  for (const election of tseData.elections) {
+    const spending1T = (election as TseElectionEntry).campaignSpending1T;
+    const spending2T = (election as TseElectionEntry).campaignSpending2T;
+    const totalSpending = (spending1T || 0) + (spending2T || 0);
+
+    if (totalSpending > 0) {
+      facts.push({
+        id: `tse-gasto-campanha-${election.year}`,
+        label: `Gasto de campanha declarado (${election.year})`,
+        value: formatCurrency(totalSpending),
+        context: spending2T
+          ? `1º turno: ${formatCurrency(spending1T || 0)} | 2º turno: ${formatCurrency(spending2T)}`
+          : `1º turno`,
+        source: election.source,
+        dimension: "integridade",
+        category: "Financiamento de Campanha",
+      });
+    }
+  }
+
   // --- Offices held (election history) ---
 
   for (const election of tseData.elections) {
-    const elected =
-      election.result?.toLowerCase().includes("eleit") ??
-      election.situation?.toLowerCase().includes("eleit") ??
-      false;
+    const resultLower = (election.result || election.situation || "").toLowerCase();
+    const elected = resultLower.includes("eleit") && !resultLower.includes("não eleit");
 
     officesHeld.push({
       role: election.role,

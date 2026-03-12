@@ -1,0 +1,391 @@
+{
+  "slug": "pablo-marcal",
+  "name": "Pablo Marçal",
+  "shortName": "Pablo Marçal",
+  "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001600179/BR",
+  "currentParty": "PRTB",
+  "state": "SP",
+  "birthDate": "1987-04-18",
+  "occupation": "Empresário, ex-candidato a prefeito de SP",
+  "officesHeld": [
+    {
+      "role": "Presidente",
+      "location": "BR",
+      "startYear": 2022,
+      "endYear": 2022,
+      "party": "PROS",
+      "elected": false,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001600179",
+        "fetchedAt": "2026-03-12T06:49:57.003Z"
+      }
+    }
+  ],
+  "votingSummaries": [],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [
+    {
+      "electionYear": 2022,
+      "totalDeclared": 96942541.15,
+      "items": [
+        {
+          "description": "Lucros e dividendos recebidos",
+          "value": 13712659
+        },
+        {
+          "description": "APARTAMENTO EM APARECIDA DE GOIANIA QUITADO NESSE PERIODO ",
+          "value": 100000
+        },
+        {
+          "description": "CHAGARA EM TRINDADE, SENDO UMA ENTRADA DE 3.000,00 E 120 PARCELAS DE 600,00 ADQUIRIDA EM 2016 CONFOME CONTRATO DE COMPRA E VENDA VALOR PAGO R$ 7.200,00. ",
+          "value": 54984.33
+        },
+        {
+          "description": "SALDO APLICACAO RENDA FIXA NU FINANCEIRA S.A",
+          "value": 113191.2
+        },
+        {
+          "description": "Rendimentos de aplicações financeiras",
+          "value": 20206.39
+        },
+        {
+          "description": "4000 AÇÕES/COTAS KISU11 CUSTO AQUISICAO R$ 9,23",
+          "value": 36921.06
+        },
+        {
+          "description": "42000 AÇÕES/COTAS MGLU3 CUSTO AQUISICAO R$ 9,66",
+          "value": 405932.67
+        },
+        {
+          "description": "SALDO APLICACAO CDB JUNTO BANCO ITAU",
+          "value": 110164.64
+        },
+        {
+          "description": "0% CAPITAL SOCIAL DA EMPRESA AVIATION PARTICIPAÇÕES LTDA CONSTITUÍDA EM 18/10/2021 COM VALOR TOTAL DO CAPITAL SOCIAL DE R$ 100.000.000,00 (CEM MILHÕES DE REAIS) SENDO QUE R$ 80.000.000.00 EM NOME DO P",
+          "value": 80000000
+        },
+        {
+          "description": "OUTROS",
+          "value": 2783.37
+        },
+        {
+          "description": "100 AÇÕES/COTAS QUAL3 CUSTO AQUISICAO R$ 22,25",
+          "value": 2225.66
+        },
+        {
+          "description": "2155 AÇÕES/COTAS TGAR11 CUSTO AQUISICAO R$ 118,31",
+          "value": 254961.78
+        },
+        {
+          "description": "100 AÇÕES/COTAS VIVR3 CUSTO AQUISICAO R$ 2,72",
+          "value": 272.08
+        },
+        {
+          "description": "PARTICIPACAO SCP POOL O ANJO",
+          "value": 100000
+        },
+        {
+          "description": "PARTICIPACAO SCP POOL SPORTTECH",
+          "value": 95934.56
+        },
+        {
+          "description": "SALA COMERCIAL GOIAS CENTER MODAS- AV. GOIAS NORTE, 4066 - ST. CRIMEIA OESTE, GOIANIA GO 35M2 ",
+          "value": 100000
+        },
+        {
+          "description": "356 AÇÕES/COTAS RELG11 CUSTO AQUISICAO R$ 89,01",
+          "value": 31687.85
+        },
+        {
+          "description": "5300 AÇÕES/COTAS BBDC4 CUSTO AQUISICAO R$ 22,85",
+          "value": 121151.46
+        },
+        {
+          "description": "PARTICIPACAO SCP PRIMO RICO",
+          "value": 99073.63
+        },
+        {
+          "description": "Juros sobre capital próprio",
+          "value": 9416.36
+        },
+        {
+          "description": "CNPJ: 36.614.934/0001-60 NOME EMPRESARIAL: MARCAL PARTICIPACOES LTDA CAPITAL SOCIAL: R$500.000,00 (QUINHENTOS MIL REAIS) - 50% PABLO MARCAL E 50% CAROL MARCAL ",
+          "value": 250000
+        },
+        {
+          "description": "CNPJ: 40.605.140/0001-08 NOME EMPRESARIAL: MARCAL HOLDING LTDA CAPITAL SOCIAL: R$500.000,00 (QUINHENTOS MIL REAIS) - 50% PABLO MARCAL E 50% CAROL MARCAL ",
+          "value": 250000
+        },
+        {
+          "description": "PARTICIPACAÇAO SCP POOL EDUTECH",
+          "value": 98390.31
+        },
+        {
+          "description": "PARTICIPACAÇAO SCP POOL BRASIL 6",
+          "value": 100000
+        },
+        {
+          "description": "PARTICIPACAO SCP POOL ANGEL LIST li",
+          "value": 100000
+        },
+        {
+          "description": "SALDO CONTA CORRENTE JUNTO BANCO ITAU S.A",
+          "value": 13951.27
+        },
+        {
+          "description": "AÇÕES/COTAS CIEL3 CUSTO AQUISIÇAO R$ 3,41",
+          "value": 6822.05
+        },
+        {
+          "description": "Incorporação de reservas ao capital/ Bonificações em ações",
+          "value": 2444.68
+        },
+        {
+          "description": "SALDO CONTA CORRENTE JUNTO BANCO ITAU S.A",
+          "value": 10
+        },
+        {
+          "description": "SALDO CONTA CORRENTE JUNTO XP INVESTIMENTOS CCTVM S/A ",
+          "value": 2415.72
+        },
+        {
+          "description": "422 AÇÕES/COTAS IRDM11 CUSTO AQUISICAO R$ 117,77",
+          "value": 49698.98
+        },
+        {
+          "description": "500 AÇÕES/COTAS SULA11 CUSTO AQUISICAO R$ 29,62",
+          "value": 14814.44
+        },
+        {
+          "description": "300 AÇÕES/COTAS DEVA11 CUSTO AQUISICAO R$103,78",
+          "value": 31134.34
+        },
+        {
+          "description": "VALOR EM CONTA PAYONNER- USD 187.315,17 CONVERTIDO COM A PTAX 31.12.2020 - 5,6407- VALOR U$ 58.733,51 ( CONVERTIDO COM A PTAX 5,5799 REAUBRL) EM 31/12/2021 ",
+          "value": 327727.11
+        },
+        {
+          "description": "CONSORCIO GOVESA- CONTRATO 105265 - SALDO DEVEDOR 271.351,82 - PAGAS 19.348,51, VALORES PAGO 2021 R$ 17.353,99.",
+          "value": 288705.81
+        },
+        {
+          "description": "CONSORCIO NEW HOLLAND- 05032/0170.00 - SALDO DEVEDOR 70.875,64- VALOR PAGO R$ 20.146,37 SADO DEVEDOR R$ 87.841,02. ",
+          "value": 34860.4
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001600179",
+        "fetchedAt": "2026-03-12T06:49:57.003Z"
+      }
+    }
+  ],
+  "campaignFinances": [
+    {
+      "electionYear": 2022,
+      "totalReceived": 1491349.66,
+      "totalSpent": 1466649.66,
+      "topDonors": [
+        {
+          "name": "PABLO HENRIQUE COSTA MARCAL",
+          "amount": 546000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "MARCOS PAULO DE OLIVEIRA",
+          "amount": 459000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "PABLO HENRIQUE COSTA MARCAL",
+          "amount": 80000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "PABLO HENRIQUE COSTA MARCAL",
+          "amount": 69000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "PABLO HENRIQUE COSTA MARCAL",
+          "amount": 50000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "PABLO HENRIQUE COSTA MARCAL",
+          "amount": 50000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "PABLO HENRIQUE COSTA MARCAL",
+          "amount": 33000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "PABLO HENRIQUE COSTA MARCAL",
+          "amount": 26000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "ANDRE AUGUSTO CASTRO DO AMARAL",
+          "amount": 25000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "PABLO HENRIQUE COSTA MARCAL",
+          "amount": 18500,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/90/90/280001600179",
+        "fetchedAt": "2026-03-12T06:50:02.803Z"
+      }
+    }
+  ],
+  "partyHistory": [
+    {
+      "party": "PROS",
+      "startYear": 2022
+    }
+  ],
+  "facts": [
+    {
+      "id": "tse-bens-total-2022",
+      "label": "Bens declarados na eleição de 2022",
+      "value": "R$ 96.942.541,15",
+      "context": "36 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001600179",
+        "fetchedAt": "2026-03-12T06:49:57.003Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-gasto-campanha-2022",
+      "label": "Gasto de campanha declarado (2022)",
+      "value": "R$ 133.416.046,20",
+      "context": "1º turno: R$ 88.944.030,80 | 2º turno: R$ 44.472.015,40",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001600179",
+        "fetchedAt": "2026-03-12T06:49:57.003Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-eleicao-2022",
+      "label": "Resultado na eleição de 2022",
+      "value": "Concorrendo",
+      "context": "Cargo: Presidente | Partido: PROS",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001600179",
+        "fetchedAt": "2026-03-12T06:49:57.003Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicoes-total",
+      "label": "Eleições disputadas (registros TSE)",
+      "value": 1,
+      "context": "2022 (Presidente)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:49:57.003Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "divulgacand-receita-total-280001600179-2022",
+      "label": "Total recebido em doações de campanha (2022)",
+      "value": "R$ 1.491.349,66",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/90/90/280001600179",
+        "fetchedAt": "2026-03-12T06:50:02.803Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-280001600179-2022",
+      "label": "Total gasto em campanha (2022)",
+      "value": "R$ 1.466.649,66",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/90/90/280001600179",
+        "fetchedAt": "2026-03-12T06:50:02.803Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-280001600179-2022",
+      "label": "Número de doadores de campanha (2022)",
+      "value": 45,
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/90/90/280001600179",
+        "fetchedAt": "2026-03-12T06:50:02.803Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-280001600179-2022",
+      "label": "Maior doador de campanha (2022)",
+      "value": "PABLO HENRIQUE COSTA MARCAL",
+      "context": "R$ 546.000,00 — Outros Recursos",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/90/90/280001600179",
+        "fetchedAt": "2026-03-12T06:50:02.803Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-280001600179-2022",
+      "label": "Saldo positivo de campanha (2022)",
+      "value": "R$ 24.700,00",
+      "context": "Receitas R$ 1.491.349,66 - Despesas R$ 1.466.649,66",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/90/90/280001600179",
+        "fetchedAt": "2026-03-12T06:50:02.803Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "role-pablo-marcal",
+      "label": "Cargo/função atual",
+      "value": "Empresário, ex-candidato a prefeito de SP",
+      "source": {
+        "name": "Transparência (curadoria)",
+        "url": "https://atvinicius.github.io/transparencia/metodologia",
+        "fetchedAt": "2026-03-12T06:50:02.804Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Gerais"
+    }
+  ],
+  "lastUpdated": "2026-03-12T06:50:02.804Z",
+  "sources": [
+    "TSE - DivulgaCandContas",
+    "DivulgaCandContas"
+  ]
+}

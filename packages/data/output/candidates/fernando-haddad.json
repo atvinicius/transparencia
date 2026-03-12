@@ -1,0 +1,486 @@
+{
+  "slug": "fernando-haddad",
+  "name": "Fernando Haddad",
+  "shortName": "Fernando Haddad",
+  "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/250001612465/SP",
+  "currentParty": "PT",
+  "state": "SP",
+  "birthDate": "1963-01-25",
+  "occupation": "Ministro da Fazenda (2023–)",
+  "officesHeld": [
+    {
+      "role": "Governador",
+      "location": "BR",
+      "startYear": 2022,
+      "endYear": 2022,
+      "party": "PT",
+      "elected": false,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001612465",
+        "fetchedAt": "2026-03-12T06:49:54.808Z"
+      }
+    },
+    {
+      "role": "Presidente",
+      "location": "BR",
+      "startYear": 2018,
+      "endYear": 2018,
+      "party": "PT",
+      "elected": false,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000629808",
+        "fetchedAt": "2026-03-12T06:49:54.879Z"
+      }
+    }
+  ],
+  "votingSummaries": [],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [
+    {
+      "electionYear": 2022,
+      "totalDeclared": 595059.29,
+      "items": [
+        {
+          "description": "Cota parte 64,3% de apartamento em São Paulo",
+          "value": 90000
+        },
+        {
+          "description": "Aplicação em RF Pré LP Estilo BB",
+          "value": 28377.78
+        },
+        {
+          "description": "26,37% de casa em São Paulo",
+          "value": 183000
+        },
+        {
+          "description": "132916 quotas da empresa KHLAP Adm. Part. LTDA",
+          "value": 140446.26
+        },
+        {
+          "description": "Aplicação em RF DI Plus Agil",
+          "value": 153235.25
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001612465",
+        "fetchedAt": "2026-03-12T06:49:54.808Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalDeclared": 428451.09,
+      "items": [
+        {
+          "description": "Sem descrição",
+          "value": 140446.26
+        },
+        {
+          "description": "Sem descrição",
+          "value": 90000
+        },
+        {
+          "description": "Sem descrição",
+          "value": 183000
+        },
+        {
+          "description": "Sem descrição",
+          "value": 15004.83
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000629808",
+        "fetchedAt": "2026-03-12T06:49:54.879Z"
+      }
+    }
+  ],
+  "campaignFinances": [
+    {
+      "electionYear": 2022,
+      "totalReceived": 33579785.96,
+      "totalSpent": 32814235.13,
+      "topDonors": [
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 9750000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 9750000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Socialista Brasileiro",
+          "amount": 5000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 4430000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Socialista Brasileiro",
+          "amount": 1500000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "LUIZ INÁCIO LULA DA SILVA",
+          "amount": 1000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "LUIZ INÁCIO LULA DA SILVA",
+          "amount": 350000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 320000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Socialista Brasileiro",
+          "amount": 250011.65,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "LUIZ INÁCIO LULA DA SILVA",
+          "amount": 250000,
+          "type": "Fundo Especial"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/13/13/250001612465",
+        "fetchedAt": "2026-03-12T06:49:55.195Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalReceived": 35364040.68,
+      "totalSpent": 33654233.94,
+      "topDonors": [
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 15000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 7000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 6750000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 2129040,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 800000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "UM A MAIS SERVIÇOS DE TECNOLOGIA E CONSULTORIA LTDA",
+          "amount": 734635.1,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 247500,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 232000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "UM A MAIS SERVIÇOS DE TECNOLOGIA E CONSULTORIA LTDA",
+          "amount": 227314.26,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 200000,
+          "type": "Fundo Partidário"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/13/13/280000629808",
+        "fetchedAt": "2026-03-12T06:49:56.637Z"
+      }
+    }
+  ],
+  "partyHistory": [
+    {
+      "party": "PT",
+      "startYear": 2018
+    }
+  ],
+  "facts": [
+    {
+      "id": "tse-bens-total-2022",
+      "label": "Bens declarados na eleição de 2022",
+      "value": "R$ 595.059,29",
+      "context": "5 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001612465",
+        "fetchedAt": "2026-03-12T06:49:54.808Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-total-2018",
+      "label": "Bens declarados na eleição de 2018",
+      "value": "R$ 428.451,09",
+      "context": "4 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000629808",
+        "fetchedAt": "2026-03-12T06:49:54.879Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-evolucao",
+      "label": "Evolução patrimonial declarada",
+      "value": "39% de aumento",
+      "context": "de 2018 (R$ 428.451,09) a 2022 (R$ 595.059,29)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001612465",
+        "fetchedAt": "2026-03-12T06:49:54.808Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-gasto-campanha-2022",
+      "label": "Gasto de campanha declarado (2022)",
+      "value": "R$ 40.024.813,86",
+      "context": "1º turno: R$ 26.683.209,24 | 2º turno: R$ 13.341.604,62",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001612465",
+        "fetchedAt": "2026-03-12T06:49:54.808Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-gasto-campanha-2018",
+      "label": "Gasto de campanha declarado (2018)",
+      "value": "R$ 105.000.000,00",
+      "context": "1º turno: R$ 70.000.000,00 | 2º turno: R$ 35.000.000,00",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000629808",
+        "fetchedAt": "2026-03-12T06:49:54.879Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-eleicao-2022",
+      "label": "Resultado na eleição de 2022",
+      "value": "2º turno",
+      "context": "Cargo: Governador | Partido: PT",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001612465",
+        "fetchedAt": "2026-03-12T06:49:54.808Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicao-2018",
+      "label": "Resultado na eleição de 2018",
+      "value": "Não eleito",
+      "context": "Cargo: Presidente | Partido: PT",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000629808",
+        "fetchedAt": "2026-03-12T06:49:54.879Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicoes-total",
+      "label": "Eleições disputadas (registros TSE)",
+      "value": 2,
+      "context": "2022 (Governador), 2018 (Presidente)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:49:54.879Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "divulgacand-receita-total-250001612465-2022",
+      "label": "Total recebido em doações de campanha (2022)",
+      "value": "R$ 33.579.785,96",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/13/13/250001612465",
+        "fetchedAt": "2026-03-12T06:49:55.195Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-250001612465-2022",
+      "label": "Total gasto em campanha (2022)",
+      "value": "R$ 32.814.235,13",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/13/13/250001612465",
+        "fetchedAt": "2026-03-12T06:49:55.195Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-250001612465-2022",
+      "label": "Número de doadores de campanha (2022)",
+      "value": 52,
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/13/13/250001612465",
+        "fetchedAt": "2026-03-12T06:49:55.195Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-250001612465-2022",
+      "label": "Maior doador de campanha (2022)",
+      "value": "Direção Nacional - Partido dos Trabalhadores",
+      "context": "R$ 9.750.000,00 — Fundo Especial",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/13/13/250001612465",
+        "fetchedAt": "2026-03-12T06:49:55.195Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-250001612465-2022",
+      "label": "Saldo positivo de campanha (2022)",
+      "value": "R$ 765.550,83",
+      "context": "Receitas R$ 33.579.785,96 - Despesas R$ 32.814.235,13",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/13/13/250001612465",
+        "fetchedAt": "2026-03-12T06:49:55.195Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-receita-total-280000629808-2018",
+      "label": "Total recebido em doações de campanha (2018)",
+      "value": "R$ 35.364.040,68",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/13/13/280000629808",
+        "fetchedAt": "2026-03-12T06:49:56.637Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-280000629808-2018",
+      "label": "Total gasto em campanha (2018)",
+      "value": "R$ 33.654.233,94",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/13/13/280000629808",
+        "fetchedAt": "2026-03-12T06:49:56.637Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-280000629808-2018",
+      "label": "Número de doadores de campanha (2018)",
+      "value": 154,
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/13/13/280000629808",
+        "fetchedAt": "2026-03-12T06:49:56.637Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-280000629808-2018",
+      "label": "Maior doador de campanha (2018)",
+      "value": "Direção Nacional - Partido dos Trabalhadores",
+      "context": "R$ 15.000.000,00 — Fundo Especial",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/13/13/280000629808",
+        "fetchedAt": "2026-03-12T06:49:56.637Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-280000629808-2018",
+      "label": "Saldo positivo de campanha (2018)",
+      "value": "R$ 1.709.806,74",
+      "context": "Receitas R$ 35.364.040,68 - Despesas R$ 33.654.233,94",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/13/13/280000629808",
+        "fetchedAt": "2026-03-12T06:49:56.637Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "role-fernando-haddad",
+      "label": "Cargo/função atual",
+      "value": "Ministro da Fazenda (2023–)",
+      "source": {
+        "name": "Transparência (curadoria)",
+        "url": "https://atvinicius.github.io/transparencia/metodologia",
+        "fetchedAt": "2026-03-12T06:49:56.638Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Gerais"
+    }
+  ],
+  "lastUpdated": "2026-03-12T06:49:56.638Z",
+  "sources": [
+    "TSE - DivulgaCandContas",
+    "DivulgaCandContas"
+  ]
+}

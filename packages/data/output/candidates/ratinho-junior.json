@@ -1,0 +1,570 @@
+{
+  "slug": "ratinho-junior",
+  "name": "Ratinho Junior",
+  "shortName": "Ratinho Junior",
+  "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/160001614467/PR",
+  "currentParty": "PSD",
+  "state": "PR",
+  "birthDate": "1981-04-19",
+  "occupation": "Governador do Paraná (2019–)",
+  "officesHeld": [
+    {
+      "role": "Governador",
+      "location": "BR",
+      "startYear": 2022,
+      "endYear": 2026,
+      "party": "PSD",
+      "elected": true,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PR/2040602022/candidato/160001614467",
+        "fetchedAt": "2026-03-12T06:49:25.230Z"
+      }
+    },
+    {
+      "role": "Governador",
+      "location": "BR",
+      "startYear": 2018,
+      "endYear": 2022,
+      "party": "PSD",
+      "elected": true,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PR/2022802018/candidato/160000609226",
+        "fetchedAt": "2026-03-12T06:49:25.308Z"
+      }
+    }
+  ],
+  "votingSummaries": [],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [
+    {
+      "electionYear": 2022,
+      "totalDeclared": 8840141.19,
+      "items": [
+        {
+          "description": "Casa alvenaria na Rua João Bientinez, Curitiba/PR",
+          "value": 117366.93
+        },
+        {
+          "description": "Casa na Rua Margarida Dallarmi, Curitiba/PR",
+          "value": 1400256.05
+        },
+        {
+          "description": "FICFI RF DI no Banco Brasdesco S/A",
+          "value": 7519.16
+        },
+        {
+          "description": "Apartamento na Rua Barão dos Campos Gerais, Curitiba/PR",
+          "value": 1172505.27
+        },
+        {
+          "description": "VW Fusca 1300 - 1972",
+          "value": 3000
+        },
+        {
+          "description": "Unidade Hotel Sol Inn Graciosa",
+          "value": 114510
+        },
+        {
+          "description": "Conta poupança no Banco do Brasil S/A",
+          "value": 45298.75
+        },
+        {
+          "description": "Quotas da empresa Massa & Massa Comunicação Ltda.",
+          "value": 29698
+        },
+        {
+          "description": "CDB no Banco Santander S/A",
+          "value": 7.36
+        },
+        {
+          "description": "Consórcio grupo 1023",
+          "value": 27980.23
+        },
+        {
+          "description": "Quotas da empresa Agropastoril Café no Bule Ltda.",
+          "value": 5623467
+        },
+        {
+          "description": "Conta corrente no Banco do Brasil S/A",
+          "value": 33741.04
+        },
+        {
+          "description": "VW Tiguan 2018",
+          "value": 137800
+        },
+        {
+          "description": "Conta corrente no Banco Bradesco S/A",
+          "value": 5830.16
+        },
+        {
+          "description": "Apartamento na Rua Reinaldo Stocco, Curitiba/PR",
+          "value": 121161.24
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PR/2040602022/candidato/160001614467",
+        "fetchedAt": "2026-03-12T06:49:25.230Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalDeclared": 13431360.6,
+      "items": [
+        {
+          "description": "Casa Rua Bientinez em Curitiba-PR",
+          "value": 113561.57
+        },
+        {
+          "description": "Consórcio grupo 1023",
+          "value": 26458.81
+        },
+        {
+          "description": "Agropastoril - Café no Bule LTDA",
+          "value": 5623467
+        },
+        {
+          "description": "Unidade Hotel Sol Graciosa",
+          "value": 114510
+        },
+        {
+          "description": "Consórcio grupo 1025",
+          "value": 26691.07
+        },
+        {
+          "description": "Consórcio Random grupo 1202",
+          "value": 73374.16
+        },
+        {
+          "description": "Empresa Empreendimento Residencial Cinque Terre",
+          "value": 1160118.39
+        },
+        {
+          "description": "Fundo Prime RF DI Plus Banco Bradesco",
+          "value": 300283.49
+        },
+        {
+          "description": "Empréstimo Luciana Saito de Azevedo",
+          "value": 3635238.81
+        },
+        {
+          "description": "CDB Série 1260 Banco Bradesco",
+          "value": 390947.48
+        },
+        {
+          "description": "Quotas Massa&Massa Comuniação LTDA",
+          "value": 29698
+        },
+        {
+          "description": "Conta Bradesco ",
+          "value": 225.27
+        },
+        {
+          "description": "Seguro Bradesco",
+          "value": 226227.07
+        },
+        {
+          "description": "Fundo FICFIRF DI Especial Banco Brasdesco",
+          "value": 310303.43
+        },
+        {
+          "description": "Terreno com casa residencial em Curitiba-PR",
+          "value": 1400256.05
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PR/2022802018/candidato/160000609226",
+        "fetchedAt": "2026-03-12T06:49:25.308Z"
+      }
+    }
+  ],
+  "campaignFinances": [
+    {
+      "electionYear": 2022,
+      "totalReceived": 11037947.08,
+      "totalSpent": 10622599.72,
+      "topDonors": [
+        {
+          "name": "Direção Estadual/Distrital - Partido Social Democrático",
+          "amount": 4000000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Social Democrático",
+          "amount": 2000000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "CARLOS ROBERTO MASSA",
+          "amount": 1850000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Social Democrático",
+          "amount": 1092306.74,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Social Democrático",
+          "amount": 340000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "GILSON CARDOSO FAHUR",
+          "amount": 300000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "LUCIANO VINICIUS FRACARO",
+          "amount": 120000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "LUCIANO VINICIUS FRACARO",
+          "amount": 110000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "GILSON MUELLER BERNECK",
+          "amount": 100000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "JOSE BORGES GONCALVES",
+          "amount": 100000,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/PR/3/55/55/160001614467",
+        "fetchedAt": "2026-03-12T06:49:26.022Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalReceived": 8957600.42,
+      "totalSpent": 8813765.57,
+      "topDonors": [
+        {
+          "name": "Direção Estadual/Distrital - Partido Social Democrático",
+          "amount": 1000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Social Democrático",
+          "amount": 1000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Social Democrático",
+          "amount": 1000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "WILSON PICLER",
+          "amount": 800000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "CARLOS ROBERTO MASSA JUNIOR",
+          "amount": 500000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "CARLOS ROBERTO MASSA",
+          "amount": 400000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "CARLOS ROBERTO MASSA",
+          "amount": 300000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "GABRIEL MARTINEZ MASSA",
+          "amount": 300000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "CARLOS ROBERTO MASSA JUNIOR",
+          "amount": 250000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "CARLOS ROBERTO MASSA",
+          "amount": 200000,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/PR/3/55/55/160000609226",
+        "fetchedAt": "2026-03-12T06:49:28.241Z"
+      }
+    }
+  ],
+  "partyHistory": [
+    {
+      "party": "PSD",
+      "startYear": 2018
+    }
+  ],
+  "facts": [
+    {
+      "id": "tse-bens-total-2022",
+      "label": "Bens declarados na eleição de 2022",
+      "value": "R$ 8.840.141,19",
+      "context": "15 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PR/2040602022/candidato/160001614467",
+        "fetchedAt": "2026-03-12T06:49:25.230Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-total-2018",
+      "label": "Bens declarados na eleição de 2018",
+      "value": "R$ 13.431.360,60",
+      "context": "15 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PR/2022802018/candidato/160000609226",
+        "fetchedAt": "2026-03-12T06:49:25.308Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-evolucao",
+      "label": "Evolução patrimonial declarada",
+      "value": "34% de redução",
+      "context": "de 2018 (R$ 13.431.360,60) a 2022 (R$ 8.840.141,19)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PR/2040602022/candidato/160001614467",
+        "fetchedAt": "2026-03-12T06:49:25.230Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-gasto-campanha-2022",
+      "label": "Gasto de campanha declarado (2022)",
+      "value": "R$ 17.344.086,00",
+      "context": "1º turno: R$ 11.562.724,00 | 2º turno: R$ 5.781.362,00",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PR/2040602022/candidato/160001614467",
+        "fetchedAt": "2026-03-12T06:49:25.230Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-gasto-campanha-2018",
+      "label": "Gasto de campanha declarado (2018)",
+      "value": "R$ 13.650.000,00",
+      "context": "1º turno: R$ 9.100.000,00 | 2º turno: R$ 4.550.000,00",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PR/2022802018/candidato/160000609226",
+        "fetchedAt": "2026-03-12T06:49:25.308Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-eleicao-2022",
+      "label": "Resultado na eleição de 2022",
+      "value": "Eleito(a)",
+      "context": "Cargo: Governador | Partido: PSD",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PR/2040602022/candidato/160001614467",
+        "fetchedAt": "2026-03-12T06:49:25.230Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicao-2018",
+      "label": "Resultado na eleição de 2018",
+      "value": "Eleito(a)",
+      "context": "Cargo: Governador | Partido: PSD",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PR/2022802018/candidato/160000609226",
+        "fetchedAt": "2026-03-12T06:49:25.308Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicoes-total",
+      "label": "Eleições disputadas (registros TSE)",
+      "value": 2,
+      "context": "2022 (Governador), 2018 (Governador)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:49:25.308Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "divulgacand-receita-total-160001614467-2022",
+      "label": "Total recebido em doações de campanha (2022)",
+      "value": "R$ 11.037.947,08",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/PR/3/55/55/160001614467",
+        "fetchedAt": "2026-03-12T06:49:26.022Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-160001614467-2022",
+      "label": "Total gasto em campanha (2022)",
+      "value": "R$ 10.622.599,72",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/PR/3/55/55/160001614467",
+        "fetchedAt": "2026-03-12T06:49:26.022Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-160001614467-2022",
+      "label": "Número de doadores de campanha (2022)",
+      "value": 335,
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/PR/3/55/55/160001614467",
+        "fetchedAt": "2026-03-12T06:49:26.022Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-160001614467-2022",
+      "label": "Maior doador de campanha (2022)",
+      "value": "Direção Estadual/Distrital - Partido Social Democrático",
+      "context": "R$ 4.000.000,00 — Outros Recursos",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/PR/3/55/55/160001614467",
+        "fetchedAt": "2026-03-12T06:49:26.022Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-160001614467-2022",
+      "label": "Saldo positivo de campanha (2022)",
+      "value": "R$ 415.347,36",
+      "context": "Receitas R$ 11.037.947,08 - Despesas R$ 10.622.599,72",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/PR/3/55/55/160001614467",
+        "fetchedAt": "2026-03-12T06:49:26.022Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-receita-total-160000609226-2018",
+      "label": "Total recebido em doações de campanha (2018)",
+      "value": "R$ 8.957.600,42",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/PR/3/55/55/160000609226",
+        "fetchedAt": "2026-03-12T06:49:28.241Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-160000609226-2018",
+      "label": "Total gasto em campanha (2018)",
+      "value": "R$ 8.813.765,57",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/PR/3/55/55/160000609226",
+        "fetchedAt": "2026-03-12T06:49:28.241Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-160000609226-2018",
+      "label": "Número de doadores de campanha (2018)",
+      "value": 117,
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/PR/3/55/55/160000609226",
+        "fetchedAt": "2026-03-12T06:49:28.241Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-160000609226-2018",
+      "label": "Maior doador de campanha (2018)",
+      "value": "Direção Estadual/Distrital - Partido Social Democrático",
+      "context": "R$ 1.000.000,00 — Fundo Especial",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/PR/3/55/55/160000609226",
+        "fetchedAt": "2026-03-12T06:49:28.241Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-160000609226-2018",
+      "label": "Saldo positivo de campanha (2018)",
+      "value": "R$ 143.834,85",
+      "context": "Receitas R$ 8.957.600,42 - Despesas R$ 8.813.765,57",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/PR/3/55/55/160000609226",
+        "fetchedAt": "2026-03-12T06:49:28.241Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "role-ratinho-junior",
+      "label": "Cargo/função atual",
+      "value": "Governador do Paraná (2019–)",
+      "source": {
+        "name": "Transparência (curadoria)",
+        "url": "https://atvinicius.github.io/transparencia/metodologia",
+        "fetchedAt": "2026-03-12T06:49:28.242Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Gerais"
+    }
+  ],
+  "lastUpdated": "2026-03-12T06:49:28.242Z",
+  "sources": [
+    "TSE - DivulgaCandContas",
+    "DivulgaCandContas"
+  ]
+}

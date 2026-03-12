@@ -1,0 +1,593 @@
+{
+  "slug": "lula",
+  "name": "Luiz Inácio Lula da Silva",
+  "shortName": "Lula",
+  "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001607829/BR",
+  "currentParty": "PT",
+  "state": "SP",
+  "birthDate": "1945-10-06",
+  "occupation": "Presidente da República (2023–)",
+  "officesHeld": [
+    {
+      "role": "Presidente",
+      "location": "BR",
+      "startYear": 2022,
+      "endYear": 2026,
+      "party": "PT",
+      "elected": true,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607829",
+        "fetchedAt": "2026-03-12T06:49:14.548Z"
+      }
+    },
+    {
+      "role": "Presidente",
+      "location": "BR",
+      "startYear": 2018,
+      "endYear": 2018,
+      "party": "PT",
+      "elected": false,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000625869",
+        "fetchedAt": "2026-03-12T06:49:14.712Z"
+      }
+    }
+  ],
+  "votingSummaries": [],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [
+    {
+      "electionYear": 2022,
+      "totalDeclared": 7423725.78,
+      "items": [
+        {
+          "description": "Apartamento",
+          "value": 19167.34
+        },
+        {
+          "description": "Terreno",
+          "value": 2733.45
+        },
+        {
+          "description": "Fundo de Curto Prazo",
+          "value": 1213.17
+        },
+        {
+          "description": "Saldo em conta corrente",
+          "value": 2180
+        },
+        {
+          "description": "Terreno",
+          "value": 265000
+        },
+        {
+          "description": "CDB ",
+          "value": 185744.81
+        },
+        {
+          "description": "Casa em construção",
+          "value": 246918.82
+        },
+        {
+          "description": "VGBL",
+          "value": 5570798.99
+        },
+        {
+          "description": "Saldo em conta corrente",
+          "value": 1
+        },
+        {
+          "description": "Apartamento",
+          "value": 94571.25
+        },
+        {
+          "description": "Saldo em conta corrente",
+          "value": 18681.23
+        },
+        {
+          "description": "Aplicação financeira",
+          "value": 333.17
+        },
+        {
+          "description": "Crédito decorrente de empréstimo pessoal",
+          "value": 50000
+        },
+        {
+          "description": "Poupança",
+          "value": 0.02
+        },
+        {
+          "description": "Apartamento",
+          "value": 19167.34
+        },
+        {
+          "description": "Empresa",
+          "value": 49000
+        },
+        {
+          "description": "Crédito decorrente de empréstimo pessoal",
+          "value": 200000
+        },
+        {
+          "description": "Poupança",
+          "value": 4719.2
+        },
+        {
+          "description": "Terreno",
+          "value": 130000
+        },
+        {
+          "description": "Automóvel",
+          "value": 48475
+        },
+        {
+          "description": "Devolução de valores bloqueados por determinação judicial",
+          "value": 250722.03
+        },
+        {
+          "description": "Automóvel",
+          "value": 85000
+        },
+        {
+          "description": "Crédito decorrente de procedência de demanda judicial",
+          "value": 179298.96
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607829",
+        "fetchedAt": "2026-03-12T06:49:14.548Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalDeclared": 7987921.57,
+      "items": [
+        {
+          "description": "[Ed. Green Hill] Av. Francisco Prestes Maia, 1501, ap. 122, SBC-SP, CEP 09770-000. Adquirido em 07/07/1995. Área total de 332m², matrícula 86.623. 1º R.I. SBC-SP",
+          "value": 189142.5
+        },
+        {
+          "description": "Parte ideal de 64,08%, localizado no Sítio Engenho da Serra, parte da Área I, Distrito de Riacho Grande, NIRF 67785867. Adquirido em 04/08/2016. Área total de 20.500,6m², matrícula 54.112, 1º R.I. SBC",
+          "value": 530000
+        },
+        {
+          "description": "Distrato de 11/2015, com solicitação de resgate da quota parte do termo de adesão e compromisso de participação para implantação e construção através da Bancoop",
+          "value": 179298.96
+        },
+        {
+          "description": "BrasilPrev Seguros e Previdência AS ¿ Prêmios acumulados em VGBL",
+          "value": 6300000
+        },
+        {
+          "description": "[Ed. Kentucky] Av. Getúlio Vargas, 405, 9º andar, ap. 92, SBC-SP, CEP 09751-250. Adquirido em 25/09/2001. Área total de 131,5m², matrícula 82.027, 1º R.I. SBC-SP",
+          "value": 38334.67
+        },
+        {
+          "description": " [Ed. Kentucky] Av. Getúlio Vargas, 405, 10º andar, ap. 102, SBC-SP, CEP 09751-250. Adquirido em 25/09/2001. Área total de 131,5m², matrícula 82.028, 1º R.I. SBC-SP",
+          "value": 38334.67
+        },
+        {
+          "description": "Ford Ranger LTD CD4 32, ano 2013, adquirido em 12/04/2013. RENAVAM 00534928153",
+          "value": 96950
+        },
+        {
+          "description": "98% do capital social de L.I.L.S. Paletras, Eventos e Publicações Ltda., CNPJ 13.427.330/0001-00, constituída em 18/03/2011. NIRE/JUCESP 35225293039",
+          "value": 98000
+        },
+        {
+          "description": "Aplicação CBD DI ¿ Banco do Brasil, Ag. 4883, C/C 1313-7",
+          "value": 4801.24
+        },
+        {
+          "description": "Banco do Brasil. Agência 4883, C/C, CC 1313-7",
+          "value": 16993.25
+        },
+        {
+          "description": "Situado no subdistrito de Riacho Grande, SBC-SP. Adquirido em 22/07/1992, NIRF 67785867. Matrícula 54.112, 1º R.I. SBC-SP",
+          "value": 5466.9
+        },
+        {
+          "description": "26,88% de um terreno sem benfeitorias localizado no Sítio Engenho da Serra, parte da Área I, Distrito de Riacho Grande. Adquirido em 26/08/2016. Área total de 25.564,6m², matrícula 52.506, 1º R.I. SBC",
+          "value": 260000
+        },
+        {
+          "description": "Saldo de rendimentos a receber ¿ BB progressivo II",
+          "value": 625.46
+        },
+        {
+          "description": "Bradesco, Ag. 3246, C/C 216678-9",
+          "value": 1
+        },
+        {
+          "description": "Chevrolet Omega Fittipaldi 3.6, Alloytec, ano 2010/2011. Adquirido em 01/03/2011, RENAVAM 00302107126",
+          "value": 170000
+        },
+        {
+          "description": "Banco do Brasil, Ag. 0301, C/C 1313131-1",
+          "value": 5813.55
+        },
+        {
+          "description": "CEF, Ag. 1207, Magnólia, C/C 01.101.698-5",
+          "value": 3866.99
+        },
+        {
+          "description": "Em favor de Sandro Luís Lula da Silva, CPF 296.539.278-50, em 10/05/2013",
+          "value": 50000
+        },
+        {
+          "description": "Banco do Brasil. Aplicação financeira. Agência 0427-8, C/C 13-2",
+          "value": 292.38
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000625869",
+        "fetchedAt": "2026-03-12T06:49:14.712Z"
+      }
+    }
+  ],
+  "campaignFinances": [
+    {
+      "electionYear": 2022,
+      "totalReceived": 135539287.82,
+      "totalSpent": 131313037.45,
+      "topDonors": [
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 66708023,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 34055969.2,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 19236007.8,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 2000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Socialista Brasileiro",
+          "amount": 616065,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "ALTAIR DE JESUS VILAR GUIMARAES",
+          "amount": 600000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "JOSE SERIPIERI FILHO",
+          "amount": 500000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "UM A MAIS SERVIÇOS DE TECNOLOGIA E CONSULTORIA",
+          "amount": 345095.89,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "UM A MAIS SERVIÇOS DE TECNOLOGIA E CONSULTORIA",
+          "amount": 291429.71,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "UM A MAIS SERVIÇOS DE TECNOLOGIA E CONSULTORIA",
+          "amount": 281813.25,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/13/13/280001607829",
+        "fetchedAt": "2026-03-12T06:49:15.757Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalReceived": 20599420.39,
+      "totalSpent": 19754075.53,
+      "topDonors": [
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 12000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 8000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "UM A MAIS SERVIÇOS DE TECNOLOGIA",
+          "amount": 567771.26,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "UM A MAIS SERVIÇOS DE TECNOLOGIA",
+          "amount": 30333.13,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Nacional - Partido dos Trabalhadores",
+          "amount": 1316,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/13/13/280000625869",
+        "fetchedAt": "2026-03-12T06:49:16.010Z"
+      }
+    }
+  ],
+  "partyHistory": [
+    {
+      "party": "PT",
+      "startYear": 2018
+    }
+  ],
+  "facts": [
+    {
+      "id": "tse-bens-total-2022",
+      "label": "Bens declarados na eleição de 2022",
+      "value": "R$ 7.423.725,78",
+      "context": "23 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607829",
+        "fetchedAt": "2026-03-12T06:49:14.548Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-total-2018",
+      "label": "Bens declarados na eleição de 2018",
+      "value": "R$ 7.987.921,57",
+      "context": "19 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000625869",
+        "fetchedAt": "2026-03-12T06:49:14.712Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-evolucao",
+      "label": "Evolução patrimonial declarada",
+      "value": "7% de redução",
+      "context": "de 2018 (R$ 7.987.921,57) a 2022 (R$ 7.423.725,78)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607829",
+        "fetchedAt": "2026-03-12T06:49:14.548Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-gasto-campanha-2022",
+      "label": "Gasto de campanha declarado (2022)",
+      "value": "R$ 133.416.046,20",
+      "context": "1º turno: R$ 88.944.030,80 | 2º turno: R$ 44.472.015,40",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607829",
+        "fetchedAt": "2026-03-12T06:49:14.548Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-gasto-campanha-2018",
+      "label": "Gasto de campanha declarado (2018)",
+      "value": "R$ 105.000.000,00",
+      "context": "1º turno: R$ 70.000.000,00 | 2º turno: R$ 35.000.000,00",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000625869",
+        "fetchedAt": "2026-03-12T06:49:14.712Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-eleicao-2022",
+      "label": "Resultado na eleição de 2022",
+      "value": "Eleito(a)",
+      "context": "Cargo: Presidente | Partido: PT",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607829",
+        "fetchedAt": "2026-03-12T06:49:14.548Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicao-2018",
+      "label": "Resultado na eleição de 2018",
+      "value": "Concorrendo",
+      "context": "Cargo: Presidente | Partido: PT",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000625869",
+        "fetchedAt": "2026-03-12T06:49:14.712Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicoes-total",
+      "label": "Eleições disputadas (registros TSE)",
+      "value": 2,
+      "context": "2022 (Presidente), 2018 (Presidente)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:49:14.712Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "divulgacand-receita-total-280001607829-2022",
+      "label": "Total recebido em doações de campanha (2022)",
+      "value": "R$ 135.539.287,82",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/13/13/280001607829",
+        "fetchedAt": "2026-03-12T06:49:15.757Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-280001607829-2022",
+      "label": "Total gasto em campanha (2022)",
+      "value": "R$ 131.313.037,45",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/13/13/280001607829",
+        "fetchedAt": "2026-03-12T06:49:15.757Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-280001607829-2022",
+      "label": "Número de doadores de campanha (2022)",
+      "value": 533,
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/13/13/280001607829",
+        "fetchedAt": "2026-03-12T06:49:15.757Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-280001607829-2022",
+      "label": "Maior doador de campanha (2022)",
+      "value": "Direção Nacional - Partido dos Trabalhadores",
+      "context": "R$ 66.708.023,00 — Fundo Especial",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/13/13/280001607829",
+        "fetchedAt": "2026-03-12T06:49:15.757Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-280001607829-2022",
+      "label": "Saldo positivo de campanha (2022)",
+      "value": "R$ 4.226.250,37",
+      "context": "Receitas R$ 135.539.287,82 - Despesas R$ 131.313.037,45",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/13/13/280001607829",
+        "fetchedAt": "2026-03-12T06:49:15.757Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-receita-total-280000625869-2018",
+      "label": "Total recebido em doações de campanha (2018)",
+      "value": "R$ 20.599.420,39",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/13/13/280000625869",
+        "fetchedAt": "2026-03-12T06:49:16.010Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-280000625869-2018",
+      "label": "Total gasto em campanha (2018)",
+      "value": "R$ 19.754.075,53",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/13/13/280000625869",
+        "fetchedAt": "2026-03-12T06:49:16.010Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-280000625869-2018",
+      "label": "Número de doadores de campanha (2018)",
+      "value": 5,
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/13/13/280000625869",
+        "fetchedAt": "2026-03-12T06:49:16.010Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-280000625869-2018",
+      "label": "Maior doador de campanha (2018)",
+      "value": "Direção Nacional - Partido dos Trabalhadores",
+      "context": "R$ 12.000.000,00 — Fundo Especial",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/13/13/280000625869",
+        "fetchedAt": "2026-03-12T06:49:16.010Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-280000625869-2018",
+      "label": "Saldo positivo de campanha (2018)",
+      "value": "R$ 845.344,86",
+      "context": "Receitas R$ 20.599.420,39 - Despesas R$ 19.754.075,53",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/13/13/280000625869",
+        "fetchedAt": "2026-03-12T06:49:16.010Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "role-lula",
+      "label": "Cargo/função atual",
+      "value": "Presidente da República (2023–)",
+      "source": {
+        "name": "Transparência (curadoria)",
+        "url": "https://atvinicius.github.io/transparencia/metodologia",
+        "fetchedAt": "2026-03-12T06:49:16.012Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Gerais"
+    }
+  ],
+  "lastUpdated": "2026-03-12T06:49:16.012Z",
+  "sources": [
+    "TSE - DivulgaCandContas",
+    "DivulgaCandContas"
+  ]
+}

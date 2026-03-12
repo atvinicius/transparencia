@@ -1,0 +1,547 @@
+{
+  "slug": "guilherme-boulos",
+  "name": "Guilherme Boulos",
+  "shortName": "Guilherme Boulos",
+  "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/220639.jpg",
+  "currentParty": "PSOL",
+  "state": "SP",
+  "birthDate": "1982-06-19",
+  "education": "Mestrado",
+  "occupation": "Deputado Federal (2023–)",
+  "officesHeld": [
+    {
+      "role": "Deputado(a) Federal",
+      "location": "SP",
+      "startYear": 2023,
+      "party": "PSOL",
+      "elected": true,
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+        "fetchedAt": "2026-03-12T06:49:52.725Z"
+      }
+    },
+    {
+      "role": "Presidente",
+      "location": "BR",
+      "startYear": 2018,
+      "endYear": 2018,
+      "party": "PSOL",
+      "elected": false,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
+        "fetchedAt": "2026-03-12T06:49:53.155Z"
+      }
+    }
+  ],
+  "votingSummaries": [],
+  "proposals": [
+    {
+      "id": "camara-prop-2482465",
+      "type": "PL",
+      "number": 127,
+      "year": 2025,
+      "summary": "Dispõe sobre a suspensão da remuneração e proventos de militares investigados por violações de direitos humanos e crimes contra a humanidade, praticados durante o período da Ditadura Militar, até a prolação de decisão definitiva no processo judicial.",
+      "status": "Aguardando Designação de Relator(a)",
+      "theme": "Diretrizes",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2850096",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+        "fetchedAt": "2026-03-12T06:49:52.725Z"
+      }
+    },
+    {
+      "id": "camara-prop-2482605",
+      "type": "PL",
+      "number": 177,
+      "year": 2025,
+      "summary": "Altera a Lei nº 12.846/2013 (Lei Anticorrupção) para incluir o financiamento de atos golpistas como prática lesiva ao Estado.",
+      "status": "Tramitando em Conjunto",
+      "theme": "Alteração",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2850367",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+        "fetchedAt": "2026-03-12T06:49:52.725Z"
+      }
+    },
+    {
+      "id": "camara-prop-2498116",
+      "type": "PL",
+      "number": 1725,
+      "year": 2025,
+      "summary": "Veda a oferta de novos blocos de exploração de petróleo e gás na Amazônia e obriga a recuperação ambiental nas áreas com atividades de produção desses hidrocarbonetos na região.",
+      "status": "Aguardando Designação de Relator(a)",
+      "theme": "Alteração",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2887650",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+        "fetchedAt": "2026-03-12T06:49:52.725Z"
+      }
+    },
+    {
+      "id": "camara-prop-2488757",
+      "type": "PL",
+      "number": 1199,
+      "year": 2025,
+      "summary": "Altera a Lei nº 12.965, de 23 de abril de 2014 (Marco Civil da Internet), para dispor sobre a responsabilidade de provedores de aplicações de internet em casos de monetização e impulsionamento de conteúdos que incitem crimes contra o Estado Democrático de Direito.",
+      "status": "Aguardando Parecer",
+      "theme": "Alteração",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2871512",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+        "fetchedAt": "2026-03-12T06:49:52.725Z"
+      }
+    },
+    {
+      "id": "camara-prop-2533060",
+      "type": "DOC",
+      "number": 801,
+      "year": 2025,
+      "summary": "Indicação de novo Presidente da Frente Parlamentar Mista pelo Combate às Desigualdades no Congresso Nacional.",
+      "status": "Arquivada",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2950991",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+        "fetchedAt": "2026-03-12T06:49:52.725Z"
+      }
+    },
+    {
+      "id": "camara-prop-2520716",
+      "type": "PL",
+      "number": 2729,
+      "year": 2025,
+      "summary": "Altera a Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para dispor sobre desinformação na propaganda eleitoral, propaganda eleitoral na internet e direito de resposta em propaganda eleitoral na internet.",
+      "status": "Aguardando Parecer",
+      "theme": "Alteração",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2927313",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+        "fetchedAt": "2026-03-12T06:49:52.725Z"
+      }
+    },
+    {
+      "id": "camara-prop-2565094",
+      "type": "PL",
+      "number": 4788,
+      "year": 2025,
+      "summary": "Altera a Lei nº 12.741, de 8 de dezembro de 2012, para dispor sobre a obrigatoriedade de discriminar a composição do preço dos combustíveis automotivos e do gás liquefeito de petróleo (GLP) no documento fiscal emitido ao consumidor.",
+      "status": "Aguardando Parecer",
+      "theme": "Alteração",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3008616",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+        "fetchedAt": "2026-03-12T06:49:52.725Z"
+      }
+    },
+    {
+      "id": "camara-prop-2491960",
+      "type": "PL",
+      "number": 1377,
+      "year": 2025,
+      "summary": "Dispõe sobre a regulamentação da profissão de Auxiliar de Vida Escolar (AVE) em âmbito nacional e estabelece diretrizes para sua atuação.",
+      "status": "Aguardando Designação de Relator(a)",
+      "theme": "Regulamentação profissional",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2876685",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+        "fetchedAt": "2026-03-12T06:49:52.725Z"
+      }
+    },
+    {
+      "id": "camara-prop-2482655",
+      "type": "PL",
+      "number": 194,
+      "year": 2025,
+      "summary": "Institui o Auxílio Emergencial para Repatriados Forçados, destinado a cidadãos brasileiros deportados ou expulsos de país estrangeiro, com o objetivo de garantir condições mínimas para sua reinserção social e econômica no Brasil.",
+      "status": "Aguardando Parecer",
+      "theme": "Criação",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2850520",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+        "fetchedAt": "2026-03-12T06:49:52.725Z"
+      }
+    },
+    {
+      "id": "camara-prop-2485341",
+      "type": "PEC",
+      "number": 8,
+      "year": 2025,
+      "summary": "Dá nova redação ao inciso XIII, do artigo 7° da Constituição Federal para dispor sobre a redução da jornada de trabalho para quatro dias por semana no Brasil.",
+      "status": "Tramitando em Conjunto",
+      "theme": "Alteração",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2860664",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+        "fetchedAt": "2026-03-12T06:49:52.725Z"
+      }
+    }
+  ],
+  "legislativeThemes": [
+    "Diretrizes",
+    "suspensão",
+    "remuneração",
+    "provento (remuneração)",
+    "militar",
+    "investigação",
+    "violação",
+    "direitos humanos",
+    "crime contra a humanidade",
+    "ditadura militar.",
+    "Alteração",
+    "Lei Anticorrupção (2013)",
+    "inclusão",
+    "financiamento",
+    "ato antidemocrático",
+    "atentado",
+    "Estado (nação)",
+    "diretrizes",
+    "sanção.",
+    "Lei do Petróleo (1997)",
+    "exploração",
+    "produção",
+    "proibição",
+    "petróleo",
+    "gás natural",
+    "setor petrolífero",
+    "recuperação ambiental",
+    "transição energética",
+    "Floresta Amazônica",
+    "Amazônia Legal.",
+    "Marco Civil da Internet (2014)",
+    "responsabilização",
+    "provedor de aplicações",
+    "internet",
+    "monetização",
+    "impulsionamento de conteúdo",
+    "crime contra o Estado Democrático de Direito",
+    "crime contra as instituições democráticas",
+    "abolição violenta do Estado Democrático de Direito",
+    "Golpe de Estado (crime)",
+    "crime contra o funcionamento das instituições democráticas no processo eleitoral",
+    "crime contra o exercício dos direitos políticos",
+    "individuais e sociais",
+    "crime contra a soberania nacional",
+    "território",
+    "espionagem (crime)",
+    "apologia",
+    "responsabilidade solidária",
+    "medida cautelar",
+    "proteção",
+    "dados pessoais",
+    "registro",
+    "conexão",
+    "acesso",
+    "comunicação privada",
+    "ordem judicial",
+    "obrigatoriedade",
+    "canal de atendimento",
+    "pessoa física",
+    "restrição",
+    "usuário",
+    "mídia digital.",
+    "Lei das Eleições (1997)",
+    "critério",
+    "desinformação",
+    "propaganda eleitoral",
+    "responsabilidade",
+    "diretrizes.",
+    "Lei da Transparência Fiscal (2012)",
+    "discriminação",
+    "documento fiscal",
+    "composição",
+    "preço",
+    "valor",
+    "tributo estadual",
+    "tributo federal",
+    "margem",
+    "comercialização",
+    "combustível automotivo",
+    "Gás Liquefeito de Petróleo (GLP)",
+    "biocombustível",
+    "transparência",
+    "defesa do consumidor.",
+    "Regulamentação profissional",
+    "auxiliar de vida escolar",
+    "direitos do deficiente",
+    "aluno com deficiência.",
+    "Criação",
+    "auxílio emergencial",
+    "repatriação",
+    "cidadão",
+    "Brasil",
+    "medida de retirada compulsória",
+    "deportação",
+    "expulsão",
+    "país estrangeiro",
+    "família",
+    "migração forçada.",
+    "Constituição Federal (1988)",
+    "direitos sociais",
+    "redução",
+    "jornada de trabalho",
+    "qualidade de vida",
+    "trabalhador",
+    "impacto econômico",
+    "relações trabalhistas."
+  ],
+  "assetDeclarations": [
+    {
+      "electionYear": 2018,
+      "totalDeclared": 15416,
+      "items": [
+        {
+          "description": "Sem descrição",
+          "value": 15416
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
+        "fetchedAt": "2026-03-12T06:49:53.155Z"
+      }
+    }
+  ],
+  "campaignFinances": [
+    {
+      "electionYear": 2018,
+      "totalReceived": 6224116.83,
+      "totalSpent": 6188149.68,
+      "topDonors": [
+        {
+          "name": "Direção Nacional - Partido Socialismo e Liberdade",
+          "amount": 4000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Socialismo e Liberdade",
+          "amount": 1793295.25,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido Socialismo e Liberdade",
+          "amount": 184355.58,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "PAULA MAFRA LAVIGNE",
+          "amount": 80000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Nacional - Partido Socialismo e Liberdade",
+          "amount": 35500,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "PAGUE JUNTO TECNOLOGIA DE INTERMEDIACAO LTDA",
+          "amount": 26386,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "PAGUE JUNTO TECNOLOGIA DE INTERMEDIACAO LTDA",
+          "amount": 15313,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "PAGUE JUNTO TECNOLOGIA DE INTERMEDIACAO LTDA",
+          "amount": 14325,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "PAGUE JUNTO TECNOLOGIA DE INTERMEDIACAO LTDA",
+          "amount": 13017,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "PAGUE JUNTO TECNOLOGIA DE INTERMEDIACAO LTDA",
+          "amount": 12648,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
+        "fetchedAt": "2026-03-12T06:49:54.477Z"
+      }
+    }
+  ],
+  "partyHistory": [
+    {
+      "party": "PSOL",
+      "startYear": 2018
+    }
+  ],
+  "facts": [
+    {
+      "id": "camara-proposicoes-total-220639",
+      "label": "Proposições legislativas apresentadas",
+      "value": 10,
+      "context": "como autor(a) principal",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+        "fetchedAt": "2026-03-12T06:49:52.725Z"
+      },
+      "dimension": "historico",
+      "category": "Produção Legislativa"
+    },
+    {
+      "id": "camara-escolaridade-220639",
+      "label": "Escolaridade",
+      "value": "Mestrado",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+        "fetchedAt": "2026-03-12T06:49:52.725Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Pessoais"
+    },
+    {
+      "id": "tse-bens-total-2018",
+      "label": "Bens declarados na eleição de 2018",
+      "value": "R$ 15.416,00",
+      "context": "1 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
+        "fetchedAt": "2026-03-12T06:49:53.155Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-gasto-campanha-2018",
+      "label": "Gasto de campanha declarado (2018)",
+      "value": "R$ 105.000.000,00",
+      "context": "1º turno: R$ 70.000.000,00 | 2º turno: R$ 35.000.000,00",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
+        "fetchedAt": "2026-03-12T06:49:53.155Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-eleicao-2018",
+      "label": "Resultado na eleição de 2018",
+      "value": "Não eleito",
+      "context": "Cargo: Presidente | Partido: PSOL",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
+        "fetchedAt": "2026-03-12T06:49:53.155Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicoes-total",
+      "label": "Eleições disputadas (registros TSE)",
+      "value": 1,
+      "context": "2018 (Presidente)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:49:53.155Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "divulgacand-receita-total-280000601016-2018",
+      "label": "Total recebido em doações de campanha (2018)",
+      "value": "R$ 6.224.116,83",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
+        "fetchedAt": "2026-03-12T06:49:54.477Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-280000601016-2018",
+      "label": "Total gasto em campanha (2018)",
+      "value": "R$ 6.188.149,68",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
+        "fetchedAt": "2026-03-12T06:49:54.477Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-280000601016-2018",
+      "label": "Número de doadores de campanha (2018)",
+      "value": 44,
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
+        "fetchedAt": "2026-03-12T06:49:54.477Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-280000601016-2018",
+      "label": "Maior doador de campanha (2018)",
+      "value": "Direção Nacional - Partido Socialismo e Liberdade",
+      "context": "R$ 4.000.000,00 — Fundo Especial",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
+        "fetchedAt": "2026-03-12T06:49:54.477Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-280000601016-2018",
+      "label": "Saldo positivo de campanha (2018)",
+      "value": "R$ 35.967,15",
+      "context": "Receitas R$ 6.224.116,83 - Despesas R$ 6.188.149,68",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
+        "fetchedAt": "2026-03-12T06:49:54.477Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "role-guilherme-boulos",
+      "label": "Cargo/função atual",
+      "value": "Deputado Federal (2023–)",
+      "source": {
+        "name": "Transparência (curadoria)",
+        "url": "https://atvinicius.github.io/transparencia/metodologia",
+        "fetchedAt": "2026-03-12T06:49:54.478Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Gerais"
+    }
+  ],
+  "lastUpdated": "2026-03-12T06:49:54.478Z",
+  "sources": [
+    "Câmara dos Deputados - Dados Abertos",
+    "TSE - DivulgaCandContas",
+    "DivulgaCandContas"
+  ]
+}

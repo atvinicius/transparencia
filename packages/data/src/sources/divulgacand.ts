@@ -1,10 +1,8 @@
 import { fetchJson } from "../utils/http.js";
 import type { Source } from "../schemas/index.js";
+import type { TseElectionEntry } from "./tse.js";
 
 const BASE_URL = "https://divulgacandcontas.tse.jus.br/divulga/rest/v1";
-
-/** Election years typically available in the DivulgaCandContas system. */
-const DEFAULT_ELECTION_YEARS = [2024, 2022, 2020, 2018, 2016, 2014];
 
 function makeSource(path: string): Source {
   return {
@@ -16,47 +14,55 @@ function makeSource(path: string): Source {
 
 // --- Raw API response types ---
 
-interface PrestadorConsulta {
-  nomeCandidato?: string;
-  numeroCandidato?: string;
-  totalReceitasDoacao?: number;
-  totalReceitas?: number;
-  totalDespesas?: number;
-  totalReceitaPartido?: number;
-  totalReceitaFundoPartidario?: number;
-  totalReceitaFundoEleitoral?: number;
+interface PrestadorSummary {
+  idPrestador?: number;
+  idUltimaEntrega?: number;
+  dadosConsolidados?: {
+    totalRecebido?: number;
+    totalDespesas?: number;
+    totalReceitaDoacao?: number;
+    totalReceitaPartido?: number;
+    totalReceitaFundoPartidario?: number;
+    totalReceitaFundoEleitoral?: number;
+    totalReceitaOutros?: number;
+  };
+  despesas?: {
+    totalGeral?: number;
+    totalDespesasContratadas?: number;
+    totalDespesasPagas?: number;
+    totalPago?: number;
+    totalEstimado?: number;
+  };
+  rankingDoadores?: Array<{
+    nomeDoador?: string;
+    cpfCnpjDoador?: string;
+    valorReceita?: number;
+    fonteOrigem?: string;
+  }>;
+  rankingFornecedores?: Array<{
+    nomeFornecedor?: string;
+    cpfCnpjFornecedor?: string;
+    valorDespesa?: number;
+    tipoDespesa?: string;
+  }>;
 }
 
 interface PrestadorReceita {
   nomeDoador?: string;
   nomeDoadorRFB?: string;
   valorReceita?: number;
-  fonteReceita?: string;
+  fonteOrigem?: string;
   cpfCnpjDoador?: string;
-  descricaoReceita?: string;
+  dsReceita?: string;
+  dtReceita?: string;
 }
 
 interface PrestadorDespesa {
   descricaoDespesa?: string;
   valorDespesa?: number;
-  categoriaDespesa?: string;
+  tipoDespesa?: string;
   nomeFornecedor?: string;
   cpfCnpjFornecedor?: string;
-}
-
-interface CandidaturaResponse {
-  nomeCandidato?: string;
-  nomeUrna?: string;
-  numero?: string;
-  id?: number;
-  partido?: { sigla?: string; nome?: string };
-  cargo?: { nome?: string };
-  localCandidatura?: string;
-  despesaMaximaGastos?: number;
-  gastosEleitorais?: {
-    totalRecebido?: number;
-    totalGasto?: number;
-  };
 }
 
 // --- Public interface ---
@@ -88,36 +94,41 @@ export interface DivulgaCandFinanceData {
 // --- Internal helpers ---
 
 /**
- * Fetch the campaign finance summary from the prestador/consulta endpoint.
- * Returns null if data is not available (404, timeout, etc.).
+ * Fetch the prestador summary (campaign finance overview).
+ * URL pattern: /prestador/consulta/{electionCode}/{year}/{sgUe}/{officeCode}/{partyNumber}/{candidateNumber}/{candidateId}
  */
-async function fetchPrestadorConsulta(
-  candidateId: string,
+async function fetchPrestadorSummary(
+  electionCode: number,
   year: number,
-): Promise<PrestadorConsulta | null> {
+  sgUe: string,
+  officeCode: number,
+  partyNumber: number,
+  candidateNumber: number,
+  candidateId: number,
+): Promise<PrestadorSummary | null> {
+  const path = `/prestador/consulta/${electionCode}/${year}/${sgUe}/${officeCode}/${partyNumber}/${candidateNumber}/${candidateId}`;
   try {
-    return await fetchJson<PrestadorConsulta>(
-      `${BASE_URL}/prestador/consulta/${candidateId}/${year}`,
+    return await fetchJson<PrestadorSummary>(
+      `${BASE_URL}${path}`,
       { retries: 2, retryDelay: 2000 },
     );
   } catch (error) {
-    console.warn(
-      `[DivulgaCand] Consulta unavailable for candidate ${candidateId}/${year}: ${error}`,
-    );
+    console.warn(`[DivulgaCand] Prestador unavailable: ${error}`);
     return null;
   }
 }
 
 /**
- * Fetch the list of donations (receitas) for a candidate/year.
+ * Fetch detailed receitas (donations) for a candidate.
  */
 async function fetchPrestadorReceitas(
-  candidateId: string,
-  year: number,
+  electionCode: number,
+  idPrestador: number,
+  idUltimaEntrega: number,
 ): Promise<PrestadorReceita[]> {
   try {
     const response = await fetchJson<PrestadorReceita[] | { receitas?: PrestadorReceita[] }>(
-      `${BASE_URL}/prestador/receitas/${candidateId}/${year}`,
+      `${BASE_URL}/prestador/consulta/receitas/${electionCode}/${idPrestador}/${idUltimaEntrega}/lista`,
       { retries: 2, retryDelay: 2000 },
     );
 
@@ -125,23 +136,22 @@ async function fetchPrestadorReceitas(
     if (response && Array.isArray(response.receitas)) return response.receitas;
     return [];
   } catch (error) {
-    console.warn(
-      `[DivulgaCand] Receitas unavailable for candidate ${candidateId}/${year}: ${error}`,
-    );
+    console.warn(`[DivulgaCand] Receitas unavailable: ${error}`);
     return [];
   }
 }
 
 /**
- * Fetch the list of expenses (despesas) for a candidate/year.
+ * Fetch detailed despesas (expenses) for a candidate.
  */
 async function fetchPrestadorDespesas(
-  candidateId: string,
-  year: number,
+  electionCode: number,
+  idPrestador: number,
+  idUltimaEntrega: number,
 ): Promise<PrestadorDespesa[]> {
   try {
     const response = await fetchJson<PrestadorDespesa[] | { despesas?: PrestadorDespesa[] }>(
-      `${BASE_URL}/prestador/despesas/${candidateId}/${year}`,
+      `${BASE_URL}/prestador/consulta/despesas/${electionCode}/${idPrestador}/${idUltimaEntrega}`,
       { retries: 2, retryDelay: 2000 },
     );
 
@@ -149,9 +159,7 @@ async function fetchPrestadorDespesas(
     if (response && Array.isArray(response.despesas)) return response.despesas;
     return [];
   } catch (error) {
-    console.warn(
-      `[DivulgaCand] Despesas unavailable for candidate ${candidateId}/${year}: ${error}`,
-    );
+    console.warn(`[DivulgaCand] Despesas unavailable: ${error}`);
     return [];
   }
 }
@@ -159,134 +167,137 @@ async function fetchPrestadorDespesas(
 // --- Public API ---
 
 /**
- * Fetch campaign finance data for a specific candidate ID and election year.
- *
- * The DivulgaCandContas API requires exact candidate IDs which change every
- * election cycle. When the ID is not known or the API returns errors, this
- * function returns null instead of throwing.
+ * Fetch campaign finance data using candidate info from TSE listing.
+ * This is the correct approach — the prestador endpoint requires
+ * the candidate's party number, ballot number, and TSE ID.
  */
-export async function fetchCampaignFinance(
-  candidateId: string,
-  year: number,
+export async function fetchCampaignFinanceForCandidate(
+  candidateName: string,
+  election: TseElectionEntry,
 ): Promise<DivulgaCandFinanceData | null> {
   console.log(
-    `[DivulgaCand] Fetching campaign finance for candidate ${candidateId}, year ${year}...`,
+    `[DivulgaCand] Fetching finance for "${candidateName}" (${election.year})...`,
   );
 
-  const consulta = await fetchPrestadorConsulta(candidateId, year);
-  if (!consulta) return null;
+  // Step 1: Get the prestador summary
+  const summary = await fetchPrestadorSummary(
+    election.electionCode,
+    election.year,
+    election.sgUe,
+    election.officeCode,
+    election.partyNumber,
+    election.candidateNumber,
+    election.candidateId,
+  );
+  if (!summary) return null;
 
-  const [rawReceitas, rawDespesas] = await Promise.all([
-    fetchPrestadorReceitas(candidateId, year),
-    fetchPrestadorDespesas(candidateId, year),
-  ]);
+  const totalReceived = summary.dadosConsolidados?.totalRecebido ?? 0;
+  const totalSpent = summary.despesas?.totalDespesasPagas
+    ?? summary.despesas?.totalDespesasContratadas
+    ?? summary.despesas?.totalGeral
+    ?? 0;
 
-  const donations: DivulgaCandDonation[] = rawReceitas.map((r) => ({
-    name: r.nomeDoadorRFB || r.nomeDoador || "Não identificado",
-    amount: r.valorReceita ?? 0,
-    type: r.fonteReceita || r.descricaoReceita || "Outros",
-    cpfCnpj: r.cpfCnpjDoador || undefined,
-  }));
+  // Step 2: Build donations from ranking (quick) or detailed receitas
+  let donations: DivulgaCandDonation[] = [];
+  let expenses: DivulgaCandExpense[] = [];
 
-  const expenses: DivulgaCandExpense[] = rawDespesas.map((d) => ({
-    description: d.descricaoDespesa || d.nomeFornecedor || "Despesa não descrita",
-    amount: d.valorDespesa ?? 0,
-    category: d.categoriaDespesa || "Outros",
-  }));
+  if (summary.idPrestador && summary.idUltimaEntrega) {
+    // Try to get detailed receitas/despesas
+    const [rawReceitas, rawDespesas] = await Promise.all([
+      fetchPrestadorReceitas(election.electionCode, summary.idPrestador, summary.idUltimaEntrega),
+      fetchPrestadorDespesas(election.electionCode, summary.idPrestador, summary.idUltimaEntrega),
+    ]);
 
-  const totalReceived =
-    consulta.totalReceitas ??
-    consulta.totalReceitasDoacao ??
-    donations.reduce((sum, d) => sum + d.amount, 0);
+    donations = rawReceitas.map((r) => ({
+      name: r.nomeDoadorRFB || r.nomeDoador || "Não identificado",
+      amount: r.valorReceita ?? 0,
+      type: r.fonteOrigem || r.dsReceita || "Outros",
+      cpfCnpj: r.cpfCnpjDoador || undefined,
+    }));
 
-  const totalSpent =
-    consulta.totalDespesas ??
-    expenses.reduce((sum, e) => sum + e.amount, 0);
+    expenses = rawDespesas.map((d) => ({
+      description: d.descricaoDespesa || d.nomeFornecedor || "Despesa não descrita",
+      amount: d.valorDespesa ?? 0,
+      category: d.tipoDespesa || "Outros",
+    }));
+  }
 
-  const candidateName = consulta.nomeCandidato || `Candidato ${candidateId}`;
+  // Fallback: use ranking data from summary if detailed data is empty
+  if (donations.length === 0 && summary.rankingDoadores) {
+    donations = summary.rankingDoadores.map((d) => ({
+      name: d.nomeDoador || "Não identificado",
+      amount: d.valorReceita ?? 0,
+      type: d.fonteOrigem || "Outros",
+      cpfCnpj: d.cpfCnpjDoador || undefined,
+    }));
+  }
+
+  if (expenses.length === 0 && summary.rankingFornecedores) {
+    expenses = summary.rankingFornecedores.map((f) => ({
+      description: f.nomeFornecedor || "Despesa não descrita",
+      amount: f.valorDespesa ?? 0,
+      category: f.tipoDespesa || "Outros",
+    }));
+  }
+
+  const sourcePath = `/prestador/consulta/${election.electionCode}/${election.year}/${election.sgUe}/${election.officeCode}/${election.partyNumber}/${election.candidateNumber}/${election.candidateId}`;
 
   console.log(
-    `[DivulgaCand] ${candidateName} (${year}): R$ ${totalReceived.toLocaleString("pt-BR")} received, R$ ${totalSpent.toLocaleString("pt-BR")} spent, ${donations.length} donations, ${expenses.length} expenses`,
+    `[DivulgaCand] ${candidateName} (${election.year}): R$ ${totalReceived.toLocaleString("pt-BR")} received, R$ ${totalSpent.toLocaleString("pt-BR")} spent`,
   );
 
   return {
     candidateName,
-    candidateId,
-    year,
+    candidateId: String(election.candidateId),
+    year: election.year,
     totalReceived,
     totalSpent,
     donations,
     expenses,
-    source: makeSource(`/prestador/consulta/${candidateId}/${year}`),
+    source: makeSource(sourcePath),
   };
 }
 
 /**
- * Search for campaign finance data by candidate name across election years.
- *
- * NOTE: The DivulgaCandContas API does not provide a direct name-search
- * endpoint for prestação de contas. This function attempts to use the
- * candidatura search endpoint to find candidate IDs, then fetches finance
- * data for each match. Results may be incomplete if the API does not
- * return matches.
- *
- * @param name - Candidate name (partial match)
- * @param years - Election years to search (defaults to recent elections)
+ * Fetch campaign finance data for a candidate across multiple elections.
+ * Requires TSE election entries (from fetchTseCandidateData).
  */
-export async function fetchCampaignFinanceByName(
-  name: string,
-  years: number[] = DEFAULT_ELECTION_YEARS,
+export async function fetchCampaignFinanceFromTseData(
+  candidateName: string,
+  elections: TseElectionEntry[],
 ): Promise<DivulgaCandFinanceData[]> {
   console.log(
-    `[DivulgaCand] Searching campaign finance for "${name}" across years: ${years.join(", ")}...`,
+    `[DivulgaCand] Searching finance for "${candidateName}" across ${elections.length} election(s)...`,
   );
 
   const results: DivulgaCandFinanceData[] = [];
 
-  for (const year of years) {
-    try {
-      // Try the candidatura search endpoint to find candidate IDs
-      const searchResponse = await fetchJson<{
-        candidatos?: CandidaturaResponse[];
-      }>(
-        `${BASE_URL}/candidatura/buscar/${year}/BR/0/candidatos`,
-        {
-          params: { nomeUrnaCandidato: name },
-          retries: 1,
-          retryDelay: 2000,
-        },
-      );
+  for (const election of elections) {
+    if (!election.candidateNumber || !election.partyNumber) {
+      console.warn(`[DivulgaCand] Missing candidate/party number for ${candidateName} (${election.year}), skipping`);
+      continue;
+    }
 
-      const candidates = searchResponse?.candidatos ?? [];
-
-      if (candidates.length === 0) {
-        console.log(`[DivulgaCand] No candidates found for "${name}" in ${year}`);
-        continue;
-      }
-
-      // Fetch finance data for each matched candidate (limit to 5 per year)
-      for (const candidate of candidates.slice(0, 5)) {
-        const candidateId = candidate.id?.toString();
-        if (!candidateId) continue;
-
-        const financeData = await fetchCampaignFinance(candidateId, year);
-        if (financeData) {
-          // Use the name from the candidatura response if available
-          financeData.candidateName =
-            candidate.nomeCandidato || candidate.nomeUrna || financeData.candidateName;
-          results.push(financeData);
-        }
-      }
-    } catch (error) {
-      console.warn(
-        `[DivulgaCand] Search failed for "${name}" in ${year}: ${error}`,
-      );
-      // Continue to the next year
+    const financeData = await fetchCampaignFinanceForCandidate(candidateName, election);
+    if (financeData) {
+      results.push(financeData);
     }
   }
 
   console.log(
-    `[DivulgaCand] Found ${results.length} finance record(s) for "${name}"`,
+    `[DivulgaCand] Found ${results.length} finance record(s) for "${candidateName}"`,
   );
   return results;
+}
+
+/**
+ * @deprecated Use fetchCampaignFinanceFromTseData instead.
+ * Kept for backwards compatibility but will not work without TSE data.
+ */
+export async function fetchCampaignFinanceByName(
+  _name: string,
+  _years?: number[],
+): Promise<DivulgaCandFinanceData[]> {
+  console.warn("[DivulgaCand] fetchCampaignFinanceByName is deprecated. Use fetchCampaignFinanceFromTseData with TSE election data.");
+  return [];
 }

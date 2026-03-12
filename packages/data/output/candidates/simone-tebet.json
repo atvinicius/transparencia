@@ -1,0 +1,303 @@
+{
+  "slug": "simone-tebet",
+  "name": "Simone Nassar Tebet",
+  "shortName": "Simone Tebet",
+  "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001607833/BR",
+  "currentParty": "MDB",
+  "state": "MS",
+  "birthDate": "1970-02-22",
+  "occupation": "Ministra do Planejamento (2023–)",
+  "officesHeld": [
+    {
+      "role": "Presidente",
+      "location": "BR",
+      "startYear": 2022,
+      "endYear": 2022,
+      "party": "MDB",
+      "elected": false,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607833",
+        "fetchedAt": "2026-03-12T06:49:18.838Z"
+      }
+    }
+  ],
+  "votingSummaries": [],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [
+    {
+      "electionYear": 2022,
+      "totalDeclared": 2323735.38,
+      "items": [
+        {
+          "description": "UM APARTAMENTO NA CIDADE DE TRES LAGOAS/MS",
+          "value": 200000
+        },
+        {
+          "description": "UM APARTAMENTO NA CIDADE DE TRES LAGOAS/MS",
+          "value": 200000
+        },
+        {
+          "description": "UM TERRENO URBANO NA CIDADE DE TRES LAGOAS/MS",
+          "value": 94000
+        },
+        {
+          "description": "UM APARTAMENTO NA CIDADE DE CAMPO GRANDE/MS",
+          "value": 200000
+        },
+        {
+          "description": "UMA CASA NA CIDADE DE TRES LAGOAS/MS",
+          "value": 69397.28
+        },
+        {
+          "description": "UM TERRENO URBANO NA CIDADE DE TRES LAGOAS/MS",
+          "value": 100000
+        },
+        {
+          "description": "UM TERRENO URBANO NA CIDADE DE TRES LAGOAS/MS",
+          "value": 100000
+        },
+        {
+          "description": "UM APARTAMENTO NA CIDADE DE GRANDE/MS",
+          "value": 81903.69
+        },
+        {
+          "description": "UMA CASA NA CIDADE DE CAMPO GRANDE/MS",
+          "value": 52000
+        },
+        {
+          "description": "UM APARTAMENTO NA CIDADE DE TRES LAGOAS/MS",
+          "value": 200000
+        },
+        {
+          "description": "UM APARTAMENTO NA CIDADE DE TRES LAGOAS/MS",
+          "value": 200000
+        },
+        {
+          "description": "UMA GLEBA DE TERRAS RURAIS NO MUNICIPIO DE CAARAPO/MS",
+          "value": 457209.33
+        },
+        {
+          "description": "UM APARTAMENTO NA CIDADE DE GRANDE/MS",
+          "value": 310000
+        },
+        {
+          "description": "SALDO BANCÁRIO EM CONTA CORRENTE",
+          "value": 59225.08
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607833",
+        "fetchedAt": "2026-03-12T06:49:18.838Z"
+      }
+    }
+  ],
+  "campaignFinances": [
+    {
+      "electionYear": 2022,
+      "totalReceived": 38828942.91,
+      "totalSpent": 38379959.69,
+      "topDonors": [
+        {
+          "name": "Direção Nacional - Movimento Democrático Brasileiro",
+          "amount": 8482011.88,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "Direção Nacional - Movimento Democrático Brasileiro",
+          "amount": 8000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Movimento Democrático Brasileiro",
+          "amount": 5000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Movimento Democrático Brasileiro",
+          "amount": 5000000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "Direção Nacional - Movimento Democrático Brasileiro",
+          "amount": 3517988.12,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido da Social Democracia Brasileira",
+          "amount": 3250000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Partido da Social Democracia Brasileira",
+          "amount": 3250000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Movimento Democrático Brasileiro",
+          "amount": 793000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Nacional - Movimento Democrático Brasileiro",
+          "amount": 530000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Movimento Democrático Brasileiro",
+          "amount": 235670.61,
+          "type": "Fundo Partidário"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/15/15/280001607833",
+        "fetchedAt": "2026-03-12T06:49:19.309Z"
+      }
+    }
+  ],
+  "partyHistory": [
+    {
+      "party": "MDB",
+      "startYear": 2022
+    }
+  ],
+  "facts": [
+    {
+      "id": "tse-bens-total-2022",
+      "label": "Bens declarados na eleição de 2022",
+      "value": "R$ 2.323.735,38",
+      "context": "14 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607833",
+        "fetchedAt": "2026-03-12T06:49:18.838Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-gasto-campanha-2022",
+      "label": "Gasto de campanha declarado (2022)",
+      "value": "R$ 133.416.046,20",
+      "context": "1º turno: R$ 88.944.030,80 | 2º turno: R$ 44.472.015,40",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607833",
+        "fetchedAt": "2026-03-12T06:49:18.838Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-eleicao-2022",
+      "label": "Resultado na eleição de 2022",
+      "value": "Não eleito",
+      "context": "Cargo: Presidente | Partido: MDB",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607833",
+        "fetchedAt": "2026-03-12T06:49:18.838Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicoes-total",
+      "label": "Eleições disputadas (registros TSE)",
+      "value": 1,
+      "context": "2022 (Presidente)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:49:18.838Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "divulgacand-receita-total-280001607833-2022",
+      "label": "Total recebido em doações de campanha (2022)",
+      "value": "R$ 38.828.942,91",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/15/15/280001607833",
+        "fetchedAt": "2026-03-12T06:49:19.309Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-280001607833-2022",
+      "label": "Total gasto em campanha (2022)",
+      "value": "R$ 38.379.959,69",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/15/15/280001607833",
+        "fetchedAt": "2026-03-12T06:49:19.309Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-280001607833-2022",
+      "label": "Número de doadores de campanha (2022)",
+      "value": 32,
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/15/15/280001607833",
+        "fetchedAt": "2026-03-12T06:49:19.309Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-280001607833-2022",
+      "label": "Maior doador de campanha (2022)",
+      "value": "Direção Nacional - Movimento Democrático Brasileiro",
+      "context": "R$ 8.482.011,88 — Fundo Partidário",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/15/15/280001607833",
+        "fetchedAt": "2026-03-12T06:49:19.309Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-280001607833-2022",
+      "label": "Saldo positivo de campanha (2022)",
+      "value": "R$ 448.983,22",
+      "context": "Receitas R$ 38.828.942,91 - Despesas R$ 38.379.959,69",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/15/15/280001607833",
+        "fetchedAt": "2026-03-12T06:49:19.309Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "role-simone-tebet",
+      "label": "Cargo/função atual",
+      "value": "Ministra do Planejamento (2023–)",
+      "source": {
+        "name": "Transparência (curadoria)",
+        "url": "https://atvinicius.github.io/transparencia/metodologia",
+        "fetchedAt": "2026-03-12T06:49:19.309Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Gerais"
+    }
+  ],
+  "lastUpdated": "2026-03-12T06:49:19.309Z",
+  "sources": [
+    "TSE - DivulgaCandContas",
+    "DivulgaCandContas"
+  ]
+}

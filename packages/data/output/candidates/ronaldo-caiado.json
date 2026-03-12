@@ -1,0 +1,860 @@
+{
+  "slug": "ronaldo-caiado",
+  "name": "Ronaldo Rodrigues Caiado",
+  "shortName": "Ronaldo Caiado",
+  "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/90001646326/GO",
+  "currentParty": "UNIÃO",
+  "state": "GO",
+  "birthDate": "1949-09-25",
+  "occupation": "Governador de Goiás (2019–)",
+  "officesHeld": [
+    {
+      "role": "Governador",
+      "location": "BR",
+      "startYear": 2022,
+      "endYear": 2026,
+      "party": "UNIÃO",
+      "elected": true,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
+        "fetchedAt": "2026-03-12T06:49:19.898Z"
+      }
+    },
+    {
+      "role": "Governador",
+      "location": "BR",
+      "startYear": 2018,
+      "endYear": 2022,
+      "party": "DEM",
+      "elected": true,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
+        "fetchedAt": "2026-03-12T06:49:19.974Z"
+      }
+    }
+  ],
+  "votingSummaries": [],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [
+    {
+      "electionYear": 2022,
+      "totalDeclared": 24874436.19,
+      "items": [
+        {
+          "description": "Fazenda",
+          "value": 108259.75
+        },
+        {
+          "description": "Fazenda",
+          "value": 34000
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 417213.47
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 585956.04
+        },
+        {
+          "description": "Parte de 16,66% do Capital Social da empresa Limoeiro Participações Ltda",
+          "value": 510064
+        },
+        {
+          "description": "Apartamento",
+          "value": 166231.34
+        },
+        {
+          "description": "Casa",
+          "value": 70000
+        },
+        {
+          "description": "Fazenda",
+          "value": 285280
+        },
+        {
+          "description": "Fazenda",
+          "value": 472761.05
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 241544.64
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 433112.12
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 669928.46
+        },
+        {
+          "description": "Bovinos e bufalinos",
+          "value": 5414878.95
+        },
+        {
+          "description": "Fazenda",
+          "value": 699524.59
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 277614.78
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 274482.55
+        },
+        {
+          "description": "Fazenda",
+          "value": 2805296.32
+        },
+        {
+          "description": "Fazenda",
+          "value": 44518.01
+        },
+        {
+          "description": "Fazenda",
+          "value": 1173.6
+        },
+        {
+          "description": "Fazenda",
+          "value": 5633.28
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 384275.57
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 629443.38
+        },
+        {
+          "description": "Capital Social da Empresa Cayado Empreendimentos Imobiliários SPE S/A",
+          "value": 35000
+        },
+        {
+          "description": "Capital Social na Cooperativa de Crédito Rural Goiascarne Ltda",
+          "value": 66030.6
+        },
+        {
+          "description": "Fazenda",
+          "value": 503375.98
+        },
+        {
+          "description": "Saldo em Conta Corrente na Caixa Econômica Federal",
+          "value": 1966.76
+        },
+        {
+          "description": "Título de Capitalização no Banco do Brasil S/A - Ourocap Torcida PM 48",
+          "value": 2444.26
+        },
+        {
+          "description": "Fazenda",
+          "value": 378000
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 140205.69
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 109793.02
+        },
+        {
+          "description": "Uma moto NXR 150 Bros KS",
+          "value": 7100
+        },
+        {
+          "description": "Três linhas telefônicas em Goiânia/GO",
+          "value": 4640.34
+        },
+        {
+          "description": "Saldo em Conta Corrente no Banco do Brasil S/A",
+          "value": 10987.59
+        },
+        {
+          "description": "Saldo em Conta Corrente no Banco Itaú Unibanco S.A.",
+          "value": 10
+        },
+        {
+          "description": "Fazenda",
+          "value": 36000
+        },
+        {
+          "description": "Fazenda",
+          "value": 210242.3
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 1009656.6
+        },
+        {
+          "description": "Saldo em Conta Corrente no Banco do Brasil S/A",
+          "value": 6040.11
+        },
+        {
+          "description": "Saldo em Conta Corrente no Sicoob CrediGoiás Cooperativa de Crédito Ltda.",
+          "value": 49540.08
+        },
+        {
+          "description": "Fazenda",
+          "value": 2057502.76
+        },
+        {
+          "description": "Quotas (100) de Capital Social na Coopercampi - Cooperativa Agropecuária Regional de Campinorte",
+          "value": 2247.21
+        },
+        {
+          "description": "Fazenda",
+          "value": 296379.12
+        },
+        {
+          "description": "Saldo em Conta Corrente no Banco do Brasil S.A.",
+          "value": 15.53
+        },
+        {
+          "description": "Asininos, equinos e muares",
+          "value": 262698.24
+        },
+        {
+          "description": "Lote",
+          "value": 243037.95
+        },
+        {
+          "description": "50% de sala comercial",
+          "value": 35711.94
+        },
+        {
+          "description": "Fazenda",
+          "value": 600000
+        },
+        {
+          "description": "Fazenda",
+          "value": 3149796.49
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 854012.64
+        },
+        {
+          "description": "Ações: 16,66% do lote de 50 ações escriturais do Banco Bradesco S/A.",
+          "value": 83.33
+        },
+        {
+          "description": "Ações: 14,67% do lote de ações da empresa Telecomunicações Brasileiras S/A (CNPJ 00.336.701/0001-04), sendo 2.816 ações ordinárias e 2.816 ações preferenciais",
+          "value": 50.2
+        },
+        {
+          "description": "Parte de 20% do Capital Social da Empresa Santa Maria Participações e Negócios Ltda",
+          "value": 270000
+        },
+        {
+          "description": "Aplicações de Renda Fixa no Banco Itaú Unibanco S.A.",
+          "value": 675.55
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
+        "fetchedAt": "2026-03-12T06:49:19.898Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalDeclared": 8107330.58,
+      "items": [
+        {
+          "description": "Sem descrição",
+          "value": 196682.83
+        },
+        {
+          "description": "Sem descrição",
+          "value": 27329.71
+        },
+        {
+          "description": "Sem descrição",
+          "value": 90000
+        },
+        {
+          "description": "Sem descrição",
+          "value": 4170.84
+        },
+        {
+          "description": "Sem descrição",
+          "value": 34185.33
+        },
+        {
+          "description": "Sem descrição",
+          "value": 878.45
+        },
+        {
+          "description": "Sem descrição",
+          "value": 35711.94
+        },
+        {
+          "description": "Sem descrição",
+          "value": 13750
+        },
+        {
+          "description": "Sem descrição",
+          "value": 4640.34
+        },
+        {
+          "description": "Sem descrição",
+          "value": 108259.75
+        },
+        {
+          "description": "Sem descrição",
+          "value": 600000
+        },
+        {
+          "description": "Sem descrição",
+          "value": 1754.38
+        },
+        {
+          "description": "Sem descrição",
+          "value": 0.01
+        },
+        {
+          "description": "Sem descrição",
+          "value": 10
+        },
+        {
+          "description": "Sem descrição",
+          "value": 378000
+        },
+        {
+          "description": "Sem descrição",
+          "value": 44518.01
+        },
+        {
+          "description": "Sem descrição",
+          "value": 34000
+        },
+        {
+          "description": "Sem descrição",
+          "value": 699524.59
+        },
+        {
+          "description": "Sem descrição",
+          "value": 243037.95
+        },
+        {
+          "description": "Sem descrição",
+          "value": 2744.43
+        },
+        {
+          "description": "Sem descrição",
+          "value": 166231.34
+        },
+        {
+          "description": "Sem descrição",
+          "value": 2113.07
+        },
+        {
+          "description": "Sem descrição",
+          "value": 56080
+        },
+        {
+          "description": "Sem descrição",
+          "value": 285280
+        },
+        {
+          "description": "Sem descrição",
+          "value": 10562.4
+        },
+        {
+          "description": "Sem descrição",
+          "value": 213920
+        },
+        {
+          "description": "Sem descrição",
+          "value": 20
+        },
+        {
+          "description": "Sem descrição",
+          "value": 2632.59
+        },
+        {
+          "description": "Sem descrição",
+          "value": 1173.6
+        },
+        {
+          "description": "Sem descrição",
+          "value": 7100
+        },
+        {
+          "description": "Sem descrição",
+          "value": 83.33
+        },
+        {
+          "description": "Sem descrição",
+          "value": 50.2
+        },
+        {
+          "description": "Sem descrição",
+          "value": 36000
+        },
+        {
+          "description": "Sem descrição",
+          "value": 100.68
+        },
+        {
+          "description": "Sem descrição",
+          "value": 100.68
+        },
+        {
+          "description": "Sem descrição",
+          "value": 35000
+        },
+        {
+          "description": "Sem descrição",
+          "value": 2520.74
+        },
+        {
+          "description": "Sem descrição",
+          "value": 3286.43
+        },
+        {
+          "description": "Sem descrição",
+          "value": 4327525
+        },
+        {
+          "description": "Sem descrição",
+          "value": 0.01
+        },
+        {
+          "description": "Sem descrição",
+          "value": 296379.12
+        },
+        {
+          "description": "Sem descrição",
+          "value": 74000
+        },
+        {
+          "description": "Sem descrição",
+          "value": 38498.81
+        },
+        {
+          "description": "Sem descrição",
+          "value": 23981.76
+        },
+        {
+          "description": "Sem descrição",
+          "value": 5492.26
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
+        "fetchedAt": "2026-03-12T06:49:19.974Z"
+      }
+    }
+  ],
+  "campaignFinances": [
+    {
+      "electionYear": 2022,
+      "totalReceived": 9855303.34,
+      "totalSpent": 9787292.22,
+      "topDonors": [
+        {
+          "name": "Direção Nacional - UNIÃO BRASIL",
+          "amount": 2312544,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - UNIÃO BRASIL",
+          "amount": 1000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Estadual/Distrital - UNIÃO BRASIL",
+          "amount": 800000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Estadual/Distrital - UNIÃO BRASIL",
+          "amount": 745000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "Direção Estadual/Distrital - UNIÃO BRASIL",
+          "amount": 650000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "Direção Estadual/Distrital - UNIÃO BRASIL",
+          "amount": 500000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Estadual/Distrital - UNIÃO BRASIL",
+          "amount": 500000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Estadual/Distrital - UNIÃO BRASIL",
+          "amount": 350000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "JOSE RIBEIRO DE MENDONCA",
+          "amount": 250000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "NEIDE SANCHES FERNANDES",
+          "amount": 250000,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
+        "fetchedAt": "2026-03-12T06:49:21.023Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalReceived": 8708386.54,
+      "totalSpent": 8322656.09,
+      "topDonors": [
+        {
+          "name": "Direção Nacional - Democratas",
+          "amount": 2500000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Democratas",
+          "amount": 700000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Democratas",
+          "amount": 650000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "EDUARDO DE SOUZA RAMOS",
+          "amount": 300000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Nacional - Democratas",
+          "amount": 300000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "JOSE RIBEIRO DE MENDONCA",
+          "amount": 260000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "ALFREDO ANGELO SONCINI FILHO",
+          "amount": 150000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "ADRIANO ALVES DE MENESES",
+          "amount": 140000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "SERGINO RIBEIRO DE MENDONCA NETO",
+          "amount": 110000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "SIMONE RIBEIRO DE MENDONCA",
+          "amount": 110000,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
+        "fetchedAt": "2026-03-12T06:49:24.886Z"
+      }
+    }
+  ],
+  "partyHistory": [
+    {
+      "party": "DEM",
+      "startYear": 2018,
+      "endYear": 2022
+    },
+    {
+      "party": "UNIÃO",
+      "startYear": 2022
+    }
+  ],
+  "facts": [
+    {
+      "id": "tse-bens-total-2022",
+      "label": "Bens declarados na eleição de 2022",
+      "value": "R$ 24.874.436,19",
+      "context": "53 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
+        "fetchedAt": "2026-03-12T06:49:19.898Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-total-2018",
+      "label": "Bens declarados na eleição de 2018",
+      "value": "R$ 8.107.330,58",
+      "context": "45 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
+        "fetchedAt": "2026-03-12T06:49:19.974Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-evolucao",
+      "label": "Evolução patrimonial declarada",
+      "value": "207% de aumento",
+      "context": "de 2018 (R$ 8.107.330,58) a 2022 (R$ 24.874.436,19)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
+        "fetchedAt": "2026-03-12T06:49:19.898Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-gasto-campanha-2022",
+      "label": "Gasto de campanha declarado (2022)",
+      "value": "R$ 17.344.086,00",
+      "context": "1º turno: R$ 11.562.724,00 | 2º turno: R$ 5.781.362,00",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
+        "fetchedAt": "2026-03-12T06:49:19.898Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-gasto-campanha-2018",
+      "label": "Gasto de campanha declarado (2018)",
+      "value": "R$ 13.650.000,00",
+      "context": "1º turno: R$ 9.100.000,00 | 2º turno: R$ 4.550.000,00",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
+        "fetchedAt": "2026-03-12T06:49:19.974Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-eleicao-2022",
+      "label": "Resultado na eleição de 2022",
+      "value": "Eleito(a)",
+      "context": "Cargo: Governador | Partido: UNIÃO",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
+        "fetchedAt": "2026-03-12T06:49:19.898Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicao-2018",
+      "label": "Resultado na eleição de 2018",
+      "value": "Eleito(a)",
+      "context": "Cargo: Governador | Partido: DEM",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
+        "fetchedAt": "2026-03-12T06:49:19.974Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-partidos-total",
+      "label": "Partidos pelos quais concorreu",
+      "value": 2,
+      "context": "DEM, UNIÃO",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:49:19.974Z"
+      },
+      "dimension": "compromissos",
+      "category": "Filiação Partidária"
+    },
+    {
+      "id": "tse-eleicoes-total",
+      "label": "Eleições disputadas (registros TSE)",
+      "value": 2,
+      "context": "2022 (Governador), 2018 (Governador)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:49:19.974Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "divulgacand-receita-total-90001646326-2022",
+      "label": "Total recebido em doações de campanha (2022)",
+      "value": "R$ 9.855.303,34",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
+        "fetchedAt": "2026-03-12T06:49:21.023Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-90001646326-2022",
+      "label": "Total gasto em campanha (2022)",
+      "value": "R$ 9.787.292,22",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
+        "fetchedAt": "2026-03-12T06:49:21.023Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-90001646326-2022",
+      "label": "Número de doadores de campanha (2022)",
+      "value": 80,
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
+        "fetchedAt": "2026-03-12T06:49:21.023Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-90001646326-2022",
+      "label": "Maior doador de campanha (2022)",
+      "value": "Direção Nacional - UNIÃO BRASIL",
+      "context": "R$ 2.312.544,00 — Fundo Especial",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
+        "fetchedAt": "2026-03-12T06:49:21.023Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-90001646326-2022",
+      "label": "Saldo positivo de campanha (2022)",
+      "value": "R$ 68.011,12",
+      "context": "Receitas R$ 9.855.303,34 - Despesas R$ 9.787.292,22",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
+        "fetchedAt": "2026-03-12T06:49:21.023Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-receita-total-90000613470-2018",
+      "label": "Total recebido em doações de campanha (2018)",
+      "value": "R$ 8.708.386,54",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
+        "fetchedAt": "2026-03-12T06:49:24.886Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-90000613470-2018",
+      "label": "Total gasto em campanha (2018)",
+      "value": "R$ 8.322.656,09",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
+        "fetchedAt": "2026-03-12T06:49:24.886Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-90000613470-2018",
+      "label": "Número de doadores de campanha (2018)",
+      "value": 383,
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
+        "fetchedAt": "2026-03-12T06:49:24.886Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-90000613470-2018",
+      "label": "Maior doador de campanha (2018)",
+      "value": "Direção Nacional - Democratas",
+      "context": "R$ 2.500.000,00 — Fundo Especial",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
+        "fetchedAt": "2026-03-12T06:49:24.886Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-90000613470-2018",
+      "label": "Saldo positivo de campanha (2018)",
+      "value": "R$ 385.730,45",
+      "context": "Receitas R$ 8.708.386,54 - Despesas R$ 8.322.656,09",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
+        "fetchedAt": "2026-03-12T06:49:24.886Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "role-ronaldo-caiado",
+      "label": "Cargo/função atual",
+      "value": "Governador de Goiás (2019–)",
+      "source": {
+        "name": "Transparência (curadoria)",
+        "url": "https://atvinicius.github.io/transparencia/metodologia",
+        "fetchedAt": "2026-03-12T06:49:24.887Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Gerais"
+    }
+  ],
+  "lastUpdated": "2026-03-12T06:49:24.887Z",
+  "sources": [
+    "TSE - DivulgaCandContas",
+    "DivulgaCandContas"
+  ]
+}

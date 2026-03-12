@@ -1,542 +1,708 @@
 [
   {
-    "slug": "abilio-brunini",
-    "shortName": "Abilio Brunini",
-    "party": "PL",
+    "slug": "lula",
+    "shortName": "Lula",
+    "party": "PT",
     "facts": [
       {
-        "id": "camara-proposicoes-total-220593",
-        "label": "Proposições legislativas apresentadas",
-        "value": 10,
-        "context": "como autor(a) principal",
+        "id": "tse-eleicao-2022",
+        "label": "Resultado na eleição de 2022",
+        "value": "Eleito(a)",
+        "context": "Cargo: Presidente | Partido: PT",
         "source": {
-          "name": "Câmara dos Deputados",
-          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220593",
-          "fetchedAt": "2026-03-12T05:11:31.391Z"
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607829",
+          "fetchedAt": "2026-03-12T06:49:14.548Z"
         },
         "dimension": "historico",
-        "category": "Produção Legislativa"
+        "category": "Histórico Eleitoral"
       },
       {
-        "id": "camara-escolaridade-220593",
-        "label": "Escolaridade",
-        "value": "Superior",
+        "id": "tse-eleicao-2018",
+        "label": "Resultado na eleição de 2018",
+        "value": "Concorrendo",
+        "context": "Cargo: Presidente | Partido: PT",
         "source": {
-          "name": "Câmara dos Deputados",
-          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220593",
-          "fetchedAt": "2026-03-12T05:11:31.391Z"
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000625869",
+          "fetchedAt": "2026-03-12T06:49:14.712Z"
         },
         "dimension": "historico",
-        "category": "Informações Pessoais"
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicoes-total",
+        "label": "Eleições disputadas (registros TSE)",
+        "value": 2,
+        "context": "2022 (Presidente), 2018 (Presidente)",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+          "fetchedAt": "2026-03-12T06:49:14.712Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "role-lula",
+        "label": "Cargo/função atual",
+        "value": "Presidente da República (2023–)",
+        "source": {
+          "name": "Transparência (curadoria)",
+          "url": "https://atvinicius.github.io/transparencia/metodologia",
+          "fetchedAt": "2026-03-12T06:49:16.012Z"
+        },
+        "dimension": "historico",
+        "category": "Informações Gerais"
       }
     ],
     "votingSummaries": [],
-    "proposalCount": 10
+    "proposalCount": 0
   },
   {
-    "slug": "acacio-favacho",
-    "shortName": "Acácio Favacho",
-    "party": "MDB",
-    "facts": [
-      {
-        "id": "camara-proposicoes-total-204379",
-        "label": "Proposições legislativas apresentadas",
-        "value": 10,
-        "context": "como autor(a) principal",
-        "source": {
-          "name": "Câmara dos Deputados",
-          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379",
-          "fetchedAt": "2026-03-12T05:11:34.568Z"
-        },
-        "dimension": "historico",
-        "category": "Produção Legislativa"
-      },
-      {
-        "id": "camara-escolaridade-204379",
-        "label": "Escolaridade",
-        "value": "Superior",
-        "source": {
-          "name": "Câmara dos Deputados",
-          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379",
-          "fetchedAt": "2026-03-12T05:11:34.568Z"
-        },
-        "dimension": "historico",
-        "category": "Informações Pessoais"
-      }
-    ],
-    "votingSummaries": [],
-    "proposalCount": 10
-  },
-  {
-    "slug": "adail-filho",
-    "shortName": "Adail Filho",
+    "slug": "tarcisio-de-freitas",
+    "shortName": "Tarcísio de Freitas",
     "party": "REPUBLICANOS",
     "facts": [
       {
-        "id": "camara-proposicoes-total-220714",
-        "label": "Proposições legislativas apresentadas",
-        "value": 10,
-        "context": "como autor(a) principal",
+        "id": "tse-eleicao-2022",
+        "label": "Resultado na eleição de 2022",
+        "value": "Eleito(a)",
+        "context": "Cargo: Governador | Partido: REPUBLICANOS",
         "source": {
-          "name": "Câmara dos Deputados",
-          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220714",
-          "fetchedAt": "2026-03-12T05:11:37.990Z"
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001615967",
+          "fetchedAt": "2026-03-12T06:49:16.385Z"
         },
         "dimension": "historico",
-        "category": "Produção Legislativa"
+        "category": "Histórico Eleitoral"
       },
       {
-        "id": "camara-escolaridade-220714",
-        "label": "Escolaridade",
-        "value": "Superior Incompleto",
+        "id": "tse-eleicoes-total",
+        "label": "Eleições disputadas (registros TSE)",
+        "value": 1,
+        "context": "2022 (Governador)",
         "source": {
-          "name": "Câmara dos Deputados",
-          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220714",
-          "fetchedAt": "2026-03-12T05:11:37.990Z"
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+          "fetchedAt": "2026-03-12T06:49:16.385Z"
         },
         "dimension": "historico",
-        "category": "Informações Pessoais"
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "role-tarcisio-de-freitas",
+        "label": "Cargo/função atual",
+        "value": "Governador de São Paulo (2023–)",
+        "source": {
+          "name": "Transparência (curadoria)",
+          "url": "https://atvinicius.github.io/transparencia/metodologia",
+          "fetchedAt": "2026-03-12T06:49:17.635Z"
+        },
+        "dimension": "historico",
+        "category": "Informações Gerais"
       }
     ],
     "votingSummaries": [],
-    "proposalCount": 10
-  },
-  {
-    "slug": "adilson-barroso",
-    "shortName": "Adilson Barroso",
-    "party": "PL",
-    "facts": [
-      {
-        "id": "camara-proposicoes-total-221328",
-        "label": "Proposições legislativas apresentadas",
-        "value": 10,
-        "context": "como autor(a) principal",
-        "source": {
-          "name": "Câmara dos Deputados",
-          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/221328",
-          "fetchedAt": "2026-03-12T05:11:41.320Z"
-        },
-        "dimension": "historico",
-        "category": "Produção Legislativa"
-      },
-      {
-        "id": "camara-escolaridade-221328",
-        "label": "Escolaridade",
-        "value": "Superior",
-        "source": {
-          "name": "Câmara dos Deputados",
-          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/221328",
-          "fetchedAt": "2026-03-12T05:11:41.320Z"
-        },
-        "dimension": "historico",
-        "category": "Informações Pessoais"
-      }
-    ],
-    "votingSummaries": [],
-    "proposalCount": 10
-  },
-  {
-    "slug": "adolfo-viana",
-    "shortName": "Adolfo Viana",
-    "party": "PSDB",
-    "facts": [
-      {
-        "id": "camara-proposicoes-total-204560",
-        "label": "Proposições legislativas apresentadas",
-        "value": 10,
-        "context": "como autor(a) principal",
-        "source": {
-          "name": "Câmara dos Deputados",
-          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
-          "fetchedAt": "2026-03-12T05:11:44.709Z"
-        },
-        "dimension": "historico",
-        "category": "Produção Legislativa"
-      },
-      {
-        "id": "camara-escolaridade-204560",
-        "label": "Escolaridade",
-        "value": "Superior",
-        "source": {
-          "name": "Câmara dos Deputados",
-          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
-          "fetchedAt": "2026-03-12T05:11:44.709Z"
-        },
-        "dimension": "historico",
-        "category": "Informações Pessoais"
-      }
-    ],
-    "votingSummaries": [],
-    "proposalCount": 10
-  },
-  {
-    "slug": "alan-rick-miranda",
-    "shortName": "Alan Rick Miranda",
-    "party": "REPUBLICANOS",
-    "facts": [
-      {
-        "id": "senado-votacao-presenca-5672",
-        "label": "Presença em votações",
-        "value": 0,
-        "context": "de 367 votações registradas",
-        "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5672",
-          "fetchedAt": "2026-03-12T05:11:45.796Z"
-        },
-        "dimension": "historico",
-        "category": "Votações"
-      },
-      {
-        "id": "senado-votacao-ausencia-5672",
-        "label": "Ausências em votações",
-        "value": 367,
-        "context": "de 367 votações registradas",
-        "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5672",
-          "fetchedAt": "2026-03-12T05:11:45.796Z"
-        },
-        "dimension": "historico",
-        "category": "Votações"
-      },
-      {
-        "id": "senado-votacao-taxa-5672",
-        "label": "Taxa de presença em votações",
-        "value": "0%",
-        "context": "baseado em 367 votações registradas",
-        "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5672",
-          "fetchedAt": "2026-03-12T05:11:45.796Z"
-        },
-        "dimension": "historico",
-        "category": "Votações"
-      },
-      {
-        "id": "senado-proposicoes-total-5672",
-        "label": "Matérias legislativas de autoria",
-        "value": 0,
-        "context": "como autor(a) principal",
-        "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5672",
-          "fetchedAt": "2026-03-12T05:11:45.796Z"
-        },
-        "dimension": "historico",
-        "category": "Produção Legislativa"
-      }
-    ],
-    "votingSummaries": [
-      {
-        "legislature": "57ª Legislatura (2023-2031)",
-        "totalVotes": 367,
-        "present": 0,
-        "absent": 367,
-        "abstained": 0,
-        "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5672",
-          "fetchedAt": "2026-03-12T05:11:45.796Z"
-        }
-      }
-    ],
     "proposalCount": 0
   },
   {
-    "slug": "alessandro-vieira",
-    "shortName": "Alessandro Vieira",
+    "slug": "ciro-gomes",
+    "shortName": "Ciro Gomes",
+    "party": "PDT",
+    "facts": [
+      {
+        "id": "tse-eleicao-2022",
+        "label": "Resultado na eleição de 2022",
+        "value": "Não eleito",
+        "context": "Cargo: Presidente | Partido: PDT",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001612393",
+          "fetchedAt": "2026-03-12T06:49:17.871Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicao-2018",
+        "label": "Resultado na eleição de 2018",
+        "value": "Não eleito",
+        "context": "Cargo: Presidente | Partido: PDT",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000605589",
+          "fetchedAt": "2026-03-12T06:49:17.941Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicoes-total",
+        "label": "Eleições disputadas (registros TSE)",
+        "value": 2,
+        "context": "2022 (Presidente), 2018 (Presidente)",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+          "fetchedAt": "2026-03-12T06:49:17.941Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "role-ciro-gomes",
+        "label": "Cargo/função atual",
+        "value": "Ex-governador do Ceará, ex-candidato à presidência",
+        "source": {
+          "name": "Transparência (curadoria)",
+          "url": "https://atvinicius.github.io/transparencia/metodologia",
+          "fetchedAt": "2026-03-12T06:49:18.564Z"
+        },
+        "dimension": "historico",
+        "category": "Informações Gerais"
+      }
+    ],
+    "votingSummaries": [],
+    "proposalCount": 0
+  },
+  {
+    "slug": "simone-tebet",
+    "shortName": "Simone Tebet",
     "party": "MDB",
     "facts": [
       {
-        "id": "senado-votacao-presenca-5982",
-        "label": "Presença em votações",
-        "value": 0,
-        "context": "de 1086 votações registradas",
+        "id": "tse-eleicao-2022",
+        "label": "Resultado na eleição de 2022",
+        "value": "Não eleito",
+        "context": "Cargo: Presidente | Partido: MDB",
         "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5982",
-          "fetchedAt": "2026-03-12T05:11:48.705Z"
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607833",
+          "fetchedAt": "2026-03-12T06:49:18.838Z"
         },
         "dimension": "historico",
-        "category": "Votações"
+        "category": "Histórico Eleitoral"
       },
       {
-        "id": "senado-votacao-ausencia-5982",
-        "label": "Ausências em votações",
-        "value": 1086,
-        "context": "de 1086 votações registradas",
+        "id": "tse-eleicoes-total",
+        "label": "Eleições disputadas (registros TSE)",
+        "value": 1,
+        "context": "2022 (Presidente)",
         "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5982",
-          "fetchedAt": "2026-03-12T05:11:48.705Z"
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+          "fetchedAt": "2026-03-12T06:49:18.838Z"
         },
         "dimension": "historico",
-        "category": "Votações"
+        "category": "Histórico Eleitoral"
       },
       {
-        "id": "senado-votacao-taxa-5982",
-        "label": "Taxa de presença em votações",
-        "value": "0%",
-        "context": "baseado em 1086 votações registradas",
+        "id": "role-simone-tebet",
+        "label": "Cargo/função atual",
+        "value": "Ministra do Planejamento (2023–)",
         "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5982",
-          "fetchedAt": "2026-03-12T05:11:48.705Z"
+          "name": "Transparência (curadoria)",
+          "url": "https://atvinicius.github.io/transparencia/metodologia",
+          "fetchedAt": "2026-03-12T06:49:19.309Z"
         },
         "dimension": "historico",
-        "category": "Votações"
-      },
-      {
-        "id": "senado-proposicoes-total-5982",
-        "label": "Matérias legislativas de autoria",
-        "value": 0,
-        "context": "como autor(a) principal",
-        "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5982",
-          "fetchedAt": "2026-03-12T05:11:48.705Z"
-        },
-        "dimension": "historico",
-        "category": "Produção Legislativa"
+        "category": "Informações Gerais"
       }
     ],
-    "votingSummaries": [
-      {
-        "legislature": "57ª Legislatura (2023-2031)",
-        "totalVotes": 1086,
-        "present": 0,
-        "absent": 1086,
-        "abstained": 0,
-        "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5982",
-          "fetchedAt": "2026-03-12T05:11:48.705Z"
-        }
-      }
-    ],
+    "votingSummaries": [],
     "proposalCount": 0
   },
   {
-    "slug": "ana-paula-dias-lobato-nova-alves",
-    "shortName": "Ana Paula Dias Lobato Nova Alves",
-    "party": "PSB",
+    "slug": "ronaldo-caiado",
+    "shortName": "Ronaldo Caiado",
+    "party": "UNIÃO",
     "facts": [
       {
-        "id": "senado-votacao-presenca-6358",
-        "label": "Presença em votações",
-        "value": 0,
-        "context": "de 365 votações registradas",
+        "id": "tse-eleicao-2022",
+        "label": "Resultado na eleição de 2022",
+        "value": "Eleito(a)",
+        "context": "Cargo: Governador | Partido: UNIÃO",
         "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/6358",
-          "fetchedAt": "2026-03-12T05:11:49.279Z"
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
+          "fetchedAt": "2026-03-12T06:49:19.898Z"
         },
         "dimension": "historico",
-        "category": "Votações"
+        "category": "Histórico Eleitoral"
       },
       {
-        "id": "senado-votacao-ausencia-6358",
-        "label": "Ausências em votações",
-        "value": 365,
-        "context": "de 365 votações registradas",
+        "id": "tse-eleicao-2018",
+        "label": "Resultado na eleição de 2018",
+        "value": "Eleito(a)",
+        "context": "Cargo: Governador | Partido: DEM",
         "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/6358",
-          "fetchedAt": "2026-03-12T05:11:49.279Z"
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
+          "fetchedAt": "2026-03-12T06:49:19.974Z"
         },
         "dimension": "historico",
-        "category": "Votações"
+        "category": "Histórico Eleitoral"
       },
       {
-        "id": "senado-votacao-taxa-6358",
-        "label": "Taxa de presença em votações",
-        "value": "0%",
-        "context": "baseado em 365 votações registradas",
+        "id": "tse-eleicoes-total",
+        "label": "Eleições disputadas (registros TSE)",
+        "value": 2,
+        "context": "2022 (Governador), 2018 (Governador)",
         "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/6358",
-          "fetchedAt": "2026-03-12T05:11:49.279Z"
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+          "fetchedAt": "2026-03-12T06:49:19.974Z"
         },
         "dimension": "historico",
-        "category": "Votações"
+        "category": "Histórico Eleitoral"
       },
       {
-        "id": "senado-proposicoes-total-6358",
-        "label": "Matérias legislativas de autoria",
-        "value": 0,
-        "context": "como autor(a) principal",
+        "id": "role-ronaldo-caiado",
+        "label": "Cargo/função atual",
+        "value": "Governador de Goiás (2019–)",
         "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/6358",
-          "fetchedAt": "2026-03-12T05:11:49.279Z"
+          "name": "Transparência (curadoria)",
+          "url": "https://atvinicius.github.io/transparencia/metodologia",
+          "fetchedAt": "2026-03-12T06:49:24.887Z"
         },
         "dimension": "historico",
-        "category": "Produção Legislativa"
+        "category": "Informações Gerais"
       }
     ],
-    "votingSummaries": [
-      {
-        "legislature": "57ª Legislatura (2023-2031)",
-        "totalVotes": 365,
-        "present": 0,
-        "absent": 365,
-        "abstained": 0,
-        "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/6358",
-          "fetchedAt": "2026-03-12T05:11:49.279Z"
-        }
-      }
-    ],
+    "votingSummaries": [],
     "proposalCount": 0
   },
   {
-    "slug": "angelo-mario-coronel-de-azevedo-martins",
-    "shortName": "Angelo Mario Coronel de Azevedo Martins",
+    "slug": "ratinho-junior",
+    "shortName": "Ratinho Junior",
     "party": "PSD",
     "facts": [
       {
-        "id": "senado-votacao-presenca-5967",
-        "label": "Presença em votações",
-        "value": 0,
-        "context": "de 1085 votações registradas",
+        "id": "tse-eleicao-2022",
+        "label": "Resultado na eleição de 2022",
+        "value": "Eleito(a)",
+        "context": "Cargo: Governador | Partido: PSD",
         "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5967",
-          "fetchedAt": "2026-03-12T05:11:50.956Z"
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PR/2040602022/candidato/160001614467",
+          "fetchedAt": "2026-03-12T06:49:25.230Z"
         },
         "dimension": "historico",
-        "category": "Votações"
+        "category": "Histórico Eleitoral"
       },
       {
-        "id": "senado-votacao-ausencia-5967",
-        "label": "Ausências em votações",
-        "value": 1085,
-        "context": "de 1085 votações registradas",
+        "id": "tse-eleicao-2018",
+        "label": "Resultado na eleição de 2018",
+        "value": "Eleito(a)",
+        "context": "Cargo: Governador | Partido: PSD",
         "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5967",
-          "fetchedAt": "2026-03-12T05:11:50.956Z"
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PR/2022802018/candidato/160000609226",
+          "fetchedAt": "2026-03-12T06:49:25.308Z"
         },
         "dimension": "historico",
-        "category": "Votações"
+        "category": "Histórico Eleitoral"
       },
       {
-        "id": "senado-votacao-taxa-5967",
-        "label": "Taxa de presença em votações",
-        "value": "0%",
-        "context": "baseado em 1085 votações registradas",
+        "id": "tse-eleicoes-total",
+        "label": "Eleições disputadas (registros TSE)",
+        "value": 2,
+        "context": "2022 (Governador), 2018 (Governador)",
         "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5967",
-          "fetchedAt": "2026-03-12T05:11:50.956Z"
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+          "fetchedAt": "2026-03-12T06:49:25.308Z"
         },
         "dimension": "historico",
-        "category": "Votações"
+        "category": "Histórico Eleitoral"
       },
       {
-        "id": "senado-proposicoes-total-5967",
-        "label": "Matérias legislativas de autoria",
-        "value": 0,
-        "context": "como autor(a) principal",
+        "id": "role-ratinho-junior",
+        "label": "Cargo/função atual",
+        "value": "Governador do Paraná (2019–)",
         "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5967",
-          "fetchedAt": "2026-03-12T05:11:50.956Z"
+          "name": "Transparência (curadoria)",
+          "url": "https://atvinicius.github.io/transparencia/metodologia",
+          "fetchedAt": "2026-03-12T06:49:28.242Z"
         },
         "dimension": "historico",
-        "category": "Produção Legislativa"
+        "category": "Informações Gerais"
       }
     ],
-    "votingSummaries": [
-      {
-        "legislature": "57ª Legislatura (2023-2031)",
-        "totalVotes": 1085,
-        "present": 0,
-        "absent": 1085,
-        "abstained": 0,
-        "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/5967",
-          "fetchedAt": "2026-03-12T05:11:50.956Z"
-        }
-      }
-    ],
+    "votingSummaries": [],
     "proposalCount": 0
   },
   {
-    "slug": "marcos-cesar-pontes",
-    "shortName": "Marcos Cesar Pontes",
-    "party": "PL",
+    "slug": "guilherme-boulos",
+    "shortName": "Guilherme Boulos",
+    "party": "PSOL",
     "facts": [
       {
-        "id": "senado-votacao-presenca-6009",
-        "label": "Presença em votações",
-        "value": 0,
-        "context": "de 367 votações registradas",
-        "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/6009",
-          "fetchedAt": "2026-03-12T05:11:51.224Z"
-        },
-        "dimension": "historico",
-        "category": "Votações"
-      },
-      {
-        "id": "senado-votacao-ausencia-6009",
-        "label": "Ausências em votações",
-        "value": 367,
-        "context": "de 367 votações registradas",
-        "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/6009",
-          "fetchedAt": "2026-03-12T05:11:51.224Z"
-        },
-        "dimension": "historico",
-        "category": "Votações"
-      },
-      {
-        "id": "senado-votacao-taxa-6009",
-        "label": "Taxa de presença em votações",
-        "value": "0%",
-        "context": "baseado em 367 votações registradas",
-        "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/6009",
-          "fetchedAt": "2026-03-12T05:11:51.224Z"
-        },
-        "dimension": "historico",
-        "category": "Votações"
-      },
-      {
-        "id": "senado-proposicoes-total-6009",
-        "label": "Matérias legislativas de autoria",
-        "value": 0,
+        "id": "camara-proposicoes-total-220639",
+        "label": "Proposições legislativas apresentadas",
+        "value": 10,
         "context": "como autor(a) principal",
         "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/6009",
-          "fetchedAt": "2026-03-12T05:11:51.224Z"
+          "name": "Câmara dos Deputados",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+          "fetchedAt": "2026-03-12T06:49:52.725Z"
         },
         "dimension": "historico",
         "category": "Produção Legislativa"
-      }
-    ],
-    "votingSummaries": [
+      },
       {
-        "legislature": "57ª Legislatura (2023-2031)",
-        "totalVotes": 367,
-        "present": 0,
-        "absent": 367,
-        "abstained": 0,
+        "id": "camara-escolaridade-220639",
+        "label": "Escolaridade",
+        "value": "Mestrado",
         "source": {
-          "name": "Senado Federal",
-          "url": "https://legis.senado.leg.br/dadosabertos/senador/6009",
-          "fetchedAt": "2026-03-12T05:11:51.224Z"
-        }
+          "name": "Câmara dos Deputados",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
+          "fetchedAt": "2026-03-12T06:49:52.725Z"
+        },
+        "dimension": "historico",
+        "category": "Informações Pessoais"
+      },
+      {
+        "id": "tse-eleicao-2018",
+        "label": "Resultado na eleição de 2018",
+        "value": "Não eleito",
+        "context": "Cargo: Presidente | Partido: PSOL",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
+          "fetchedAt": "2026-03-12T06:49:53.155Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicoes-total",
+        "label": "Eleições disputadas (registros TSE)",
+        "value": 1,
+        "context": "2018 (Presidente)",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+          "fetchedAt": "2026-03-12T06:49:53.155Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "role-guilherme-boulos",
+        "label": "Cargo/função atual",
+        "value": "Deputado Federal (2023–)",
+        "source": {
+          "name": "Transparência (curadoria)",
+          "url": "https://atvinicius.github.io/transparencia/metodologia",
+          "fetchedAt": "2026-03-12T06:49:54.478Z"
+        },
+        "dimension": "historico",
+        "category": "Informações Gerais"
       }
     ],
+    "votingSummaries": [],
+    "proposalCount": 10
+  },
+  {
+    "slug": "fernando-haddad",
+    "shortName": "Fernando Haddad",
+    "party": "PT",
+    "facts": [
+      {
+        "id": "tse-eleicao-2022",
+        "label": "Resultado na eleição de 2022",
+        "value": "2º turno",
+        "context": "Cargo: Governador | Partido: PT",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001612465",
+          "fetchedAt": "2026-03-12T06:49:54.808Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicao-2018",
+        "label": "Resultado na eleição de 2018",
+        "value": "Não eleito",
+        "context": "Cargo: Presidente | Partido: PT",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000629808",
+          "fetchedAt": "2026-03-12T06:49:54.879Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicoes-total",
+        "label": "Eleições disputadas (registros TSE)",
+        "value": 2,
+        "context": "2022 (Governador), 2018 (Presidente)",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+          "fetchedAt": "2026-03-12T06:49:54.879Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "role-fernando-haddad",
+        "label": "Cargo/função atual",
+        "value": "Ministro da Fazenda (2023–)",
+        "source": {
+          "name": "Transparência (curadoria)",
+          "url": "https://atvinicius.github.io/transparencia/metodologia",
+          "fetchedAt": "2026-03-12T06:49:56.638Z"
+        },
+        "dimension": "historico",
+        "category": "Informações Gerais"
+      }
+    ],
+    "votingSummaries": [],
+    "proposalCount": 0
+  },
+  {
+    "slug": "pablo-marcal",
+    "shortName": "Pablo Marçal",
+    "party": "PRTB",
+    "facts": [
+      {
+        "id": "tse-eleicao-2022",
+        "label": "Resultado na eleição de 2022",
+        "value": "Concorrendo",
+        "context": "Cargo: Presidente | Partido: PROS",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001600179",
+          "fetchedAt": "2026-03-12T06:49:57.003Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicoes-total",
+        "label": "Eleições disputadas (registros TSE)",
+        "value": 1,
+        "context": "2022 (Presidente)",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+          "fetchedAt": "2026-03-12T06:49:57.003Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "role-pablo-marcal",
+        "label": "Cargo/função atual",
+        "value": "Empresário, ex-candidato a prefeito de SP",
+        "source": {
+          "name": "Transparência (curadoria)",
+          "url": "https://atvinicius.github.io/transparencia/metodologia",
+          "fetchedAt": "2026-03-12T06:50:02.804Z"
+        },
+        "dimension": "historico",
+        "category": "Informações Gerais"
+      }
+    ],
+    "votingSummaries": [],
+    "proposalCount": 0
+  },
+  {
+    "slug": "helder-barbalho",
+    "shortName": "Helder Barbalho",
+    "party": "MDB",
+    "facts": [
+      {
+        "id": "tse-eleicao-2022",
+        "label": "Resultado na eleição de 2022",
+        "value": "Eleito(a)",
+        "context": "Cargo: Governador | Partido: MDB",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PA/2040602022/candidato/140001651993",
+          "fetchedAt": "2026-03-12T06:50:11.042Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicao-2018",
+        "label": "Resultado na eleição de 2018",
+        "value": "2º turno",
+        "context": "Cargo: Governador | Partido: MDB",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PA/2022802018/candidato/140000621334",
+          "fetchedAt": "2026-03-12T06:50:11.129Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicao-2014",
+        "label": "Resultado na eleição de 2014",
+        "value": "2º turno",
+        "context": "Cargo: Governador | Partido: PMDB",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2014/PA/680/candidato/140000000468",
+          "fetchedAt": "2026-03-12T06:50:11.216Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicoes-total",
+        "label": "Eleições disputadas (registros TSE)",
+        "value": 3,
+        "context": "2022 (Governador), 2018 (Governador), 2014 (Governador)",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+          "fetchedAt": "2026-03-12T06:50:11.216Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "role-helder-barbalho",
+        "label": "Cargo/função atual",
+        "value": "Governador do Pará (2019–)",
+        "source": {
+          "name": "Transparência (curadoria)",
+          "url": "https://atvinicius.github.io/transparencia/metodologia",
+          "fetchedAt": "2026-03-12T06:50:12.337Z"
+        },
+        "dimension": "historico",
+        "category": "Informações Gerais"
+      }
+    ],
+    "votingSummaries": [],
+    "proposalCount": 0
+  },
+  {
+    "slug": "jair-bolsonaro",
+    "shortName": "Jair Bolsonaro",
+    "party": "PL",
+    "facts": [
+      {
+        "id": "tse-eleicao-2022",
+        "label": "Resultado na eleição de 2022",
+        "value": "Não eleito",
+        "context": "Cargo: Presidente | Partido: PL",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001618036",
+          "fetchedAt": "2026-03-12T06:50:12.637Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicao-2018",
+        "label": "Resultado na eleição de 2018",
+        "value": "Eleito(a)",
+        "context": "Cargo: Presidente | Partido: PSL",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000614517",
+          "fetchedAt": "2026-03-12T06:50:12.717Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicoes-total",
+        "label": "Eleições disputadas (registros TSE)",
+        "value": 2,
+        "context": "2022 (Presidente), 2018 (Presidente)",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+          "fetchedAt": "2026-03-12T06:50:12.717Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "role-jair-bolsonaro",
+        "label": "Cargo/função atual",
+        "value": "Ex-Presidente da República (2019–2022)",
+        "source": {
+          "name": "Transparência (curadoria)",
+          "url": "https://atvinicius.github.io/transparencia/metodologia",
+          "fetchedAt": "2026-03-12T06:51:05.743Z"
+        },
+        "dimension": "historico",
+        "category": "Informações Gerais"
+      }
+    ],
+    "votingSummaries": [],
+    "proposalCount": 0
+  },
+  {
+    "slug": "romeu-zema",
+    "shortName": "Romeu Zema",
+    "party": "NOVO",
+    "facts": [
+      {
+        "id": "tse-eleicao-2022",
+        "label": "Resultado na eleição de 2022",
+        "value": "Eleito(a)",
+        "context": "Cargo: Governador | Partido: NOVO",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
+          "fetchedAt": "2026-03-12T06:51:06.206Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicao-2018",
+        "label": "Resultado na eleição de 2018",
+        "value": "Eleito(a)",
+        "context": "Cargo: Governador | Partido: NOVO",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/MG/2022802018/candidato/130000600702",
+          "fetchedAt": "2026-03-12T06:51:06.290Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "tse-eleicoes-total",
+        "label": "Eleições disputadas (registros TSE)",
+        "value": 2,
+        "context": "2022 (Governador), 2018 (Governador)",
+        "source": {
+          "name": "TSE - DivulgaCandContas",
+          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+          "fetchedAt": "2026-03-12T06:51:06.290Z"
+        },
+        "dimension": "historico",
+        "category": "Histórico Eleitoral"
+      },
+      {
+        "id": "role-romeu-zema",
+        "label": "Cargo/função atual",
+        "value": "Governador de Minas Gerais (2019–)",
+        "source": {
+          "name": "Transparência (curadoria)",
+          "url": "https://atvinicius.github.io/transparencia/metodologia",
+          "fetchedAt": "2026-03-12T06:51:07.759Z"
+        },
+        "dimension": "historico",
+        "category": "Informações Gerais"
+      }
+    ],
+    "votingSummaries": [],
     "proposalCount": 0
   }
 ]

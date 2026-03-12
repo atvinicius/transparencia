@@ -1,0 +1,584 @@
+{
+  "slug": "jair-bolsonaro",
+  "name": "Jair Messias Bolsonaro",
+  "shortName": "Jair Bolsonaro",
+  "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001618036/BR",
+  "currentParty": "PL",
+  "state": "RJ",
+  "birthDate": "1955-03-21",
+  "occupation": "Ex-Presidente da República (2019–2022)",
+  "officesHeld": [
+    {
+      "role": "Presidente",
+      "location": "BR",
+      "startYear": 2022,
+      "endYear": 2022,
+      "party": "PL",
+      "elected": false,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001618036",
+        "fetchedAt": "2026-03-12T06:50:12.637Z"
+      }
+    },
+    {
+      "role": "Presidente",
+      "location": "BR",
+      "startYear": 2018,
+      "endYear": 2022,
+      "party": "PSL",
+      "elected": true,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000614517",
+        "fetchedAt": "2026-03-12T06:50:12.717Z"
+      }
+    }
+  ],
+  "votingSummaries": [],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [
+    {
+      "electionYear": 2022,
+      "totalDeclared": 2317554.73,
+      "items": [
+        {
+          "description": "Avenida Lucio Costa, Barra da Tijuca, RJ",
+          "value": 400000
+        },
+        {
+          "description": "SQSW 102, Sudoeste, Brasília",
+          "value": 240930
+        },
+        {
+          "description": "Honda/NC 750X, 2019/2020",
+          "value": 26500
+        },
+        {
+          "description": "OI S/A vendidas em 2021",
+          "value": 0
+        },
+        {
+          "description": "Em nome da dependente Michelle de Paula",
+          "value": 547.33
+        },
+        {
+          "description": "Banco do Brasil",
+          "value": 92.57
+        },
+        {
+          "description": "OI S/A vendidas em 2021",
+          "value": 0
+        },
+        {
+          "description": "Correspondente a 249 quotas do capital social da empresa Bolsonaro Digital",
+          "value": 249
+        },
+        {
+          "description": "Rua das Flores, Angra dos Reis",
+          "value": 98500
+        },
+        {
+          "description": "Banco do Brasil",
+          "value": 591047.58
+        },
+        {
+          "description": "Rua Divisória 30, Bento Ribeiro, RJ",
+          "value": 40000
+        },
+        {
+          "description": "Avenida Lucio Costa, Barra da Tijuca, RJ",
+          "value": 603803.54
+        },
+        {
+          "description": "Banco do Brasil",
+          "value": 315884.71
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001618036",
+        "fetchedAt": "2026-03-12T06:50:12.637Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalDeclared": 2286779.48,
+      "items": [
+        {
+          "description": "Banco do Brasil S/A, 4884-4 - 268.324-5 - BB RF CP Estilo",
+          "value": 73697.86
+        },
+        {
+          "description": "Imóvel na Rua Divisória, 30, Casa XV, Bento Ribeiro, Rio de Janeiro/RJ",
+          "value": 40000
+        },
+        {
+          "description": "67 ações PN da Oi S/A",
+          "value": 557.44
+        },
+        {
+          "description": "Imóvel na Av. Lúcio Costa, 3.100, Casa 56, Barra da Tijuca, Rio de Janeiro/RJ",
+          "value": 400000
+        },
+        {
+          "description": "Imóvel na SQSW 102, Bloco C, Apartamento 604, Residencial Rio Madeira, Brasília/DF",
+          "value": 240930
+        },
+        {
+          "description": "60 ações ON da Oi S/A",
+          "value": 725.4
+        },
+        {
+          "description": "Banco do Brasil S/A, 4884-4 - 010.268.324-7 - Poupança",
+          "value": 481836.05
+        },
+        {
+          "description": "Microonibus Mercedes Benz Sprinter 415, ano 2014, LUL5792",
+          "value": 141000
+        },
+        {
+          "description": "Banco do Brasil S/A, 4884-4 - 278.324-x - BB RF CP Estilo",
+          "value": 11372.37
+        },
+        {
+          "description": "Imóvel na Av. Lúcio Costa, 3.100, Casa 36, Barra da Tijuca, Rio de Janeiro/RJ",
+          "value": 603803.54
+        },
+        {
+          "description": "Microonibus Mercedes Benz Sprinter 313, ano 2004",
+          "value": 89000
+        },
+        {
+          "description": "Toyota Corolla XEI, 2014/2015, placa PAB3671",
+          "value": 50000
+        },
+        {
+          "description": "Imóvel na Rua das Flores, 411, Vila Histórica de Mambucaba, Angra dos Reis/RJ",
+          "value": 98500
+        },
+        {
+          "description": "Land Rover Freelander 2 SE, 2009/2010, placa EMW5327",
+          "value": 50000
+        },
+        {
+          "description": "249 cotas de Bolsorano Digital Ltda (27.516.314/0001-06)",
+          "value": 249
+        },
+        {
+          "description": "Banco do Brasil S/A, 4884-4 - 960.268.324-x - Poupança",
+          "value": 5107.82
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000614517",
+        "fetchedAt": "2026-03-12T06:50:12.717Z"
+      }
+    }
+  ],
+  "campaignFinances": [
+    {
+      "electionYear": 2022,
+      "totalReceived": 126127517.46,
+      "totalSpent": 89060761.35,
+      "topDonors": [
+        {
+          "name": "DIREÇÃO NACIONAL - Partido Liberal",
+          "amount": 10000000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "FABIANO CAMPOS ZETTEL",
+          "amount": 3000000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "DIREÇÃO NACIONAL - Partido Liberal",
+          "amount": 2650000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "DIREÇÃO NACIONAL - Partido Liberal",
+          "amount": 1913985,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "JOSE SALIM MATTAR JUNIOR",
+          "amount": 1800000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "DIREÇÃO NACIONAL - Partido Liberal",
+          "amount": 1387700,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "DIREÇÃO NACIONAL - Partido Liberal",
+          "amount": 1386000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "HUGO DE CARVALHO RIBEIRO",
+          "amount": 1200000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "DIREÇÃO NACIONAL - Partido Liberal",
+          "amount": 1075064.44,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "CORNELIO ADRIANO SANDERS",
+          "amount": 1000000,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/22/22/280001618036",
+        "fetchedAt": "2026-03-12T06:51:05.433Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalReceived": 4390140.36,
+      "totalSpent": 2456215.03,
+      "topDonors": [
+        {
+          "name": "AIXMOBIL SERVICOS E PARTICIPACOES LTDA",
+          "amount": 1566812,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "AIXMOBIL SERVICOS E PARTICIPACOES LTDA",
+          "amount": 593152,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "AIXMOBIL SERVICOS E PARTICIPACOES LTDA",
+          "amount": 428887,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "AIXMOBIL SERVICOS E PARTICIPACOES LTDA",
+          "amount": 362576,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "AIXMOBIL SERVICOS E PARTICIPACOES LTDA",
+          "amount": 332867,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "AIXMOBIL SERVICOS E PARTICIPACOES LTDA",
+          "amount": 235555,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "AIXMOBIL SERVICOS E PARTICIPACOES LTDA",
+          "amount": 209115,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Nacional - Partido Social Liberal",
+          "amount": 168949.01,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Nacional - Partido Social Liberal",
+          "amount": 100000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Nacional - Partido Social Liberal",
+          "amount": 46400,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/17/17/280000614517",
+        "fetchedAt": "2026-03-12T06:51:05.685Z"
+      }
+    }
+  ],
+  "partyHistory": [
+    {
+      "party": "PSL",
+      "startYear": 2018,
+      "endYear": 2022
+    },
+    {
+      "party": "PL",
+      "startYear": 2022
+    }
+  ],
+  "facts": [
+    {
+      "id": "tse-bens-total-2022",
+      "label": "Bens declarados na eleição de 2022",
+      "value": "R$ 2.317.554,73",
+      "context": "13 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001618036",
+        "fetchedAt": "2026-03-12T06:50:12.637Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-total-2018",
+      "label": "Bens declarados na eleição de 2018",
+      "value": "R$ 2.286.779,48",
+      "context": "16 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000614517",
+        "fetchedAt": "2026-03-12T06:50:12.717Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-evolucao",
+      "label": "Evolução patrimonial declarada",
+      "value": "1% de aumento",
+      "context": "de 2018 (R$ 2.286.779,48) a 2022 (R$ 2.317.554,73)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001618036",
+        "fetchedAt": "2026-03-12T06:50:12.637Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-gasto-campanha-2022",
+      "label": "Gasto de campanha declarado (2022)",
+      "value": "R$ 133.416.046,20",
+      "context": "1º turno: R$ 88.944.030,80 | 2º turno: R$ 44.472.015,40",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001618036",
+        "fetchedAt": "2026-03-12T06:50:12.637Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-gasto-campanha-2018",
+      "label": "Gasto de campanha declarado (2018)",
+      "value": "R$ 105.000.000,00",
+      "context": "1º turno: R$ 70.000.000,00 | 2º turno: R$ 35.000.000,00",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000614517",
+        "fetchedAt": "2026-03-12T06:50:12.717Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-eleicao-2022",
+      "label": "Resultado na eleição de 2022",
+      "value": "Não eleito",
+      "context": "Cargo: Presidente | Partido: PL",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001618036",
+        "fetchedAt": "2026-03-12T06:50:12.637Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicao-2018",
+      "label": "Resultado na eleição de 2018",
+      "value": "Eleito(a)",
+      "context": "Cargo: Presidente | Partido: PSL",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000614517",
+        "fetchedAt": "2026-03-12T06:50:12.717Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-partidos-total",
+      "label": "Partidos pelos quais concorreu",
+      "value": 2,
+      "context": "PSL, PL",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:50:12.717Z"
+      },
+      "dimension": "compromissos",
+      "category": "Filiação Partidária"
+    },
+    {
+      "id": "tse-eleicoes-total",
+      "label": "Eleições disputadas (registros TSE)",
+      "value": 2,
+      "context": "2022 (Presidente), 2018 (Presidente)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:50:12.717Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "divulgacand-receita-total-280001618036-2022",
+      "label": "Total recebido em doações de campanha (2022)",
+      "value": "R$ 126.127.517,46",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/22/22/280001618036",
+        "fetchedAt": "2026-03-12T06:51:05.433Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-280001618036-2022",
+      "label": "Total gasto em campanha (2022)",
+      "value": "R$ 89.060.761,35",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/22/22/280001618036",
+        "fetchedAt": "2026-03-12T06:51:05.433Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-280001618036-2022",
+      "label": "Número de doadores de campanha (2022)",
+      "value": 392140,
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/22/22/280001618036",
+        "fetchedAt": "2026-03-12T06:51:05.433Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-280001618036-2022",
+      "label": "Maior doador de campanha (2022)",
+      "value": "DIREÇÃO NACIONAL - Partido Liberal",
+      "context": "R$ 10.000.000,00 — Fundo Partidário",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/22/22/280001618036",
+        "fetchedAt": "2026-03-12T06:51:05.433Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-280001618036-2022",
+      "label": "Saldo positivo de campanha (2022)",
+      "value": "R$ 37.066.756,11",
+      "context": "Receitas R$ 126.127.517,46 - Despesas R$ 89.060.761,35",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/22/22/280001618036",
+        "fetchedAt": "2026-03-12T06:51:05.433Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-receita-total-280000614517-2018",
+      "label": "Total recebido em doações de campanha (2018)",
+      "value": "R$ 4.390.140,36",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/17/17/280000614517",
+        "fetchedAt": "2026-03-12T06:51:05.685Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-280000614517-2018",
+      "label": "Total gasto em campanha (2018)",
+      "value": "R$ 2.456.215,03",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/17/17/280000614517",
+        "fetchedAt": "2026-03-12T06:51:05.685Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-280000614517-2018",
+      "label": "Número de doadores de campanha (2018)",
+      "value": 113,
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/17/17/280000614517",
+        "fetchedAt": "2026-03-12T06:51:05.685Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-280000614517-2018",
+      "label": "Maior doador de campanha (2018)",
+      "value": "AIXMOBIL SERVICOS E PARTICIPACOES LTDA",
+      "context": "R$ 1.566.812,00 — Outros Recursos",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/17/17/280000614517",
+        "fetchedAt": "2026-03-12T06:51:05.685Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-280000614517-2018",
+      "label": "Saldo positivo de campanha (2018)",
+      "value": "R$ 1.933.925,33",
+      "context": "Receitas R$ 4.390.140,36 - Despesas R$ 2.456.215,03",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/17/17/280000614517",
+        "fetchedAt": "2026-03-12T06:51:05.685Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "role-jair-bolsonaro",
+      "label": "Cargo/função atual",
+      "value": "Ex-Presidente da República (2019–2022)",
+      "source": {
+        "name": "Transparência (curadoria)",
+        "url": "https://atvinicius.github.io/transparencia/metodologia",
+        "fetchedAt": "2026-03-12T06:51:05.743Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Gerais"
+    }
+  ],
+  "lastUpdated": "2026-03-12T06:51:05.743Z",
+  "sources": [
+    "TSE - DivulgaCandContas",
+    "DivulgaCandContas"
+  ]
+}

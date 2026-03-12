@@ -1,0 +1,768 @@
+{
+  "slug": "helder-barbalho",
+  "name": "Helder Zahluth Barbalho",
+  "shortName": "Helder Barbalho",
+  "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/140001651993/PA",
+  "currentParty": "MDB",
+  "state": "PA",
+  "birthDate": "1979-05-18",
+  "occupation": "Governador do Pará (2019–)",
+  "officesHeld": [
+    {
+      "role": "Governador",
+      "location": "BR",
+      "startYear": 2022,
+      "endYear": 2026,
+      "party": "MDB",
+      "elected": true,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PA/2040602022/candidato/140001651993",
+        "fetchedAt": "2026-03-12T06:50:11.042Z"
+      }
+    },
+    {
+      "role": "Governador",
+      "location": "BR",
+      "startYear": 2018,
+      "endYear": 2018,
+      "party": "MDB",
+      "elected": false,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PA/2022802018/candidato/140000621334",
+        "fetchedAt": "2026-03-12T06:50:11.129Z"
+      }
+    },
+    {
+      "role": "Governador",
+      "location": "BR",
+      "startYear": 2014,
+      "endYear": 2014,
+      "party": "PMDB",
+      "elected": false,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2014/PA/680/candidato/140000000468",
+        "fetchedAt": "2026-03-12T06:50:11.216Z"
+      }
+    }
+  ],
+  "votingSummaries": [],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [
+    {
+      "electionYear": 2022,
+      "totalDeclared": 18751269.33,
+      "items": [
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA CARAJAS FM LTDA",
+          "value": 148500
+        },
+        {
+          "description": "ATELEBRAS PN TELB4",
+          "value": 33618
+        },
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA TELECOMPTELECOMUNICAÇÕES E SERV. LTDA",
+          "value": 7500
+        },
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA RADIO CLUB DO PARÁ PRC-05",
+          "value": 112200
+        },
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA DIARIO DO PARA LTDA",
+          "value": 240000
+        },
+        {
+          "description": "ALAMEDA WADI CHAMÉ COND. LAGO AZUL",
+          "value": 1540598.2
+        },
+        {
+          "description": "CAPITAL SOCIAL AGROPECUARIA RIO BRANCO",
+          "value": 1854000
+        },
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA SNC-SISTEMA",
+          "value": 12500
+        },
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA ITELCOMINFORMAÇÕES E TELECOMUNICAÇÃO LTDA",
+          "value": 6000
+        },
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA RBA-REDE BRASIL AMAZONIA DE TV LTDA",
+          "value": 375000
+        },
+        {
+          "description": "REBANHO BOVINO 6.176 REZES",
+          "value": 12350000
+        },
+        {
+          "description": "TOYOTA SW SRV A2 HF BLINDADO",
+          "value": 260000
+        },
+        {
+          "description": "DOL INTERMEDIAÇÃO DE NEGOCIOS E PORTAL DE INTERNET LTDA",
+          "value": 300000
+        },
+        {
+          "description": "RECURSO FINANCEIRO EM INSTITUIÇÃO BANCARIA",
+          "value": 1436353.13
+        },
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA SISTEMA CLUB DO PARA DE COMUNICAÇÃO LTDA",
+          "value": 75000
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PA/2040602022/candidato/140001651993",
+        "fetchedAt": "2026-03-12T06:50:11.042Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalDeclared": 3204906.59,
+      "items": [
+        {
+          "description": "CNPJ: 02.062.779/0001-03 - TELECOMP - TELECOMUNICAÇÕES E SERVIÇOS ",
+          "value": 7500
+        },
+        {
+          "description": "AV. WADI CHAMIE - ANANINDEUA/PA",
+          "value": 1332361
+        },
+        {
+          "description": "TELEBRAS",
+          "value": 33618
+        },
+        {
+          "description": "CNPJ: 02.047.080/0001-66 - ITELCOM - INFORMAÇÕES E TELECOMUNICAÇÕES ",
+          "value": 6000
+        },
+        {
+          "description": "CPF: 636.429.302-63  - DANIELA LIMA BARBALHO",
+          "value": 294000
+        },
+        {
+          "description": "CNPJ: 22.924.294/0001-80 - SISTEMA CLUBE DO PARÁ DE COMUNICAÇÕES",
+          "value": 75000
+        },
+        {
+          "description": "CNPJ: 04.885.828/0001-25 - RADIO CLUBE DO PARÁ",
+          "value": 112200
+        },
+        {
+          "description": "CNPJ: 04.760.351/0001-51 - CARAJÁS FM ",
+          "value": 148500
+        },
+        {
+          "description": "AV. WADI CHAMIE - ANANIDNEUA/PA",
+          "value": 88237.2
+        },
+        {
+          "description": "CNPJ: 14.010.848/0001-06 - DOL - NEGÓCIOS E PORTAL DE INTERNET",
+          "value": 300000
+        },
+        {
+          "description": "AV. WADI CHAMIE - ANANINDEUA/PA",
+          "value": 120000
+        },
+        {
+          "description": "CNPJ: 51.855.716/0001-01 - RODOBENS",
+          "value": 19174.64
+        },
+        {
+          "description": "CNPJ: 05.143.490/0001-07 - RBA - REDE BRASIL AMAZÔNIA DE TV ",
+          "value": 375000
+        },
+        {
+          "description": "CNPJ; 14.069.710/0001-82 - SNC - SISTEMA NORTE DE COMUNICAÇÃO",
+          "value": 12500
+        },
+        {
+          "description": "TOYOTA COROLLA ALTIS - RENAVAN 114845",
+          "value": 97900
+        },
+        {
+          "description": "CNPJ: 03.308.312/0001-55 - BANCO DO BRASIL S/A",
+          "value": 182915.75
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PA/2022802018/candidato/140000621334",
+        "fetchedAt": "2026-03-12T06:50:11.129Z"
+      }
+    },
+    {
+      "electionYear": 2014,
+      "totalDeclared": 2337676.77,
+      "items": [
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA SNC SISTEMA NORTE DE COMUNICAÇÃO LTDA",
+          "value": 8333
+        },
+        {
+          "description": "CAIXA ECONÔMICA FEDERAL",
+          "value": 31097.19
+        },
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA DIÁRIO DO PARÁ",
+          "value": 150000
+        },
+        {
+          "description": "BENFEITORIA NO IMÓVEL LAGOA AZUL ANANINDEUA",
+          "value": 1332361
+        },
+        {
+          "description": "CAPITAL SOCIAL RBA REDE BRASIL AMAZONIA DE TELEVISÃO",
+          "value": 306009
+        },
+        {
+          "description": "CAPITAL SOCIAL EMPRESA DOL - INTERMEDIAÇÃO DE NEGÓCIOS E PORTAL DE INTERNET LTDA",
+          "value": 25000
+        },
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA CARAJÁS FM LTDA",
+          "value": 45000
+        },
+        {
+          "description": "CAPITAL SOCIAL SISTEMA CLUBE DO PARÁ DE COMUNICAÇÃO",
+          "value": 50000
+        },
+        {
+          "description": "CAPITAL DA EMPRESA Z&B PRESTADORA DE SERVIÇOS DE RECREAÇÃO E LAZER LTDA",
+          "value": 25000
+        },
+        {
+          "description": "DOIS TERRENOS URBANOS SEM EDIFICAÇÃO - BELÉM",
+          "value": 88237.2
+        },
+        {
+          "description": "AÇÕES TELEBRÁS",
+          "value": 33618
+        },
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA RÁDIO CLUBE DO PARÁ",
+          "value": 75000
+        },
+        {
+          "description": "CESSÃO E TRANSFERÊNCIA DE DIREITOS E OBRIGAÇÕES SOBRE O IMÓVEL LOCALIZADO NA TREV WE 49 Nº 202 CIDADE NOVA VII ANANINDEUA PA",
+          "value": 30000
+        },
+        {
+          "description": "BANCO DO BRASIL",
+          "value": 2343.51
+        },
+        {
+          "description": "CAIXA ECONOMICA FEDERAL",
+          "value": 1811.78
+        },
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA TELECOMP",
+          "value": 7500
+        },
+        {
+          "description": "CAPITAL SOCIAL DA FIRMA ITELCOM - INFORMAÇÕES E TELECOMUNICAÇÕES",
+          "value": 6000
+        },
+        {
+          "description": "URBANO SEM EDIFICAÇÕES",
+          "value": 120000
+        },
+        {
+          "description": "BANCO DO BRASIL",
+          "value": 366.09
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2014/PA/680/candidato/140000000468",
+        "fetchedAt": "2026-03-12T06:50:11.216Z"
+      }
+    }
+  ],
+  "campaignFinances": [
+    {
+      "electionYear": 2022,
+      "totalReceived": 8747647.3,
+      "totalSpent": 8693159.6,
+      "topDonors": [
+        {
+          "name": "Direção Nacional - Movimento Democrático Brasileiro",
+          "amount": 3000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Movimento Democrático Brasileiro",
+          "amount": 2000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Movimento Democrático Brasileiro",
+          "amount": 2000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - Movimento Democrático Brasileiro",
+          "amount": 1000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "ELCIONE THEREZINHA ZAHLUTH BARBALHO",
+          "amount": 300000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "ROSE ALINE MATOS FERREIRA DE FREITAS GUIMARAES",
+          "amount": 240000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "MARIA ROSEMEIRE MATOS FERREIRA",
+          "amount": 160000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "JOHN WAYNE HOLANDA PARENTE",
+          "amount": 10000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "JOSE DILSON MELO DE SOUZA JUNIOR",
+          "amount": 10000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "CARLOS EDILSON DE ALMEIDA MANESCHY",
+          "amount": 7187.5,
+          "type": "Fundo Especial"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/PA/3/15/15/140001651993",
+        "fetchedAt": "2026-03-12T06:50:11.882Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalReceived": 2515530,
+      "totalSpent": 2374967.48,
+      "topDonors": [
+        {
+          "name": "Direção Estadual/Distrital - Movimento Democrático Brasileiro",
+          "amount": 2123000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "CLAUDIOMAR VICENTE KEHRNVALD",
+          "amount": 50000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "ANTONIO LUCENA BARROS",
+          "amount": 50000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "NELSON BEZERRA DA SILVA",
+          "amount": 50000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Movimento Democrático Brasileiro",
+          "amount": 35000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "JADER FONTENELLE BARBALHO",
+          "amount": 30000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "JADER FONTENELLE BARBALHO FILHO",
+          "amount": 20000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "JADER FONTENELLE BARBALHO FILHO",
+          "amount": 20000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "ARIVALDO JOSE CONCEICAO MEIRELES",
+          "amount": 10000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "WALBER JOSE ALMEIDA DA SILVA",
+          "amount": 10000,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/PA/3/15/15/140000621334",
+        "fetchedAt": "2026-03-12T06:50:12.188Z"
+      }
+    },
+    {
+      "electionYear": 2014,
+      "totalReceived": 12638851.4,
+      "totalSpent": 12928722.33,
+      "topDonors": [],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/680/2014/PA/3/15/15/140000000468",
+        "fetchedAt": "2026-03-12T06:50:12.335Z"
+      }
+    }
+  ],
+  "partyHistory": [
+    {
+      "party": "PMDB",
+      "startYear": 2014,
+      "endYear": 2018
+    },
+    {
+      "party": "MDB",
+      "startYear": 2018
+    }
+  ],
+  "facts": [
+    {
+      "id": "tse-bens-total-2022",
+      "label": "Bens declarados na eleição de 2022",
+      "value": "R$ 18.751.269,33",
+      "context": "15 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PA/2040602022/candidato/140001651993",
+        "fetchedAt": "2026-03-12T06:50:11.042Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-total-2018",
+      "label": "Bens declarados na eleição de 2018",
+      "value": "R$ 3.204.906,59",
+      "context": "16 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PA/2022802018/candidato/140000621334",
+        "fetchedAt": "2026-03-12T06:50:11.129Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-total-2014",
+      "label": "Bens declarados na eleição de 2014",
+      "value": "R$ 2.337.676,77",
+      "context": "19 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2014/PA/680/candidato/140000000468",
+        "fetchedAt": "2026-03-12T06:50:11.216Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-evolucao",
+      "label": "Evolução patrimonial declarada",
+      "value": "702% de aumento",
+      "context": "de 2014 (R$ 2.337.676,77) a 2022 (R$ 18.751.269,33)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PA/2040602022/candidato/140001651993",
+        "fetchedAt": "2026-03-12T06:50:11.042Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-gasto-campanha-2022",
+      "label": "Gasto de campanha declarado (2022)",
+      "value": "R$ 17.344.086,00",
+      "context": "1º turno: R$ 11.562.724,00 | 2º turno: R$ 5.781.362,00",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PA/2040602022/candidato/140001651993",
+        "fetchedAt": "2026-03-12T06:50:11.042Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-gasto-campanha-2018",
+      "label": "Gasto de campanha declarado (2018)",
+      "value": "R$ 13.650.000,00",
+      "context": "1º turno: R$ 9.100.000,00 | 2º turno: R$ 4.550.000,00",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PA/2022802018/candidato/140000621334",
+        "fetchedAt": "2026-03-12T06:50:11.129Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-eleicao-2022",
+      "label": "Resultado na eleição de 2022",
+      "value": "Eleito(a)",
+      "context": "Cargo: Governador | Partido: MDB",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PA/2040602022/candidato/140001651993",
+        "fetchedAt": "2026-03-12T06:50:11.042Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicao-2018",
+      "label": "Resultado na eleição de 2018",
+      "value": "2º turno",
+      "context": "Cargo: Governador | Partido: MDB",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PA/2022802018/candidato/140000621334",
+        "fetchedAt": "2026-03-12T06:50:11.129Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicao-2014",
+      "label": "Resultado na eleição de 2014",
+      "value": "2º turno",
+      "context": "Cargo: Governador | Partido: PMDB",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2014/PA/680/candidato/140000000468",
+        "fetchedAt": "2026-03-12T06:50:11.216Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-partidos-total",
+      "label": "Partidos pelos quais concorreu",
+      "value": 2,
+      "context": "PMDB, MDB",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:50:11.216Z"
+      },
+      "dimension": "compromissos",
+      "category": "Filiação Partidária"
+    },
+    {
+      "id": "tse-eleicoes-total",
+      "label": "Eleições disputadas (registros TSE)",
+      "value": 3,
+      "context": "2022 (Governador), 2018 (Governador), 2014 (Governador)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:50:11.216Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "divulgacand-receita-total-140001651993-2022",
+      "label": "Total recebido em doações de campanha (2022)",
+      "value": "R$ 8.747.647,30",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/PA/3/15/15/140001651993",
+        "fetchedAt": "2026-03-12T06:50:11.882Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-140001651993-2022",
+      "label": "Total gasto em campanha (2022)",
+      "value": "R$ 8.693.159,60",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/PA/3/15/15/140001651993",
+        "fetchedAt": "2026-03-12T06:50:11.882Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-140001651993-2022",
+      "label": "Número de doadores de campanha (2022)",
+      "value": 31,
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/PA/3/15/15/140001651993",
+        "fetchedAt": "2026-03-12T06:50:11.882Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-140001651993-2022",
+      "label": "Maior doador de campanha (2022)",
+      "value": "Direção Nacional - Movimento Democrático Brasileiro",
+      "context": "R$ 3.000.000,00 — Fundo Especial",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/PA/3/15/15/140001651993",
+        "fetchedAt": "2026-03-12T06:50:11.882Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-140001651993-2022",
+      "label": "Saldo positivo de campanha (2022)",
+      "value": "R$ 54.487,70",
+      "context": "Receitas R$ 8.747.647,30 - Despesas R$ 8.693.159,60",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/PA/3/15/15/140001651993",
+        "fetchedAt": "2026-03-12T06:50:11.882Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-receita-total-140000621334-2018",
+      "label": "Total recebido em doações de campanha (2018)",
+      "value": "R$ 2.515.530,00",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/PA/3/15/15/140000621334",
+        "fetchedAt": "2026-03-12T06:50:12.188Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-140000621334-2018",
+      "label": "Total gasto em campanha (2018)",
+      "value": "R$ 2.374.967,48",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/PA/3/15/15/140000621334",
+        "fetchedAt": "2026-03-12T06:50:12.188Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-140000621334-2018",
+      "label": "Número de doadores de campanha (2018)",
+      "value": 146,
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/PA/3/15/15/140000621334",
+        "fetchedAt": "2026-03-12T06:50:12.188Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-140000621334-2018",
+      "label": "Maior doador de campanha (2018)",
+      "value": "Direção Estadual/Distrital - Movimento Democrático Brasileiro",
+      "context": "R$ 2.123.000,00 — Fundo Especial",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/PA/3/15/15/140000621334",
+        "fetchedAt": "2026-03-12T06:50:12.188Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-140000621334-2018",
+      "label": "Saldo positivo de campanha (2018)",
+      "value": "R$ 140.562,52",
+      "context": "Receitas R$ 2.515.530,00 - Despesas R$ 2.374.967,48",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/PA/3/15/15/140000621334",
+        "fetchedAt": "2026-03-12T06:50:12.188Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-receita-total-140000000468-2014",
+      "label": "Total recebido em doações de campanha (2014)",
+      "value": "R$ 12.638.851,40",
+      "context": "Eleição de 2014",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/680/2014/PA/3/15/15/140000000468",
+        "fetchedAt": "2026-03-12T06:50:12.335Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-140000000468-2014",
+      "label": "Total gasto em campanha (2014)",
+      "value": "R$ 12.928.722,33",
+      "context": "Eleição de 2014",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/680/2014/PA/3/15/15/140000000468",
+        "fetchedAt": "2026-03-12T06:50:12.335Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-140000000468-2014",
+      "label": "Saldo negativo de campanha (2014)",
+      "value": "R$ 289.870,93",
+      "context": "Receitas R$ 12.638.851,40 - Despesas R$ 12.928.722,33",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/680/2014/PA/3/15/15/140000000468",
+        "fetchedAt": "2026-03-12T06:50:12.335Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "role-helder-barbalho",
+      "label": "Cargo/função atual",
+      "value": "Governador do Pará (2019–)",
+      "source": {
+        "name": "Transparência (curadoria)",
+        "url": "https://atvinicius.github.io/transparencia/metodologia",
+        "fetchedAt": "2026-03-12T06:50:12.337Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Gerais"
+    }
+  ],
+  "lastUpdated": "2026-03-12T06:50:12.337Z",
+  "sources": [
+    "TSE - DivulgaCandContas",
+    "DivulgaCandContas"
+  ]
+}

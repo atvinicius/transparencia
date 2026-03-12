@@ -5,18 +5,28 @@ import { fetchDeputies, fetchFullDeputyData } from "./sources/camara.js";
 import { normalizeCamaraDeputy } from "./normalizers/camara.js";
 import { fetchSenadores, fetchFullSenadorData } from "./sources/senado.js";
 import { normalizeSenador } from "./normalizers/senado.js";
-import { fetchTseCandidateData } from "./sources/tse.js";
+import { fetchTseCandidateData, type TseCandidatoData } from "./sources/tse.js";
 import { mergeTseData } from "./normalizers/tse.js";
-import { fetchCampaignFinanceByName } from "./sources/divulgacand.js";
+import { fetchCampaignFinanceFromTseData } from "./sources/divulgacand.js";
 import { normalizeDivulgaCandFinance } from "./normalizers/divulgacand.js";
-import { fetchSanctions, isConfigured as isTransparenciaConfigured } from "./sources/transparencia-portal.js";
+import { isConfigured as isTransparenciaConfigured } from "./sources/transparencia-portal.js";
 import { searchProceedings, isConfigured as isCnjConfigured } from "./sources/cnj.js";
+import { PRESIDENTIAL_CANDIDATES_2026, type PresidentialCandidate } from "./candidates.js";
 import type { CandidateProfile, PipelineMetadata } from "./schemas/index.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_DIR = join(__dirname, "..", "output");
 const CANDIDATES_DIR = join(OUTPUT_DIR, "candidates");
 const DIMENSIONS_DIR = join(OUTPUT_DIR, "dimensions");
+
+function slugify(name: string): string {
+  return name
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
 
 async function ensureDirs(): Promise<void> {
   await mkdir(CANDIDATES_DIR, { recursive: true });
@@ -78,303 +88,267 @@ async function writeDimensionFiles(profiles: CandidateProfile[]): Promise<void> 
   }
 }
 
-// --- Parse CLI args ---
-function parseArgs(): { source?: string; limit?: number } {
-  const args = process.argv.slice(2);
-  const result: { source?: string; limit?: number } = {};
-
-  for (let i = 0; i < args.length; i++) {
-    if (args[i] === "--source" && args[i + 1]) {
-      result.source = args[i + 1];
-      i++;
-    }
-    if (args[i] === "--limit" && args[i + 1]) {
-      result.limit = parseInt(args[i + 1], 10);
-      i++;
-    }
-  }
-
-  return result;
+/**
+ * Create a base CandidateProfile from the presidential candidate config.
+ * This is the starting point before enrichment from any data source.
+ */
+function createBaseProfile(candidate: PresidentialCandidate): CandidateProfile {
+  const now = new Date().toISOString();
+  return {
+    slug: slugify(candidate.shortName),
+    name: candidate.name,
+    shortName: candidate.shortName,
+    photoUrl: candidate.photoUrl,
+    currentParty: candidate.party,
+    state: candidate.state,
+    birthDate: undefined,
+    education: undefined,
+    occupation: candidate.currentRole,
+    officesHeld: [],
+    votingSummaries: [],
+    proposals: [],
+    governmentPlanUrl: undefined,
+    legislativeThemes: [],
+    assetDeclarations: [],
+    campaignFinances: [],
+    partyHistory: [],
+    facts: [],
+    lastUpdated: now,
+    sources: [],
+  };
 }
 
-// --- Source runners ---
+// --- Enrichment from Câmara ---
 
-interface SourceResult {
-  profiles: CandidateProfile[];
-  status: "success" | "partial" | "error";
-  error?: string;
-}
-
-async function runCamaraPipeline(limit?: number): Promise<SourceResult> {
-  console.log("\n=== Câmara dos Deputados ===\n");
+async function enrichFromCamara(
+  profile: CandidateProfile,
+  candidate: PresidentialCandidate,
+): Promise<boolean> {
+  if (!candidate.camaraId) return false;
 
   try {
-    const deputies = await fetchDeputies(undefined, limit);
-    console.log(`[Câmara] Processing ${deputies.length} deputies...`);
+    // Fetch all deputies and find the one matching our candidate
+    const deputies = await fetchDeputies(undefined, 600);
+    const match = deputies.find((d) => d.id === candidate.camaraId);
+    if (!match) return false;
 
-    const profiles: CandidateProfile[] = [];
-    let errors = 0;
+    const data = await fetchFullDeputyData(match);
+    const camaraProfile = normalizeCamaraDeputy(data);
 
-    for (const deputy of deputies) {
-      try {
-        const data = await fetchFullDeputyData(deputy);
-        const profile = normalizeCamaraDeputy(data);
-        profiles.push(profile);
-        console.log(`  + ${profile.shortName} (${profile.currentParty}-${profile.state})`);
-      } catch (error) {
-        errors++;
-        console.error(`  x ${deputy.nome}: ${error}`);
-      }
+    // Merge Câmara data into the profile
+    profile.officesHeld.push(...camaraProfile.officesHeld);
+    profile.votingSummaries.push(...camaraProfile.votingSummaries);
+    profile.proposals.push(...camaraProfile.proposals);
+    profile.legislativeThemes.push(...camaraProfile.legislativeThemes);
+    profile.facts.push(...camaraProfile.facts);
+    profile.photoUrl = profile.photoUrl || camaraProfile.photoUrl;
+    profile.birthDate = profile.birthDate || camaraProfile.birthDate;
+    profile.education = profile.education || camaraProfile.education;
+    if (!profile.sources.includes("Câmara dos Deputados - Dados Abertos")) {
+      profile.sources.push("Câmara dos Deputados - Dados Abertos");
     }
-
-    return {
-      profiles,
-      status: errors === 0 ? "success" : errors < deputies.length ? "partial" : "error",
-      error: errors > 0 ? `${errors} deputies failed` : undefined,
-    };
+    console.log(`  + Câmara: dados legislativos adicionados`);
+    return true;
   } catch (error) {
-    return { profiles: [], status: "error", error: String(error) };
+    console.warn(`  x Câmara: ${error}`);
+    return false;
   }
 }
 
-async function runSenadoPipeline(limit?: number): Promise<SourceResult> {
-  console.log("\n=== Senado Federal ===\n");
+// --- Enrichment from Senado ---
+
+async function enrichFromSenado(
+  profile: CandidateProfile,
+  candidate: PresidentialCandidate,
+): Promise<boolean> {
+  if (!candidate.senadoCodigo) return false;
 
   try {
-    const senadores = await fetchSenadores(limit);
-    console.log(`[Senado] Processing ${senadores.length} senators...`);
+    const senadores = await fetchSenadores(200);
+    const match = senadores.find(
+      (s) => s.IdentificacaoParlamentar.CodigoParlamentar === candidate.senadoCodigo,
+    );
+    if (!match) return false;
 
-    const profiles: CandidateProfile[] = [];
-    let errors = 0;
+    const data = await fetchFullSenadorData(match);
+    const senadoProfile = normalizeSenador(data);
 
-    for (const senador of senadores) {
-      try {
-        const data = await fetchFullSenadorData(senador);
-        const profile = normalizeSenador(data);
-        profiles.push(profile);
-        console.log(`  + ${profile.shortName} (${profile.currentParty}-${profile.state})`);
-      } catch (error) {
-        errors++;
-        console.error(`  x ${senador.IdentificacaoParlamentar.NomeParlamentar}: ${error}`);
-      }
+    profile.officesHeld.push(...senadoProfile.officesHeld);
+    profile.votingSummaries.push(...senadoProfile.votingSummaries);
+    profile.proposals.push(...senadoProfile.proposals);
+    profile.facts.push(...senadoProfile.facts);
+    profile.photoUrl = profile.photoUrl || senadoProfile.photoUrl;
+    profile.birthDate = profile.birthDate || senadoProfile.birthDate;
+    profile.education = profile.education || senadoProfile.education;
+    if (!profile.sources.includes("Senado Federal - Dados Abertos")) {
+      profile.sources.push("Senado Federal - Dados Abertos");
     }
-
-    return {
-      profiles,
-      status: errors === 0 ? "success" : errors < senadores.length ? "partial" : "error",
-      error: errors > 0 ? `${errors} senators failed` : undefined,
-    };
+    console.log(`  + Senado: dados legislativos adicionados`);
+    return true;
   } catch (error) {
-    return { profiles: [], status: "error", error: String(error) };
+    console.warn(`  x Senado: ${error}`);
+    return false;
   }
 }
 
-async function enrichWithTse(profiles: CandidateProfile[]): Promise<{ enriched: number; errors: number }> {
-  console.log("\n=== TSE — Dados Eleitorais ===\n");
-  let enriched = 0;
-  let errors = 0;
+// --- Enrichment from TSE ---
 
-  for (const profile of profiles) {
-    try {
-      const tseData = await fetchTseCandidateData(profile.name);
-      if (tseData) {
-        const merged = mergeTseData(profile, tseData);
-        // Copy merged fields back into the profile
-        Object.assign(profile, merged);
-        enriched++;
-        console.log(`  + ${profile.shortName}: TSE data merged`);
-      }
-    } catch (error) {
-      errors++;
-      console.warn(`  x ${profile.shortName}: TSE failed — ${error}`);
+async function enrichFromTse(
+  profile: CandidateProfile,
+  state: string,
+): Promise<TseCandidatoData | null> {
+  try {
+    let tseData = await fetchTseCandidateData(profile.name, state);
+    if (!tseData) {
+      // Try with short name
+      tseData = await fetchTseCandidateData(profile.shortName, state);
+      if (!tseData) return null;
     }
+    const merged = mergeTseData(profile, tseData);
+    Object.assign(profile, merged);
+    const via = tseData.name !== profile.name ? " (via nome de urna)" : "";
+    console.log(`  + TSE: ${tseData.elections.length} eleição(ões)${via}`);
+    return tseData;
+  } catch (error) {
+    console.warn(`  x TSE: ${error}`);
+    return null;
   }
-
-  return { enriched, errors };
 }
 
-async function enrichWithCampaignFinance(profiles: CandidateProfile[]): Promise<{ enriched: number; errors: number }> {
-  console.log("\n=== DivulgaCandContas — Finanças de Campanha ===\n");
-  let enriched = 0;
-  let errors = 0;
+// --- Enrichment from DivulgaCandContas ---
 
-  for (const profile of profiles) {
-    try {
-      const financeData = await fetchCampaignFinanceByName(profile.name);
-      if (financeData && financeData.length > 0) {
-        const normalized = normalizeDivulgaCandFinance(financeData);
-        profile.campaignFinances.push(...normalized.campaignFinances);
-        profile.facts.push(...normalized.facts);
-        if (!profile.sources.includes("DivulgaCandContas")) {
-          profile.sources.push("DivulgaCandContas");
-        }
-        enriched++;
-        console.log(`  + ${profile.shortName}: finance data merged`);
+async function enrichFromDivulgaCand(
+  profile: CandidateProfile,
+  tseData: TseCandidatoData | null,
+): Promise<boolean> {
+  if (!tseData || tseData.elections.length === 0) {
+    console.log(`  - DivulgaCandContas: sem dados TSE para buscar finanças`);
+    return false;
+  }
+
+  try {
+    const financeData = await fetchCampaignFinanceFromTseData(
+      profile.shortName,
+      tseData.elections,
+    );
+    if (financeData && financeData.length > 0) {
+      const normalized = normalizeDivulgaCandFinance(financeData);
+      profile.campaignFinances.push(...normalized.campaignFinances);
+      profile.facts.push(...normalized.facts);
+      if (!profile.sources.includes("DivulgaCandContas")) {
+        profile.sources.push("DivulgaCandContas");
       }
-    } catch (error) {
-      errors++;
-      console.warn(`  x ${profile.shortName}: DivulgaCandContas failed — ${error}`);
+      console.log(`  + DivulgaCandContas: ${financeData.length} registro(s) de finanças`);
+      return true;
     }
+    return false;
+  } catch (error) {
+    console.warn(`  x DivulgaCandContas: ${error}`);
+    return false;
   }
-
-  return { enriched, errors };
 }
 
-async function enrichWithTransparencia(profiles: CandidateProfile[]): Promise<{ enriched: number; errors: number }> {
-  if (!isTransparenciaConfigured()) {
-    console.log("\n=== Portal da Transparência === (pulado — TRANSPARENCIA_API_KEY não configurada)\n");
-    return { enriched: 0, errors: 0 };
-  }
+// --- Enrichment from CNJ ---
 
-  console.log("\n=== Portal da Transparência ===\n");
-  console.log("  (Requer CPF do candidato — funcionalidade será expandida em versões futuras)");
-  // Portal da Transparência requires CPF for sanctions lookup.
-  // CandidateProfile doesn't currently store CPF, so we skip for now.
-  // TODO: Add CPF field to profile or create a CPF lookup mechanism.
-  return { enriched: 0, errors: 0 };
-}
+async function enrichFromCnj(profile: CandidateProfile): Promise<boolean> {
+  if (!isCnjConfigured()) return false;
 
-async function enrichWithCnj(profiles: CandidateProfile[]): Promise<{ enriched: number; errors: number }> {
-  if (!isCnjConfigured()) {
-    console.log("\n=== CNJ DataJud === (pulado — CNJ_API_KEY não configurada)\n");
-    return { enriched: 0, errors: 0 };
-  }
-
-  console.log("\n=== CNJ DataJud ===\n");
-  let enriched = 0;
-  let errors = 0;
-
-  for (const profile of profiles) {
-    try {
-      const data = await searchProceedings(profile.name);
-      if (data && data.proceedings.length > 0) {
-        const tribunals = [...new Set(data.proceedings.map((p) => p.tribunal))];
-        profile.facts.push({
-          id: `cnj-processos-${profile.slug}`,
-          label: "Processos judiciais encontrados",
-          value: data.totalFound,
-          context: `em ${tribunals.join(", ")}`,
-          source: data.source,
-          dimension: "integridade",
-          category: "Processos Judiciais",
-        });
-        if (!profile.sources.includes("CNJ DataJud")) {
-          profile.sources.push("CNJ DataJud");
-        }
-        enriched++;
-        console.log(`  + ${profile.shortName}: ${data.totalFound} proceedings found`);
+  try {
+    const data = await searchProceedings(profile.name);
+    if (data && data.proceedings.length > 0) {
+      const tribunals = [...new Set(data.proceedings.map((p) => p.tribunal))];
+      profile.facts.push({
+        id: `cnj-processos-${profile.slug}`,
+        label: "Processos judiciais encontrados",
+        value: data.totalFound,
+        context: `em ${tribunals.join(", ")}`,
+        source: data.source,
+        dimension: "integridade",
+        category: "Processos Judiciais",
+      });
+      if (!profile.sources.includes("CNJ DataJud")) {
+        profile.sources.push("CNJ DataJud");
       }
-    } catch (error) {
-      errors++;
-      console.warn(`  x ${profile.shortName}: CNJ failed — ${error}`);
+      console.log(`  + CNJ: ${data.totalFound} processos encontrados`);
+      return true;
     }
+    return false;
+  } catch (error) {
+    console.warn(`  x CNJ: ${error}`);
+    return false;
   }
-
-  return { enriched, errors };
 }
 
 // --- Main pipeline ---
 
 async function main(): Promise<void> {
-  const { source, limit } = parseArgs();
   const startTime = Date.now();
+  const candidates = PRESIDENTIAL_CANDIDATES_2026;
 
-  console.log("╔══════════════════════════════════════╗");
-  console.log("║   Transparência — Data Pipeline      ║");
-  console.log("╚══════════════════════════════════════╝");
+  console.log("╔══════════════════════════════════════════════╗");
+  console.log("║   Transparência — Pipeline Presidencial 2026 ║");
+  console.log("╚══════════════════════════════════════════════╝");
   console.log(`\nIniciado: ${new Date().toISOString()}`);
-  if (limit) console.log(`Limite: ${limit} candidatos por fonte`);
-  if (source) console.log(`Fonte: ${source}`);
+  console.log(`Candidatos: ${candidates.length}`);
+
+  if (!isTransparenciaConfigured()) {
+    console.log("(Portal da Transparência: TRANSPARENCIA_API_KEY não configurada)");
+  }
+  if (!isCnjConfigured()) {
+    console.log("(CNJ DataJud: CNJ_API_KEY não configurada)");
+  }
 
   await ensureDirs();
 
   const sourceResults: PipelineMetadata["sources"] = [];
-  let allProfiles: CandidateProfile[] = [];
+  const sourceCounts = { camara: 0, senado: 0, tse: 0, divulgacand: 0, cnj: 0 };
+  const allProfiles: CandidateProfile[] = [];
 
-  // Step 1: Fetch from primary legislative sources
-  if (!source || source === "camara") {
-    const camara = await runCamaraPipeline(limit);
-    allProfiles.push(...camara.profiles);
-    sourceResults.push({
-      name: "Câmara dos Deputados",
-      status: camara.status,
-      recordCount: camara.profiles.length,
-      lastFetched: new Date().toISOString(),
-      error: camara.error,
+  for (const candidate of candidates) {
+    console.log(`\n--- ${candidate.shortName} (${candidate.party}-${candidate.state}) ---`);
+    console.log(`    ${candidate.currentRole}`);
+
+    const profile = createBaseProfile(candidate);
+
+    // Try all sources for this candidate
+    if (await enrichFromCamara(profile, candidate)) sourceCounts.camara++;
+    if (await enrichFromSenado(profile, candidate)) sourceCounts.senado++;
+    const tseData = await enrichFromTse(profile, candidate.state);
+    if (tseData) sourceCounts.tse++;
+    if (await enrichFromDivulgaCand(profile, tseData)) sourceCounts.divulgacand++;
+    if (await enrichFromCnj(profile)) sourceCounts.cnj++;
+
+    // Add a fact about current role
+    profile.facts.push({
+      id: `role-${profile.slug}`,
+      label: "Cargo/função atual",
+      value: candidate.currentRole,
+      source: {
+        name: "Transparência (curadoria)",
+        url: "https://atvinicius.github.io/transparencia/metodologia",
+        fetchedAt: new Date().toISOString(),
+      },
+      dimension: "historico",
+      category: "Informações Gerais",
     });
-  }
 
-  if (!source || source === "senado") {
-    const senado = await runSenadoPipeline(limit);
-    allProfiles.push(...senado.profiles);
-    sourceResults.push({
-      name: "Senado Federal",
-      status: senado.status,
-      recordCount: senado.profiles.length,
-      lastFetched: new Date().toISOString(),
-      error: senado.error,
-    });
-  }
-
-  // Step 2: Enrich with supplementary sources (TSE, DivulgaCandContas, etc.)
-  if (!source || source === "tse") {
-    const tse = await enrichWithTse(allProfiles);
-    sourceResults.push({
-      name: "TSE — Dados Abertos",
-      status: tse.errors === 0 ? "success" : "partial",
-      recordCount: tse.enriched,
-      lastFetched: new Date().toISOString(),
-      error: tse.errors > 0 ? `${tse.errors} failures` : undefined,
-    });
-  }
-
-  if (!source || source === "divulgacand") {
-    const finance = await enrichWithCampaignFinance(allProfiles);
-    sourceResults.push({
-      name: "DivulgaCandContas",
-      status: finance.errors === 0 ? "success" : "partial",
-      recordCount: finance.enriched,
-      lastFetched: new Date().toISOString(),
-      error: finance.errors > 0 ? `${finance.errors} failures` : undefined,
-    });
-  }
-
-  if (!source || source === "transparencia") {
-    const transp = await enrichWithTransparencia(allProfiles);
-    if (isTransparenciaConfigured()) {
-      sourceResults.push({
-        name: "Portal da Transparência",
-        status: transp.errors === 0 ? "success" : "partial",
-        recordCount: transp.enriched,
-        lastFetched: new Date().toISOString(),
-        error: transp.errors > 0 ? `${transp.errors} failures` : undefined,
-      });
-    }
-  }
-
-  if (!source || source === "cnj") {
-    const cnj = await enrichWithCnj(allProfiles);
-    if (isCnjConfigured()) {
-      sourceResults.push({
-        name: "CNJ DataJud",
-        status: cnj.errors === 0 ? "success" : "partial",
-        recordCount: cnj.enriched,
-        lastFetched: new Date().toISOString(),
-        error: cnj.errors > 0 ? `${cnj.errors} failures` : undefined,
-      });
-    }
-  }
-
-  // Step 3: Write all outputs
-  for (const profile of allProfiles) {
     profile.lastUpdated = new Date().toISOString();
+    allProfiles.push(profile);
     await writeCandidate(profile);
+    console.log(`    => ${profile.facts.length} fatos, ${profile.sources.length} fontes`);
   }
 
-  // Write dimension files
+  // Build source results
+  sourceResults.push(
+    { name: "Câmara dos Deputados", status: sourceCounts.camara > 0 ? "success" : "partial", recordCount: sourceCounts.camara, lastFetched: new Date().toISOString() },
+    { name: "Senado Federal", status: sourceCounts.senado > 0 ? "success" : "partial", recordCount: sourceCounts.senado, lastFetched: new Date().toISOString() },
+    { name: "TSE — Dados Abertos", status: sourceCounts.tse > 0 ? "success" : "partial", recordCount: sourceCounts.tse, lastFetched: new Date().toISOString() },
+    { name: "DivulgaCandContas", status: sourceCounts.divulgacand > 0 ? "success" : "partial", recordCount: sourceCounts.divulgacand, lastFetched: new Date().toISOString() },
+  );
+
+  // Write outputs
   await writeDimensionFiles(allProfiles);
 
-  // Write candidates index
   const index = allProfiles.map((p) => ({
     slug: p.slug,
     name: p.name,
@@ -383,13 +357,8 @@ async function main(): Promise<void> {
     state: p.state,
     photoUrl: p.photoUrl,
   }));
-  await writeFile(
-    join(OUTPUT_DIR, "candidates-index.json"),
-    JSON.stringify(index, null, 2),
-    "utf-8",
-  );
+  await writeFile(join(OUTPUT_DIR, "candidates-index.json"), JSON.stringify(index, null, 2), "utf-8");
 
-  // Write metadata
   const metadata: PipelineMetadata = {
     lastRun: new Date().toISOString(),
     sources: sourceResults,
@@ -398,10 +367,10 @@ async function main(): Promise<void> {
   await writeMetadata(metadata);
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
-  console.log(`\n${"=".repeat(40)}`);
+  console.log(`\n${"=".repeat(48)}`);
   console.log(`Pipeline concluído em ${elapsed}s`);
-  console.log(`  Candidatos: ${allProfiles.length}`);
-  console.log(`  Fontes: ${sourceResults.map((s) => `${s.name} (${s.status})`).join(", ")}`);
+  console.log(`  Candidatos presidenciais: ${allProfiles.length}`);
+  console.log(`  Câmara: ${sourceCounts.camara} | Senado: ${sourceCounts.senado} | TSE: ${sourceCounts.tse} | Finanças: ${sourceCounts.divulgacand} | CNJ: ${sourceCounts.cnj}`);
   console.log(`  Output: ${OUTPUT_DIR}`);
 }
 

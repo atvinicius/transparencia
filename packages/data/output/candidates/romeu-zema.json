@@ -1,0 +1,606 @@
+{
+  "slug": "romeu-zema",
+  "name": "Romeu Zema Neto",
+  "shortName": "Romeu Zema",
+  "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/130001701690/MG",
+  "currentParty": "NOVO",
+  "state": "MG",
+  "birthDate": "1964-10-28",
+  "occupation": "Governador de Minas Gerais (2019–)",
+  "officesHeld": [
+    {
+      "role": "Governador",
+      "location": "BR",
+      "startYear": 2022,
+      "endYear": 2026,
+      "party": "NOVO",
+      "elected": true,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
+        "fetchedAt": "2026-03-12T06:51:06.206Z"
+      }
+    },
+    {
+      "role": "Governador",
+      "location": "BR",
+      "startYear": 2018,
+      "endYear": 2022,
+      "party": "NOVO",
+      "elected": true,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/MG/2022802018/candidato/130000600702",
+        "fetchedAt": "2026-03-12T06:51:06.290Z"
+      }
+    }
+  ],
+  "votingSummaries": [],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [
+    {
+      "electionYear": 2022,
+      "totalDeclared": 129795313.7,
+      "items": [
+        {
+          "description": "1% da empresa AutoZema Ltda.",
+          "value": 44110
+        },
+        {
+          "description": "5,55% da empresa Zema Imóveis Ltda.",
+          "value": 47000
+        },
+        {
+          "description": "Banco do Brasil",
+          "value": 9478.85
+        },
+        {
+          "description": "33,33% da empresa Zema Seguros S/A.",
+          "value": 3666680
+        },
+        {
+          "description": "Juros sobre capital próprio distribuído e não recebido",
+          "value": 1245643.49
+        },
+        {
+          "description": "5% da empresa Zema Promotora de Vendas Ltda.",
+          "value": 9250
+        },
+        {
+          "description": "Saldo COOCREZ",
+          "value": 260.86
+        },
+        {
+          "description": "Imóvel residencial ",
+          "value": 704864.25
+        },
+        {
+          "description": "Terreno recebido em doação ",
+          "value": 70000
+        },
+        {
+          "description": "Fundo de investimentos",
+          "value": 33446198.57
+        },
+        {
+          "description": "Quotas Capital COOCREZ",
+          "value": 21740.81
+        },
+        {
+          "description": "16,41% da empresa Zema Crédito, Financiamento e Investimento S/A.",
+          "value": 16834806
+        },
+        {
+          "description": "Aplicações de renda fixa Zema Crédito, Financiamento e Investimento S/A.",
+          "value": 1376504.6
+        },
+        {
+          "description": "1,5% da empresa Estrela Mineira Promotora de Negócio Crédito Ltda.",
+          "value": 18000
+        },
+        {
+          "description": "27,14% da empresa Ricardo Zema Participações Ltda.",
+          "value": 72300688
+        },
+        {
+          "description": "Poupança Ouro Banco do Brasil",
+          "value": 88.27
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
+        "fetchedAt": "2026-03-12T06:51:06.206Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalDeclared": 69752863.96,
+      "items": [
+        {
+          "description": "25% ZEMA VEICULOS PARTICIPAÇÕES LTDA, CNPJ: 24.146.694/0001-38",
+          "value": 2500
+        },
+        {
+          "description": "2,5% DO CAPITAL DA EMPRESA ZEMA CIA PETROLEO LTDA, CNPJ: 00.647.154/0001-70",
+          "value": 2503863
+        },
+        {
+          "description": "0,93% DO CAPITAL SOCIAL DA EMPRESA PLANALTO ADMINISTRADORA DE IMOVEIS LTDA, CNPJ: 06.913.076/0001-94",
+          "value": 47000
+        },
+        {
+          "description": "CASA NA AVENIDA JOAO MOREIRA SALES N 455",
+          "value": 704864.25
+        },
+        {
+          "description": "5% DO CAPITAL SOCIAL DA EMPRESA ZEMA PROMOTORA DE VENDAS LTDA, CNPJ: 05.458.330/0001-49",
+          "value": 9250
+        },
+        {
+          "description": "14,79% QUOTAS DE PARTICIPAÇÕES NA EMPRESA ESTRELA MINEIRA CREDITO, FINANCIAMENTO E INVESTIMENTO SA CNPJ: 05.351.887/0001-86",
+          "value": 3816479
+        },
+        {
+          "description": "QUOTAS ROMEU ZEMA PARTICIPAÇÕES EIRELI CNPJ: 24.156.313/0001-00",
+          "value": 88000
+        },
+        {
+          "description": "CONTRATO MUTUO ELETROZEMA SA CNPJ: 26.404.731/0001-96",
+          "value": 1256348.74
+        },
+        {
+          "description": "SALDO EM CONTA CORRENTE BANCO DO BRASIL SA CNPJ: 00.000.000/0210-08",
+          "value": 44479.14
+        },
+        {
+          "description": "25% QUOTAS CAPITAL ZEMA SERVIÇOS FINANCEIROS PARTICIPAÇÕES ",
+          "value": 2500
+        },
+        {
+          "description": "25% ZEMA COMBUSTIVEIS PARTICIPAÇÕES LTDA, CNP´J: 24.146.686/0001-91",
+          "value": 2500
+        },
+        {
+          "description": "5% DO CAPITAL SOCIAL DA EMPRESA ZEMA DIESEL LTDA, CNPJ: 06.088.295/0001-86",
+          "value": 21313
+        },
+        {
+          "description": "SALDO C/C COOCREZ",
+          "value": 436.15
+        },
+        {
+          "description": "QUOTAS CAPITAL COOCREZ CNPJ: 71.378.426/0001-21",
+          "value": 10810
+        },
+        {
+          "description": "2,12% PARTICIPAÇÕES NA EMPRESA ZEMA LOJAS DE CONVENIENCIA LTDA, CNPJ: 04.981.373/0001-41",
+          "value": 30000
+        },
+        {
+          "description": "1% DO CAPITAL SOCIAL DA EMPRESA AUTOZEMA LTDA, CNPJ: 20.030.086/0001-02",
+          "value": 33000
+        },
+        {
+          "description": "SALDO EM CAIXA ",
+          "value": 140000
+        },
+        {
+          "description": "28,36% CAPITAL DA EMPRESA RICARDO ZEMA PARTICIPAÇÕES LTDA, CNPJ: 20.028.361/0001-53",
+          "value": 60514129
+        },
+        {
+          "description": "1,5% PARTICIPAÇÃO QUOTAS NA EMPRESA ESTRELA MINEIRA PROMOTORA DE NEGOCIO CREDITO LTDA CNPJ: 14.490.644/0001-10",
+          "value": 18000
+        },
+        {
+          "description": "APLICAÇÕES DE RENDA FIXA ESTRELA MINEIRA CREDITO, FINANCIAMENTO E INVESTIMENTO.",
+          "value": 283911.4
+        },
+        {
+          "description": "POUPANÇA OURO BANCO DO BRASIL",
+          "value": 12866.29
+        },
+        {
+          "description": "APLICAÇÃO RENDA FIXA COOCREZ",
+          "value": 151613.99
+        },
+        {
+          "description": "COMPRA DE UM VEICULO FIAT MODELO PUNTO",
+          "value": 59000
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/MG/2022802018/candidato/130000600702",
+        "fetchedAt": "2026-03-12T06:51:06.290Z"
+      }
+    }
+  ],
+  "campaignFinances": [
+    {
+      "electionYear": 2022,
+      "totalReceived": 17300554.66,
+      "totalSpent": 17216079.3,
+      "topDonors": [
+        {
+          "name": "Direção Estadual/Distrital - Partido Novo",
+          "amount": 4000000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Novo",
+          "amount": 2250000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Novo",
+          "amount": 2000000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Novo",
+          "amount": 2000000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Novo",
+          "amount": 2000000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Novo",
+          "amount": 1000000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Novo",
+          "amount": 1000000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Novo",
+          "amount": 600000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Novo",
+          "amount": 500000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Novo",
+          "amount": 365000,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/MG/3/30/30/130001701690",
+        "fetchedAt": "2026-03-12T06:51:07.353Z"
+      }
+    },
+    {
+      "electionYear": 2018,
+      "totalReceived": 5806946.27,
+      "totalSpent": 5665848.25,
+      "topDonors": [
+        {
+          "name": "JOSE SALIM MATTAR JUNIOR",
+          "amount": 500000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "RICARDO ANTONIO VICINTIN",
+          "amount": 300000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Novo",
+          "amount": 200000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "ROMEU ZEMA NETO",
+          "amount": 200000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "JOSE SALIM MATTAR JUNIOR",
+          "amount": 200000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Novo",
+          "amount": 150000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "ROBERT CARLOS LYRA",
+          "amount": 150000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "VICENTE BRETZ DA SILVA",
+          "amount": 125000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "WALTER SANTANA ARANTES",
+          "amount": 125000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - Partido Novo",
+          "amount": 100000,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/MG/3/30/30/130000600702",
+        "fetchedAt": "2026-03-12T06:51:07.758Z"
+      }
+    }
+  ],
+  "partyHistory": [
+    {
+      "party": "NOVO",
+      "startYear": 2018
+    }
+  ],
+  "facts": [
+    {
+      "id": "tse-bens-total-2022",
+      "label": "Bens declarados na eleição de 2022",
+      "value": "R$ 129.795.313,70",
+      "context": "16 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
+        "fetchedAt": "2026-03-12T06:51:06.206Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-total-2018",
+      "label": "Bens declarados na eleição de 2018",
+      "value": "R$ 69.752.863,96",
+      "context": "23 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/MG/2022802018/candidato/130000600702",
+        "fetchedAt": "2026-03-12T06:51:06.290Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-bens-evolucao",
+      "label": "Evolução patrimonial declarada",
+      "value": "86% de aumento",
+      "context": "de 2018 (R$ 69.752.863,96) a 2022 (R$ 129.795.313,70)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
+        "fetchedAt": "2026-03-12T06:51:06.206Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-gasto-campanha-2022",
+      "label": "Gasto de campanha declarado (2022)",
+      "value": "R$ 26.683.209,24",
+      "context": "1º turno: R$ 17.788.806,16 | 2º turno: R$ 8.894.403,08",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
+        "fetchedAt": "2026-03-12T06:51:06.206Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-gasto-campanha-2018",
+      "label": "Gasto de campanha declarado (2018)",
+      "value": "R$ 21.000.000,00",
+      "context": "1º turno: R$ 14.000.000,00 | 2º turno: R$ 7.000.000,00",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/MG/2022802018/candidato/130000600702",
+        "fetchedAt": "2026-03-12T06:51:06.290Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-eleicao-2022",
+      "label": "Resultado na eleição de 2022",
+      "value": "Eleito(a)",
+      "context": "Cargo: Governador | Partido: NOVO",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
+        "fetchedAt": "2026-03-12T06:51:06.206Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicao-2018",
+      "label": "Resultado na eleição de 2018",
+      "value": "Eleito(a)",
+      "context": "Cargo: Governador | Partido: NOVO",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/MG/2022802018/candidato/130000600702",
+        "fetchedAt": "2026-03-12T06:51:06.290Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicoes-total",
+      "label": "Eleições disputadas (registros TSE)",
+      "value": 2,
+      "context": "2022 (Governador), 2018 (Governador)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:51:06.290Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "divulgacand-receita-total-130001701690-2022",
+      "label": "Total recebido em doações de campanha (2022)",
+      "value": "R$ 17.300.554,66",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/MG/3/30/30/130001701690",
+        "fetchedAt": "2026-03-12T06:51:07.353Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-130001701690-2022",
+      "label": "Total gasto em campanha (2022)",
+      "value": "R$ 17.216.079,30",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/MG/3/30/30/130001701690",
+        "fetchedAt": "2026-03-12T06:51:07.353Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-130001701690-2022",
+      "label": "Número de doadores de campanha (2022)",
+      "value": 54,
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/MG/3/30/30/130001701690",
+        "fetchedAt": "2026-03-12T06:51:07.353Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-130001701690-2022",
+      "label": "Maior doador de campanha (2022)",
+      "value": "Direção Estadual/Distrital - Partido Novo",
+      "context": "R$ 4.000.000,00 — Outros Recursos",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/MG/3/30/30/130001701690",
+        "fetchedAt": "2026-03-12T06:51:07.353Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-130001701690-2022",
+      "label": "Saldo positivo de campanha (2022)",
+      "value": "R$ 84.475,36",
+      "context": "Receitas R$ 17.300.554,66 - Despesas R$ 17.216.079,30",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/MG/3/30/30/130001701690",
+        "fetchedAt": "2026-03-12T06:51:07.353Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-receita-total-130000600702-2018",
+      "label": "Total recebido em doações de campanha (2018)",
+      "value": "R$ 5.806.946,27",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/MG/3/30/30/130000600702",
+        "fetchedAt": "2026-03-12T06:51:07.758Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-130000600702-2018",
+      "label": "Total gasto em campanha (2018)",
+      "value": "R$ 5.665.848,25",
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/MG/3/30/30/130000600702",
+        "fetchedAt": "2026-03-12T06:51:07.758Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-130000600702-2018",
+      "label": "Número de doadores de campanha (2018)",
+      "value": 627,
+      "context": "Eleição de 2018",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/MG/3/30/30/130000600702",
+        "fetchedAt": "2026-03-12T06:51:07.758Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-130000600702-2018",
+      "label": "Maior doador de campanha (2018)",
+      "value": "JOSE SALIM MATTAR JUNIOR",
+      "context": "R$ 500.000,00 — Outros Recursos",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/MG/3/30/30/130000600702",
+        "fetchedAt": "2026-03-12T06:51:07.758Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-130000600702-2018",
+      "label": "Saldo positivo de campanha (2018)",
+      "value": "R$ 141.098,02",
+      "context": "Receitas R$ 5.806.946,27 - Despesas R$ 5.665.848,25",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/MG/3/30/30/130000600702",
+        "fetchedAt": "2026-03-12T06:51:07.758Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "role-romeu-zema",
+      "label": "Cargo/função atual",
+      "value": "Governador de Minas Gerais (2019–)",
+      "source": {
+        "name": "Transparência (curadoria)",
+        "url": "https://atvinicius.github.io/transparencia/metodologia",
+        "fetchedAt": "2026-03-12T06:51:07.759Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Gerais"
+    }
+  ],
+  "lastUpdated": "2026-03-12T06:51:07.759Z",
+  "sources": [
+    "TSE - DivulgaCandContas",
+    "DivulgaCandContas"
+  ]
+}

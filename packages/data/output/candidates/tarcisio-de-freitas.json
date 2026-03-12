@@ -1,0 +1,271 @@
+{
+  "slug": "tarcisio-de-freitas",
+  "name": "Tarcísio Gomes de Freitas",
+  "shortName": "Tarcísio de Freitas",
+  "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/250001615967/SP",
+  "currentParty": "REPUBLICANOS",
+  "state": "SP",
+  "birthDate": "1975-06-19",
+  "occupation": "Governador de São Paulo (2023–)",
+  "officesHeld": [
+    {
+      "role": "Governador",
+      "location": "BR",
+      "startYear": 2022,
+      "endYear": 2026,
+      "party": "REPUBLICANOS",
+      "elected": true,
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001615967",
+        "fetchedAt": "2026-03-12T06:49:16.385Z"
+      }
+    }
+  ],
+  "votingSummaries": [],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [
+    {
+      "electionYear": 2022,
+      "totalDeclared": 2342161.77,
+      "items": [
+        {
+          "description": "APLICAÇÕES DE RENDA FIXA",
+          "value": 388.84
+        },
+        {
+          "description": "POUPEX BANCO DO BRASIL",
+          "value": 3097.12
+        },
+        {
+          "description": "SQNW 303, BLOCO K, UNIDADE 102 - SETOR NOROESTE - BRASILIA",
+          "value": 2137160
+        },
+        {
+          "description": "JEEP COMPASS LONGITUDE - RENAVAM 01126100240",
+          "value": 119000
+        },
+        {
+          "description": "MERCEDES BENZ C180 RENAVAM 00459219863",
+          "value": 78000
+        },
+        {
+          "description": "POUPANÇA BANCO DO BRASIL",
+          "value": 4515.81
+        }
+      ],
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001615967",
+        "fetchedAt": "2026-03-12T06:49:16.385Z"
+      }
+    }
+  ],
+  "campaignFinances": [
+    {
+      "electionYear": 2022,
+      "totalReceived": 38608188.69,
+      "totalSpent": 37240261.23,
+      "topDonors": [
+        {
+          "name": "Direção Municipal/Comissão Provisória - REPUBLICANOS",
+          "amount": 3200000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "Direção Estadual/Distrital - REPUBLICANOS",
+          "amount": 3000000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "Direção Nacional - Partido Social Democrático",
+          "amount": 2500000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Municipal/Comissão Provisória - REPUBLICANOS",
+          "amount": 2375000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "OTTO MEDEIROS DE AZEVEDO JUNIOR",
+          "amount": 2000000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "FABIANO CAMPOS ZETTEL",
+          "amount": 2000000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "FREDERICO CARLOS GERDAU JOHANNPETER",
+          "amount": 1000000,
+          "type": "Outros Recursos"
+        },
+        {
+          "name": "Direção Estadual/Distrital - REPUBLICANOS",
+          "amount": 1000000,
+          "type": "Fundo Partidário"
+        },
+        {
+          "name": "Direção Nacional - Partido Social Democrático",
+          "amount": 1000000,
+          "type": "Fundo Especial"
+        },
+        {
+          "name": "Direção Nacional - REPUBLICANOS",
+          "amount": 1000000,
+          "type": "Outros Recursos"
+        }
+      ],
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/10/10/250001615967",
+        "fetchedAt": "2026-03-12T06:49:17.635Z"
+      }
+    }
+  ],
+  "partyHistory": [
+    {
+      "party": "REPUBLICANOS",
+      "startYear": 2022
+    }
+  ],
+  "facts": [
+    {
+      "id": "tse-bens-total-2022",
+      "label": "Bens declarados na eleição de 2022",
+      "value": "R$ 2.342.161,77",
+      "context": "6 item(ns) declarado(s)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001615967",
+        "fetchedAt": "2026-03-12T06:49:16.385Z"
+      },
+      "dimension": "integridade",
+      "category": "Patrimônio"
+    },
+    {
+      "id": "tse-gasto-campanha-2022",
+      "label": "Gasto de campanha declarado (2022)",
+      "value": "R$ 40.024.813,86",
+      "context": "1º turno: R$ 26.683.209,24 | 2º turno: R$ 13.341.604,62",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001615967",
+        "fetchedAt": "2026-03-12T06:49:16.385Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "tse-eleicao-2022",
+      "label": "Resultado na eleição de 2022",
+      "value": "Eleito(a)",
+      "context": "Cargo: Governador | Partido: REPUBLICANOS",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001615967",
+        "fetchedAt": "2026-03-12T06:49:16.385Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "tse-eleicoes-total",
+      "label": "Eleições disputadas (registros TSE)",
+      "value": 1,
+      "context": "2022 (Governador)",
+      "source": {
+        "name": "TSE - DivulgaCandContas",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
+        "fetchedAt": "2026-03-12T06:49:16.385Z"
+      },
+      "dimension": "historico",
+      "category": "Histórico Eleitoral"
+    },
+    {
+      "id": "divulgacand-receita-total-250001615967-2022",
+      "label": "Total recebido em doações de campanha (2022)",
+      "value": "R$ 38.608.188,69",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/10/10/250001615967",
+        "fetchedAt": "2026-03-12T06:49:17.635Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-despesa-total-250001615967-2022",
+      "label": "Total gasto em campanha (2022)",
+      "value": "R$ 37.240.261,23",
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/10/10/250001615967",
+        "fetchedAt": "2026-03-12T06:49:17.635Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-doadores-total-250001615967-2022",
+      "label": "Número de doadores de campanha (2022)",
+      "value": 822,
+      "context": "Eleição de 2022",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/10/10/250001615967",
+        "fetchedAt": "2026-03-12T06:49:17.635Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-maior-doador-250001615967-2022",
+      "label": "Maior doador de campanha (2022)",
+      "value": "Direção Municipal/Comissão Provisória - REPUBLICANOS",
+      "context": "R$ 3.200.000,00 — Fundo Partidário",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/10/10/250001615967",
+        "fetchedAt": "2026-03-12T06:49:17.635Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "divulgacand-saldo-250001615967-2022",
+      "label": "Saldo positivo de campanha (2022)",
+      "value": "R$ 1.367.927,46",
+      "context": "Receitas R$ 38.608.188,69 - Despesas R$ 37.240.261,23",
+      "source": {
+        "name": "DivulgaCandContas (TSE)",
+        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/10/10/250001615967",
+        "fetchedAt": "2026-03-12T06:49:17.635Z"
+      },
+      "dimension": "integridade",
+      "category": "Financiamento de Campanha"
+    },
+    {
+      "id": "role-tarcisio-de-freitas",
+      "label": "Cargo/função atual",
+      "value": "Governador de São Paulo (2023–)",
+      "source": {
+        "name": "Transparência (curadoria)",
+        "url": "https://atvinicius.github.io/transparencia/metodologia",
+        "fetchedAt": "2026-03-12T06:49:17.635Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Gerais"
+    }
+  ],
+  "lastUpdated": "2026-03-12T06:49:17.635Z",
+  "sources": [
+    "TSE - DivulgaCandContas",
+    "DivulgaCandContas"
+  ]
+}

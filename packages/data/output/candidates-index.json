@@ -1,82 +1,98 @@
 [
   {
-    "slug": "abilio-brunini",
-    "name": "ABILIO JACQUES BRUNINI MOUMER",
-    "shortName": "Abilio Brunini",
-    "party": "PL",
-    "state": "MT",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/220593.jpg"
-  },
-  {
-    "slug": "acacio-favacho",
-    "name": "ACÁCIO DA SILVA FAVACHO NETO",
-    "shortName": "Acácio Favacho",
-    "party": "MDB",
-    "state": "AP",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204379.jpg"
-  },
-  {
-    "slug": "adail-filho",
-    "name": "ADAIL JOSÉ FIGUEIREDO PINHEIRO",
-    "shortName": "Adail Filho",
-    "party": "REPUBLICANOS",
-    "state": "AM",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/220714.jpg"
-  },
-  {
-    "slug": "adilson-barroso",
-    "name": "ADILSON BARROSO OLIVEIRA",
-    "shortName": "Adilson Barroso",
-    "party": "PL",
+    "slug": "lula",
+    "name": "Luiz Inácio Lula da Silva",
+    "shortName": "Lula",
+    "party": "PT",
     "state": "SP",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/221328.jpg"
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001607829/BR"
   },
   {
-    "slug": "adolfo-viana",
-    "name": "ADOLFO VIANA DE CASTRO NETO",
-    "shortName": "Adolfo Viana",
-    "party": "PSDB",
-    "state": "BA",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204560.jpg"
-  },
-  {
-    "slug": "alan-rick-miranda",
-    "name": "Alan Rick Miranda",
-    "shortName": "Alan Rick Miranda",
+    "slug": "tarcisio-de-freitas",
+    "name": "Tarcísio Gomes de Freitas",
+    "shortName": "Tarcísio de Freitas",
     "party": "REPUBLICANOS",
-    "state": "AC",
-    "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5672.jpg"
+    "state": "SP",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/250001615967/SP"
   },
   {
-    "slug": "alessandro-vieira",
-    "name": "Alessandro Vieira",
-    "shortName": "Alessandro Vieira",
+    "slug": "ciro-gomes",
+    "name": "Ciro Ferreira Gomes",
+    "shortName": "Ciro Gomes",
+    "party": "PDT",
+    "state": "CE",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001612393/BR"
+  },
+  {
+    "slug": "simone-tebet",
+    "name": "Simone Nassar Tebet",
+    "shortName": "Simone Tebet",
     "party": "MDB",
-    "state": "SE",
-    "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5982.jpg"
+    "state": "MS",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001607833/BR"
   },
   {
-    "slug": "ana-paula-dias-lobato-nova-alves",
-    "name": "Ana Paula Dias Lobato Nova Alves",
-    "shortName": "Ana Paula Dias Lobato Nova Alves",
-    "party": "PSB",
-    "state": "MA",
-    "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6358.jpg"
+    "slug": "ronaldo-caiado",
+    "name": "Ronaldo Rodrigues Caiado",
+    "shortName": "Ronaldo Caiado",
+    "party": "UNIÃO",
+    "state": "GO",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/90001646326/GO"
   },
   {
-    "slug": "angelo-mario-coronel-de-azevedo-martins",
-    "name": "Angelo Mario Coronel de Azevedo Martins",
-    "shortName": "Angelo Mario Coronel de Azevedo Martins",
+    "slug": "ratinho-junior",
+    "name": "Ratinho Junior",
+    "shortName": "Ratinho Junior",
     "party": "PSD",
-    "state": "BA",
-    "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5967.jpg"
+    "state": "PR",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/160001614467/PR"
   },
   {
-    "slug": "marcos-cesar-pontes",
-    "name": "Marcos Cesar Pontes",
-    "shortName": "Marcos Cesar Pontes",
-    "party": "PL",
+    "slug": "guilherme-boulos",
+    "name": "Guilherme Boulos",
+    "shortName": "Guilherme Boulos",
+    "party": "PSOL",
     "state": "SP",
-    "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6009.jpg"
+    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/220639.jpg"
+  },
+  {
+    "slug": "fernando-haddad",
+    "name": "Fernando Haddad",
+    "shortName": "Fernando Haddad",
+    "party": "PT",
+    "state": "SP",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/250001612465/SP"
+  },
+  {
+    "slug": "pablo-marcal",
+    "name": "Pablo Marçal",
+    "shortName": "Pablo Marçal",
+    "party": "PRTB",
+    "state": "SP",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001600179/BR"
+  },
+  {
+    "slug": "helder-barbalho",
+    "name": "Helder Zahluth Barbalho",
+    "shortName": "Helder Barbalho",
+    "party": "MDB",
+    "state": "PA",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/140001651993/PA"
+  },
+  {
+    "slug": "jair-bolsonaro",
+    "name": "Jair Messias Bolsonaro",
+    "shortName": "Jair Bolsonaro",
+    "party": "PL",
+    "state": "RJ",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001618036/BR"
+  },
+  {
+    "slug": "romeu-zema",
+    "name": "Romeu Zema Neto",
+    "shortName": "Romeu Zema",
+    "party": "NOVO",
+    "state": "MG",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/130001701690/MG"
   }
 ]
