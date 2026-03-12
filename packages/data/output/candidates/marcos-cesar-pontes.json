@@ -1,0 +1,100 @@
+{
+  "slug": "marcos-cesar-pontes",
+  "name": "Marcos Cesar Pontes",
+  "shortName": "Marcos Cesar Pontes",
+  "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6009.jpg",
+  "currentParty": "PL",
+  "state": "SP",
+  "birthDate": "1963-03-11",
+  "officesHeld": [
+    {
+      "role": "Senador(a)",
+      "location": "SP",
+      "startYear": 2023,
+      "party": "PL",
+      "elected": true,
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/6009",
+        "fetchedAt": "2026-03-12T05:11:51.224Z"
+      }
+    }
+  ],
+  "votingSummaries": [
+    {
+      "legislature": "57ª Legislatura (2023-2031)",
+      "totalVotes": 367,
+      "present": 0,
+      "absent": 367,
+      "abstained": 0,
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/6009",
+        "fetchedAt": "2026-03-12T05:11:51.224Z"
+      }
+    }
+  ],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [],
+  "campaignFinances": [],
+  "partyHistory": [],
+  "facts": [
+    {
+      "id": "senado-votacao-presenca-6009",
+      "label": "Presença em votações",
+      "value": 0,
+      "context": "de 367 votações registradas",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/6009",
+        "fetchedAt": "2026-03-12T05:11:51.224Z"
+      },
+      "dimension": "historico",
+      "category": "Votações"
+    },
+    {
+      "id": "senado-votacao-ausencia-6009",
+      "label": "Ausências em votações",
+      "value": 367,
+      "context": "de 367 votações registradas",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/6009",
+        "fetchedAt": "2026-03-12T05:11:51.224Z"
+      },
+      "dimension": "historico",
+      "category": "Votações"
+    },
+    {
+      "id": "senado-votacao-taxa-6009",
+      "label": "Taxa de presença em votações",
+      "value": "0%",
+      "context": "baseado em 367 votações registradas",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/6009",
+        "fetchedAt": "2026-03-12T05:11:51.224Z"
+      },
+      "dimension": "historico",
+      "category": "Votações"
+    },
+    {
+      "id": "senado-proposicoes-total-6009",
+      "label": "Matérias legislativas de autoria",
+      "value": 0,
+      "context": "como autor(a) principal",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/6009",
+        "fetchedAt": "2026-03-12T05:11:51.224Z"
+      },
+      "dimension": "historico",
+      "category": "Produção Legislativa"
+    }
+  ],
+  "lastUpdated": "2026-03-12T05:12:25.485Z",
+  "sources": [
+    "Senado Federal - Dados Abertos"
+  ]
+}

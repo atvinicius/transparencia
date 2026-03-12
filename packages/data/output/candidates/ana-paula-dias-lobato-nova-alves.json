@@ -1,0 +1,100 @@
+{
+  "slug": "ana-paula-dias-lobato-nova-alves",
+  "name": "Ana Paula Dias Lobato Nova Alves",
+  "shortName": "Ana Paula Dias Lobato Nova Alves",
+  "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6358.jpg",
+  "currentParty": "PSB",
+  "state": "MA",
+  "birthDate": "1984-05-11",
+  "officesHeld": [
+    {
+      "role": "Senador(a)",
+      "location": "MA",
+      "startYear": 2023,
+      "party": "PSB",
+      "elected": true,
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/6358",
+        "fetchedAt": "2026-03-12T05:11:49.279Z"
+      }
+    }
+  ],
+  "votingSummaries": [
+    {
+      "legislature": "57ª Legislatura (2023-2031)",
+      "totalVotes": 365,
+      "present": 0,
+      "absent": 365,
+      "abstained": 0,
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/6358",
+        "fetchedAt": "2026-03-12T05:11:49.279Z"
+      }
+    }
+  ],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [],
+  "campaignFinances": [],
+  "partyHistory": [],
+  "facts": [
+    {
+      "id": "senado-votacao-presenca-6358",
+      "label": "Presença em votações",
+      "value": 0,
+      "context": "de 365 votações registradas",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/6358",
+        "fetchedAt": "2026-03-12T05:11:49.279Z"
+      },
+      "dimension": "historico",
+      "category": "Votações"
+    },
+    {
+      "id": "senado-votacao-ausencia-6358",
+      "label": "Ausências em votações",
+      "value": 365,
+      "context": "de 365 votações registradas",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/6358",
+        "fetchedAt": "2026-03-12T05:11:49.279Z"
+      },
+      "dimension": "historico",
+      "category": "Votações"
+    },
+    {
+      "id": "senado-votacao-taxa-6358",
+      "label": "Taxa de presença em votações",
+      "value": "0%",
+      "context": "baseado em 365 votações registradas",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/6358",
+        "fetchedAt": "2026-03-12T05:11:49.279Z"
+      },
+      "dimension": "historico",
+      "category": "Votações"
+    },
+    {
+      "id": "senado-proposicoes-total-6358",
+      "label": "Matérias legislativas de autoria",
+      "value": 0,
+      "context": "como autor(a) principal",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/6358",
+        "fetchedAt": "2026-03-12T05:11:49.279Z"
+      },
+      "dimension": "historico",
+      "category": "Produção Legislativa"
+    }
+  ],
+  "lastUpdated": "2026-03-12T05:12:25.484Z",
+  "sources": [
+    "Senado Federal - Dados Abertos"
+  ]
+}

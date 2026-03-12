@@ -1,0 +1,100 @@
+{
+  "slug": "alan-rick-miranda",
+  "name": "Alan Rick Miranda",
+  "shortName": "Alan Rick Miranda",
+  "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5672.jpg",
+  "currentParty": "REPUBLICANOS",
+  "state": "AC",
+  "birthDate": "1976-10-23",
+  "officesHeld": [
+    {
+      "role": "Senador(a)",
+      "location": "AC",
+      "startYear": 2023,
+      "party": "REPUBLICANOS",
+      "elected": true,
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/5672",
+        "fetchedAt": "2026-03-12T05:11:45.796Z"
+      }
+    }
+  ],
+  "votingSummaries": [
+    {
+      "legislature": "57ª Legislatura (2023-2031)",
+      "totalVotes": 367,
+      "present": 0,
+      "absent": 367,
+      "abstained": 0,
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/5672",
+        "fetchedAt": "2026-03-12T05:11:45.796Z"
+      }
+    }
+  ],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [],
+  "campaignFinances": [],
+  "partyHistory": [],
+  "facts": [
+    {
+      "id": "senado-votacao-presenca-5672",
+      "label": "Presença em votações",
+      "value": 0,
+      "context": "de 367 votações registradas",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/5672",
+        "fetchedAt": "2026-03-12T05:11:45.796Z"
+      },
+      "dimension": "historico",
+      "category": "Votações"
+    },
+    {
+      "id": "senado-votacao-ausencia-5672",
+      "label": "Ausências em votações",
+      "value": 367,
+      "context": "de 367 votações registradas",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/5672",
+        "fetchedAt": "2026-03-12T05:11:45.796Z"
+      },
+      "dimension": "historico",
+      "category": "Votações"
+    },
+    {
+      "id": "senado-votacao-taxa-5672",
+      "label": "Taxa de presença em votações",
+      "value": "0%",
+      "context": "baseado em 367 votações registradas",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/5672",
+        "fetchedAt": "2026-03-12T05:11:45.796Z"
+      },
+      "dimension": "historico",
+      "category": "Votações"
+    },
+    {
+      "id": "senado-proposicoes-total-5672",
+      "label": "Matérias legislativas de autoria",
+      "value": 0,
+      "context": "como autor(a) principal",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/5672",
+        "fetchedAt": "2026-03-12T05:11:45.796Z"
+      },
+      "dimension": "historico",
+      "category": "Produção Legislativa"
+    }
+  ],
+  "lastUpdated": "2026-03-12T05:12:25.483Z",
+  "sources": [
+    "Senado Federal - Dados Abertos"
+  ]
+}

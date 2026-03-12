@@ -1,0 +1,100 @@
+{
+  "slug": "alessandro-vieira",
+  "name": "Alessandro Vieira",
+  "shortName": "Alessandro Vieira",
+  "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5982.jpg",
+  "currentParty": "MDB",
+  "state": "SE",
+  "birthDate": "1975-04-03",
+  "officesHeld": [
+    {
+      "role": "Senador(a)",
+      "location": "SE",
+      "startYear": 2023,
+      "party": "MDB",
+      "elected": true,
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/5982",
+        "fetchedAt": "2026-03-12T05:11:48.705Z"
+      }
+    }
+  ],
+  "votingSummaries": [
+    {
+      "legislature": "57ª Legislatura (2023-2031)",
+      "totalVotes": 1086,
+      "present": 0,
+      "absent": 1086,
+      "abstained": 0,
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/5982",
+        "fetchedAt": "2026-03-12T05:11:48.705Z"
+      }
+    }
+  ],
+  "proposals": [],
+  "legislativeThemes": [],
+  "assetDeclarations": [],
+  "campaignFinances": [],
+  "partyHistory": [],
+  "facts": [
+    {
+      "id": "senado-votacao-presenca-5982",
+      "label": "Presença em votações",
+      "value": 0,
+      "context": "de 1086 votações registradas",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/5982",
+        "fetchedAt": "2026-03-12T05:11:48.705Z"
+      },
+      "dimension": "historico",
+      "category": "Votações"
+    },
+    {
+      "id": "senado-votacao-ausencia-5982",
+      "label": "Ausências em votações",
+      "value": 1086,
+      "context": "de 1086 votações registradas",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/5982",
+        "fetchedAt": "2026-03-12T05:11:48.705Z"
+      },
+      "dimension": "historico",
+      "category": "Votações"
+    },
+    {
+      "id": "senado-votacao-taxa-5982",
+      "label": "Taxa de presença em votações",
+      "value": "0%",
+      "context": "baseado em 1086 votações registradas",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/5982",
+        "fetchedAt": "2026-03-12T05:11:48.705Z"
+      },
+      "dimension": "historico",
+      "category": "Votações"
+    },
+    {
+      "id": "senado-proposicoes-total-5982",
+      "label": "Matérias legislativas de autoria",
+      "value": 0,
+      "context": "como autor(a) principal",
+      "source": {
+        "name": "Senado Federal",
+        "url": "https://legis.senado.leg.br/dadosabertos/senador/5982",
+        "fetchedAt": "2026-03-12T05:11:48.705Z"
+      },
+      "dimension": "historico",
+      "category": "Produção Legislativa"
+    }
+  ],
+  "lastUpdated": "2026-03-12T05:12:25.484Z",
+  "sources": [
+    "Senado Federal - Dados Abertos"
+  ]
+}

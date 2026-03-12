@@ -2,7 +2,7 @@ node_modules/
 dist/
 .env
 .env.local
-packages/data/output/
+packages/data/output/raw/
 packages/data/cache/
 .astro/
 .DS_Store

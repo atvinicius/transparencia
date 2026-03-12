@@ -1,0 +1,202 @@
+{
+  "slug": "adolfo-viana",
+  "name": "ADOLFO VIANA DE CASTRO NETO",
+  "shortName": "Adolfo Viana",
+  "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204560.jpg",
+  "currentParty": "PSDB",
+  "state": "BA",
+  "birthDate": "1981-02-02",
+  "education": "Superior",
+  "officesHeld": [
+    {
+      "role": "Deputado(a) Federal",
+      "location": "BA",
+      "startYear": 2023,
+      "party": "PSDB",
+      "elected": true,
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
+        "fetchedAt": "2026-03-12T05:11:44.709Z"
+      }
+    }
+  ],
+  "votingSummaries": [],
+  "proposals": [
+    {
+      "id": "camara-prop-2600345",
+      "type": "DOC",
+      "number": 15,
+      "year": 2026,
+      "summary": "",
+      "status": "Arquivada",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3077627",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
+        "fetchedAt": "2026-03-12T05:11:44.709Z"
+      }
+    },
+    {
+      "id": "camara-prop-2600598",
+      "type": "DOC",
+      "number": 58,
+      "year": 2026,
+      "summary": "",
+      "status": "Arquivada",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3078093",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
+        "fetchedAt": "2026-03-12T05:11:44.709Z"
+      }
+    },
+    {
+      "id": "camara-prop-2601827",
+      "type": "DOC",
+      "number": 220,
+      "year": 2026,
+      "summary": "",
+      "status": "Arquivada",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3080643",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
+        "fetchedAt": "2026-03-12T05:11:44.709Z"
+      }
+    },
+    {
+      "id": "camara-prop-2600998",
+      "type": "DOC",
+      "number": 175,
+      "year": 2026,
+      "summary": "",
+      "status": "Arquivada",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3078766",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
+        "fetchedAt": "2026-03-12T05:11:44.709Z"
+      }
+    },
+    {
+      "id": "camara-prop-2601018",
+      "type": "DOC",
+      "number": 183,
+      "year": 2026,
+      "summary": "",
+      "status": "Arquivada",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3078807",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
+        "fetchedAt": "2026-03-12T05:11:44.709Z"
+      }
+    },
+    {
+      "id": "camara-prop-2603907",
+      "type": "DOC",
+      "number": 283,
+      "year": 2026,
+      "summary": "",
+      "status": "Arquivada",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3086341",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
+        "fetchedAt": "2026-03-12T05:11:44.709Z"
+      }
+    },
+    {
+      "id": "camara-prop-2604885",
+      "type": "DOC",
+      "number": 318,
+      "year": 2026,
+      "summary": "",
+      "status": "Arquivada",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3088371",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
+        "fetchedAt": "2026-03-12T05:11:44.709Z"
+      }
+    },
+    {
+      "id": "camara-prop-2601131",
+      "type": "DOC",
+      "number": 198,
+      "year": 2026,
+      "summary": "",
+      "status": "Arquivada",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3079107",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
+        "fetchedAt": "2026-03-12T05:11:44.709Z"
+      }
+    },
+    {
+      "id": "camara-prop-2600652",
+      "type": "DOC",
+      "number": 68,
+      "year": 2026,
+      "summary": "",
+      "status": "Arquivada",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3078178",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
+        "fetchedAt": "2026-03-12T05:11:44.709Z"
+      }
+    },
+    {
+      "id": "camara-prop-2601020",
+      "type": "DOC",
+      "number": 184,
+      "year": 2026,
+      "summary": "",
+      "status": "Arquivada",
+      "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3078815",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
+        "fetchedAt": "2026-03-12T05:11:44.709Z"
+      }
+    }
+  ],
+  "legislativeThemes": [],
+  "assetDeclarations": [],
+  "campaignFinances": [],
+  "partyHistory": [],
+  "facts": [
+    {
+      "id": "camara-proposicoes-total-204560",
+      "label": "Proposições legislativas apresentadas",
+      "value": 10,
+      "context": "como autor(a) principal",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
+        "fetchedAt": "2026-03-12T05:11:44.709Z"
+      },
+      "dimension": "historico",
+      "category": "Produção Legislativa"
+    },
+    {
+      "id": "camara-escolaridade-204560",
+      "label": "Escolaridade",
+      "value": "Superior",
+      "source": {
+        "name": "Câmara dos Deputados",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/204560",
+        "fetchedAt": "2026-03-12T05:11:44.709Z"
+      },
+      "dimension": "historico",
+      "category": "Informações Pessoais"
+    }
+  ],
+  "lastUpdated": "2026-03-12T05:12:25.483Z",
+  "sources": [
+    "Câmara dos Deputados - Dados Abertos"
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "abilio-brunini",
+    "name": "ABILIO JACQUES BRUNINI MOUMER",
+    "shortName": "Abilio Brunini",
+    "party": "PL",
+    "state": "MT",
+    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/220593.jpg"
+  },
+  {
+    "slug": "acacio-favacho",
+    "name": "ACÁCIO DA SILVA FAVACHO NETO",
+    "shortName": "Acácio Favacho",
+    "party": "MDB",
+    "state": "AP",
+    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204379.jpg"
+  },
+  {
+    "slug": "adail-filho",
+    "name": "ADAIL JOSÉ FIGUEIREDO PINHEIRO",
+    "shortName": "Adail Filho",
+    "party": "REPUBLICANOS",
+    "state": "AM",
+    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/220714.jpg"
+  },
+  {
+    "slug": "adilson-barroso",
+    "name": "ADILSON BARROSO OLIVEIRA",
+    "shortName": "Adilson Barroso",
+    "party": "PL",
+    "state": "SP",
+    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/221328.jpg"
+  },
+  {
+    "slug": "adolfo-viana",
+    "name": "ADOLFO VIANA DE CASTRO NETO",
+    "shortName": "Adolfo Viana",
+    "party": "PSDB",
+    "state": "BA",
+    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204560.jpg"
+  },
+  {
+    "slug": "alan-rick-miranda",
+    "name": "Alan Rick Miranda",
+    "shortName": "Alan Rick Miranda",
+    "party": "REPUBLICANOS",
+    "state": "AC",
+    "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5672.jpg"
+  },
+  {
+    "slug": "alessandro-vieira",
+    "name": "Alessandro Vieira",
+    "shortName": "Alessandro Vieira",
+    "party": "MDB",
+    "state": "SE",
+    "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5982.jpg"
+  },
+  {
+    "slug": "ana-paula-dias-lobato-nova-alves",
+    "name": "Ana Paula Dias Lobato Nova Alves",
+    "shortName": "Ana Paula Dias Lobato Nova Alves",
+    "party": "PSB",
+    "state": "MA",
+    "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6358.jpg"
+  },
+  {
+    "slug": "angelo-mario-coronel-de-azevedo-martins",
+    "name": "Angelo Mario Coronel de Azevedo Martins",
+    "shortName": "Angelo Mario Coronel de Azevedo Martins",
+    "party": "PSD",
+    "state": "BA",
+    "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador5967.jpg"
+  },
+  {
+    "slug": "marcos-cesar-pontes",
+    "name": "Marcos Cesar Pontes",
+    "shortName": "Marcos Cesar Pontes",
+    "party": "PL",
+    "state": "SP",
+    "photoUrl": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6009.jpg"
+  }
+]
