@@ -6,12 +6,18 @@
   "scripts": {
     "fetch": "tsx src/pipeline.ts",
     "fetch:camara": "tsx src/pipeline.ts --source camara",
+    "fetch:senado": "tsx src/pipeline.ts --source senado",
+    "fetch:tse": "tsx src/pipeline.ts --source tse",
+    "fetch:divulgacand": "tsx src/pipeline.ts --source divulgacand",
+    "fetch:transparencia": "tsx src/pipeline.ts --source transparencia",
+    "fetch:cnj": "tsx src/pipeline.ts --source cnj",
     "build": "tsc"
   },
   "dependencies": {
     "zod": "^3.23.0"
   },
   "devDependencies": {
+    "@types/node": "^25.4.0",
     "tsx": "^4.19.0",
     "typescript": "^5.5.0"
   }

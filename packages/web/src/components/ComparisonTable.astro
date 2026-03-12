@@ -1,0 +1,148 @@
+---
+interface Fact {
+  id: string;
+  label: string;
+  value: string | number | boolean;
+  context?: string;
+  dimension: string;
+  category?: string;
+}
+
+interface Candidate {
+  slug: string;
+  shortName: string;
+  party: string;
+  state: string;
+  photoUrl?: string;
+  facts: Fact[];
+  proposals: Array<{ status: string }>;
+}
+
+interface Props {
+  candidates: Candidate[];
+}
+
+const { candidates } = Astro.props;
+
+// Define the key metrics to compare — matched by label substring
+const metrics: Array<{ label: string; matchLabel: string }> = [
+  { label: "Taxa de presença em votações", matchLabel: "Taxa de presença" },
+  { label: "Proposições apresentadas", matchLabel: "Proposições legislativas apresentadas" },
+  { label: "Proposições aprovadas", matchLabel: "aprovadas/transformadas" },
+  { label: "Escolaridade", matchLabel: "Escolaridade" },
+];
+
+// Helper: look up a fact value for a candidate by label match
+function getFactValue(candidate: Candidate, matchLabel: string): string {
+  const fact = candidate.facts.find((f) =>
+    f.label.toLowerCase().includes(matchLabel.toLowerCase())
+  );
+  if (!fact) return "—";
+  if (typeof fact.value === "boolean") return fact.value ? "Sim" : "Não";
+  return String(fact.value);
+}
+
+// Helper: get fact context
+function getFactContext(candidate: Candidate, matchLabel: string): string | undefined {
+  const fact = candidate.facts.find((f) =>
+    f.label.toLowerCase().includes(matchLabel.toLowerCase())
+  );
+  return fact?.context;
+}
+---
+
+<div class="overflow-x-auto -mx-4 px-4">
+  <table class="w-full min-w-[600px] border-collapse">
+    {/* Header row with candidate photos, names, parties */}
+    <thead>
+      <tr>
+        <th class="text-left text-sm font-medium text-gray-500 py-3 pr-4 align-bottom min-w-[180px]">
+          Indicador
+        </th>
+        {candidates.map((c) => (
+          <th class="text-center py-3 px-3 align-bottom">
+            <a href={`/candidato/${c.slug}`} class="group inline-flex flex-col items-center gap-2">
+              {c.photoUrl ? (
+                <img
+                  src={c.photoUrl}
+                  alt={c.shortName}
+                  class="w-12 h-12 rounded-full object-cover border-2 border-gray-100 group-hover:border-emerald-400 transition-colors"
+                  loading="lazy"
+                />
+              ) : (
+                <div class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center text-gray-400 text-lg font-bold group-hover:border-emerald-400 border-2 border-gray-100 transition-colors">
+                  {c.shortName.charAt(0)}
+                </div>
+              )}
+              <div>
+                <div class="font-semibold text-sm text-gray-900 group-hover:text-emerald-700 transition-colors">
+                  {c.shortName}
+                </div>
+                <div class="text-xs text-gray-500">{c.party} — {c.state}</div>
+              </div>
+            </a>
+          </th>
+        ))}
+      </tr>
+    </thead>
+
+    <tbody>
+      {/* Fact-based metrics */}
+      {metrics.map((metric, i) => (
+        <tr class={i % 2 === 0 ? "bg-gray-50" : "bg-white"}>
+          <td class="text-sm text-gray-700 py-3 pr-4 font-medium">
+            {metric.label}
+          </td>
+          {candidates.map((c) => {
+            const value = getFactValue(c, metric.matchLabel);
+            const context = getFactContext(c, metric.matchLabel);
+            return (
+              <td class="text-center py-3 px-3">
+                <span class={`text-sm font-semibold ${value === "—" ? "text-gray-300" : "text-gray-900"}`}>
+                  {value}
+                </span>
+                {context && (
+                  <span class="block text-xs text-gray-400 mt-0.5">{context}</span>
+                )}
+              </td>
+            );
+          })}
+        </tr>
+      ))}
+
+      {/* Total proposals row (computed from proposals array) */}
+      <tr class={metrics.length % 2 === 0 ? "bg-gray-50" : "bg-white"}>
+        <td class="text-sm text-gray-700 py-3 pr-4 font-medium">
+          Total de proposições
+        </td>
+        {candidates.map((c) => (
+          <td class="text-center py-3 px-3">
+            <span class={`text-sm font-semibold ${c.proposals.length === 0 ? "text-gray-300" : "text-gray-900"}`}>
+              {c.proposals.length > 0 ? c.proposals.length : "—"}
+            </span>
+          </td>
+        ))}
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<style>
+  /* Subtle row hover for readability */
+  tbody tr:hover {
+    background-color: rgb(236 253 245); /* emerald-50 */
+  }
+
+  /* Ensure the scrollable container looks clean on mobile */
+  .overflow-x-auto {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(16 185 129) transparent; /* emerald-500 */
+  }
+  .overflow-x-auto::-webkit-scrollbar {
+    height: 6px;
+  }
+  .overflow-x-auto::-webkit-scrollbar-thumb {
+    background-color: rgb(16 185 129);
+    border-radius: 3px;
+  }
+</style>

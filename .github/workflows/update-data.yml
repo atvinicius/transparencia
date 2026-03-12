@@ -1,0 +1,50 @@
+name: Atualizar Dados
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 6:00 UTC
+  workflow_dispatch:  # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Executar pipeline de dados
+        run: pnpm pipeline --limit 100
+        env:
+          TRANSPARENCIA_API_KEY: ${{ secrets.TRANSPARENCIA_API_KEY }}
+          CNJ_API_KEY: ${{ secrets.CNJ_API_KEY }}
+
+      - name: Verificar alterações
+        id: changes
+        run: |
+          git add packages/data/output/
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit dados atualizados
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: atualizar dados $(date -u +%Y-%m-%d)"
+          git push

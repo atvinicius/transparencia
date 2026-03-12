@@ -292,7 +292,7 @@ export async function fetchFullDeputyData(
       year: p.ano,
       summary: p.ementa,
       status: p.statusProposicao?.descricaoSituacao || "Desconhecido",
-      keywords: p.keywords || [],
+      keywords: Array.isArray(p.keywords) ? p.keywords : typeof p.keywords === "string" ? (p.keywords as string).split(",").map((k: string) => k.trim()).filter(Boolean) : [],
       url: p.urlInteiroTeor || undefined,
     })),
     source: makeSource(`/deputados/${deputy.id}`),

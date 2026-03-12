@@ -1,0 +1,101 @@
+---
+import Base from "../layouts/Base.astro";
+import ComparisonTable from "../components/ComparisonTable.astro";
+import { readFileSync, existsSync, readdirSync } from "node:fs";
+import { join } from "node:path";
+
+const dataDir = join(process.cwd(), "..", "data", "output", "candidates");
+
+interface Fact {
+  id: string;
+  label: string;
+  value: string | number | boolean;
+  context?: string;
+  source: { name: string; url: string; fetchedAt: string };
+  dimension: string;
+  category?: string;
+}
+
+interface CandidateProfile {
+  slug: string;
+  name: string;
+  shortName: string;
+  photoUrl?: string;
+  currentParty: string;
+  state: string;
+  proposals: Array<{
+    type: string;
+    number: number;
+    year: number;
+    summary: string;
+    status: string;
+    url?: string;
+  }>;
+  facts: Fact[];
+}
+
+let candidates: Array<{
+  slug: string;
+  shortName: string;
+  party: string;
+  state: string;
+  photoUrl?: string;
+  facts: Fact[];
+  proposals: Array<{ status: string }>;
+}> = [];
+
+if (existsSync(dataDir)) {
+  const files = readdirSync(dataDir).filter((f) => f.endsWith(".json"));
+
+  for (const file of files) {
+    try {
+      const raw = readFileSync(join(dataDir, file), "utf-8");
+      const profile: CandidateProfile = JSON.parse(raw);
+      candidates.push({
+        slug: profile.slug,
+        shortName: profile.shortName,
+        party: profile.currentParty,
+        state: profile.state,
+        photoUrl: profile.photoUrl,
+        facts: profile.facts,
+        proposals: profile.proposals.map((p) => ({ status: p.status })),
+      });
+    } catch {
+      // Skip malformed files
+    }
+  }
+}
+
+// Sort alphabetically by shortName
+candidates.sort((a, b) => a.shortName.localeCompare(b.shortName, "pt-BR"));
+---
+
+<Base title="Comparar Candidatos">
+  <div class="mb-8">
+    <h1 class="text-3xl font-bold mb-2">Comparar Candidatos</h1>
+    <p class="text-gray-600 text-lg">
+      Veja os indicadores de todos os candidatos lado a lado.
+    </p>
+    <p class="text-gray-500 text-sm mt-2">
+      Todos os dados são factuais e obtidos automaticamente de fontes oficiais.
+      Clique no nome de um candidato para ver o perfil completo.
+    </p>
+  </div>
+
+  {candidates.length === 0 ? (
+    <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6 text-center">
+      <p class="text-yellow-800">
+        Nenhum dado disponível para comparação. Execute o pipeline de dados:
+        <code class="bg-yellow-100 px-2 py-1 rounded text-sm">pnpm pipeline --limit 5</code>
+      </p>
+    </div>
+  ) : (
+    <div class="bg-white rounded-lg border border-gray-200 p-6">
+      <ComparisonTable candidates={candidates} />
+    </div>
+  )}
+
+  <a href="/" class="inline-block mt-6 text-sm text-emerald-600 hover:underline">
+    ← Voltar para lista
+  </a>
+</Base>

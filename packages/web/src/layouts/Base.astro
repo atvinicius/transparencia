@@ -1,10 +1,25 @@
 ---
+import "../styles/global.css";
+
 interface Props {
   title: string;
   description?: string;
 }
 
 const { title, description = "Dados factuais sobre candidatos às eleições brasileiras" } = Astro.props;
+
+const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "https://transparencia.github.io";
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
+const fullTitle = `${title} | Transparência`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Transparência",
+  url: siteUrl,
+  description: "Dados factuais e verificáveis sobre candidatos às eleições brasileiras",
+  inLanguage: "pt-BR",
+};
 ---
 
 <!doctype html>
@@ -13,19 +28,41 @@ const { title, description = "Dados factuais sobre candidatos às eleições bra
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
-    <meta property="og:title" content={title} />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#059669" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Transparência" />
+    <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
-    <title>{title} | Transparência</title>
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={`${siteUrl}/favicon.svg`} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+
+    <!-- Canonical -->
+    <link rel="canonical" href={canonicalUrl} />
+
+    <title>{fullTitle}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   </head>
   <body class="min-h-screen bg-gray-50 text-gray-900">
-    <header class="bg-white border-b border-gray-200">
+    <header class="bg-white border-b border-gray-200 print:hidden">
       <nav class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <a href="/" class="text-xl font-bold text-emerald-700">Transparência</a>
         <div class="flex gap-6 text-sm">
-          <a href="/" class="hover:text-emerald-600">Candidatos</a>
-          <a href="/metodologia" class="hover:text-emerald-600">Metodologia</a>
-          <a href="/fontes" class="hover:text-emerald-600">Fontes</a>
+          <a href="/" class="hover:text-emerald-600 transition-colors">Candidatos</a>
+          <a href="/comparar" class="hover:text-emerald-600 transition-colors">Comparar</a>
+          <a href="/metodologia" class="hover:text-emerald-600 transition-colors">Metodologia</a>
+          <a href="/fontes" class="hover:text-emerald-600 transition-colors">Fontes</a>
         </div>
       </nav>
     </header>
@@ -34,7 +71,7 @@ const { title, description = "Dados factuais sobre candidatos às eleições bra
       <slot />
     </main>
 
-    <footer class="bg-white border-t border-gray-200 mt-16">
+    <footer class="bg-white border-t border-gray-200 mt-16 print:hidden">
       <div class="max-w-6xl mx-auto px-4 py-6 text-sm text-gray-500 text-center">
         <p>
           Transparência — Dados factuais e verificáveis sobre candidatos às eleições brasileiras.
@@ -44,7 +81,13 @@ const { title, description = "Dados factuais sobre candidatos às eleições bra
           <a href="/fontes" class="text-emerald-600 hover:underline">Ver fontes</a>.
         </p>
         <p class="mt-1">
-          Código aberto no <a href="https://github.com" class="text-emerald-600 hover:underline">GitHub</a>.
+          Código aberto no
+          <a
+            href="https://github.com/atvinicius/transparencia"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-emerald-600 hover:underline"
+          >GitHub</a>.
         </p>
       </div>
     </footer>

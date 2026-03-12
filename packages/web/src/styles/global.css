@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Better focus styles for accessibility */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-emerald-600;
+  }
+
+  /* Remove default focus outline — rely on focus-visible */
+  *:focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
+/* Print styles */
+@media print {
+  header,
+  nav,
+  footer {
+    display: none !important;
+  }
+
+  main {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+}
