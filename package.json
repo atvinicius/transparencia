@@ -1,0 +1,22 @@
+{
+  "name": "transparencia",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plataforma de transparência com dados factuais sobre candidatos às eleições brasileiras",
+  "scripts": {
+    "pipeline": "pnpm --filter data run fetch",
+    "dev": "pnpm --filter web run dev",
+    "build": "pnpm --filter web run build",
+    "lint": "eslint packages/*/src/**/*.ts",
+    "format": "prettier --write packages/*/src/**/*.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
+  }
+}

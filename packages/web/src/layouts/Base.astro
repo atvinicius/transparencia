@@ -1,0 +1,52 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Dados factuais sobre candidatos às eleições brasileiras" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <title>{title} | Transparência</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="min-h-screen bg-gray-50 text-gray-900">
+    <header class="bg-white border-b border-gray-200">
+      <nav class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="/" class="text-xl font-bold text-emerald-700">Transparência</a>
+        <div class="flex gap-6 text-sm">
+          <a href="/" class="hover:text-emerald-600">Candidatos</a>
+          <a href="/metodologia" class="hover:text-emerald-600">Metodologia</a>
+          <a href="/fontes" class="hover:text-emerald-600">Fontes</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-8">
+      <slot />
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 mt-16">
+      <div class="max-w-6xl mx-auto px-4 py-6 text-sm text-gray-500 text-center">
+        <p>
+          Transparência — Dados factuais e verificáveis sobre candidatos às eleições brasileiras.
+        </p>
+        <p class="mt-1">
+          Todos os dados são obtidos automaticamente de fontes oficiais e públicas.
+          <a href="/fontes" class="text-emerald-600 hover:underline">Ver fontes</a>.
+        </p>
+        <p class="mt-1">
+          Código aberto no <a href="https://github.com" class="text-emerald-600 hover:underline">GitHub</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

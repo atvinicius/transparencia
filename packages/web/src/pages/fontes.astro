@@ -1,0 +1,120 @@
+---
+import Base from "../layouts/Base.astro";
+import { readFileSync, existsSync } from "node:fs";
+import { join } from "node:path";
+
+const metadataPath = join(process.cwd(), "..", "data", "output", "metadata.json");
+
+interface SourceStatus {
+  name: string;
+  status: "success" | "partial" | "error";
+  recordCount: number;
+  lastFetched: string;
+  error?: string;
+}
+
+let sources: SourceStatus[] = [];
+if (existsSync(metadataPath)) {
+  const metadata = JSON.parse(readFileSync(metadataPath, "utf-8"));
+  sources = metadata.sources;
+}
+
+const allSources = [
+  {
+    name: "Câmara dos Deputados",
+    url: "https://dadosabertos.camara.leg.br",
+    description: "Deputados federais, votações, proposições legislativas, comissões",
+    auth: false,
+  },
+  {
+    name: "Senado Federal",
+    url: "https://legis.senado.leg.br/dadosabertos",
+    description: "Senadores, legislação, comissões, votações",
+    auth: false,
+  },
+  {
+    name: "TSE — Dados Abertos",
+    url: "https://dadosabertos.tse.jus.br",
+    description: "Candidatos, resultados eleitorais, bens declarados, partidos",
+    auth: false,
+  },
+  {
+    name: "DivulgaCandContas",
+    url: "https://divulgacandcontas.tse.jus.br",
+    description: "Prestação de contas de campanha, doações, gastos eleitorais",
+    auth: false,
+  },
+  {
+    name: "Portal da Transparência",
+    url: "https://portaldatransparencia.gov.br",
+    description: "Sanções (CEIS, CNEP, CEAF), contratos, despesas públicas",
+    auth: true,
+  },
+  {
+    name: "CNJ DataJud",
+    url: "https://www.cnj.jus.br/sistemas/datajud",
+    description: "Processos judiciais de todos os tribunais brasileiros",
+    auth: true,
+  },
+  {
+    name: "Brasil.IO",
+    url: "https://brasil.io/dataset/eleicoes-brasil",
+    description: "Dados eleitorais consolidados desde 1996",
+    auth: false,
+  },
+];
+---
+
+<Base title="Fontes de Dados">
+  <h1 class="text-3xl font-bold mb-2">Fontes de Dados</h1>
+  <p class="text-gray-600 mb-8">
+    Todas as informações são obtidas de fontes oficiais e públicas do governo brasileiro.
+  </p>
+
+  <div class="space-y-4">
+    {allSources.map((source) => {
+      const status = sources.find((s) => s.name === source.name);
+      return (
+        <div class="bg-white rounded-lg border border-gray-200 p-6">
+          <div class="flex items-start justify-between">
+            <div>
+              <h2 class="font-semibold text-lg">{source.name}</h2>
+              <p class="text-sm text-gray-600 mt-1">{source.description}</p>
+              <a
+                href={source.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm text-emerald-600 hover:underline mt-1 inline-block"
+              >
+                {source.url}
+              </a>
+            </div>
+            <div class="flex flex-col items-end gap-1">
+              {source.auth && (
+                <span class="text-xs bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded">
+                  Requer API key
+                </span>
+              )}
+              {status ? (
+                <span class={`text-xs px-2 py-0.5 rounded ${
+                  status.status === "success"
+                    ? "bg-emerald-100 text-emerald-700"
+                    : status.status === "partial"
+                      ? "bg-yellow-100 text-yellow-700"
+                      : "bg-red-100 text-red-700"
+                }`}>
+                  {status.status === "success" ? "Ativo" : status.status === "partial" ? "Parcial" : "Erro"}
+                  {status.recordCount > 0 && ` — ${status.recordCount} registros`}
+                </span>
+              ) : (
+                <span class="text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded">
+                  Não configurado
+                </span>
+              )}
+            </div>
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</Base>

@@ -1,0 +1,70 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base title="Metodologia">
+  <h1 class="text-3xl font-bold mb-6">Metodologia</h1>
+
+  <div class="prose max-w-none">
+    <div class="bg-white rounded-lg border border-gray-200 p-6 mb-6">
+      <h2 class="text-xl font-semibold mb-3">Princípios</h2>
+      <ul class="space-y-2 text-gray-700">
+        <li><strong>Objetividade:</strong> Apresentamos apenas fatos verificáveis. Não atribuímos notas, pontuações ou rankings aos candidatos.</li>
+        <li><strong>Transparência:</strong> Cada informação exibida inclui a fonte e o link direto para verificação.</li>
+        <li><strong>Automatização:</strong> Os dados são coletados automaticamente de APIs oficiais do governo brasileiro, sem intervenção editorial.</li>
+        <li><strong>Código aberto:</strong> Todo o código-fonte está disponível publicamente para auditoria.</li>
+      </ul>
+    </div>
+
+    <div class="bg-white rounded-lg border border-gray-200 p-6 mb-6">
+      <h2 class="text-xl font-semibold mb-3">Dimensões de Avaliação</h2>
+
+      <div class="space-y-4">
+        <div>
+          <h3 class="font-semibold">📊 Histórico e Experiência</h3>
+          <p class="text-gray-600 text-sm">Cargos ocupados, presença em votações, projetos de lei apresentados e aprovados, participação em comissões. Dados obtidos das APIs da Câmara dos Deputados e do Senado Federal.</p>
+        </div>
+
+        <div>
+          <h3 class="font-semibold">📋 Propostas e Posições</h3>
+          <p class="text-gray-600 text-sm">Planos de governo registrados no TSE, áreas temáticas de atuação legislativa. Dados obtidos do DivulgaCandContas e das APIs legislativas.</p>
+        </div>
+
+        <div>
+          <h3 class="font-semibold">⚖️ Integridade e Situação Legal</h3>
+          <p class="text-gray-600 text-sm">Declaração de bens, prestação de contas de campanha, sanções administrativas, processos judiciais. Dados obtidos do TSE, Portal da Transparência e CNJ DataJud.</p>
+        </div>
+
+        <div>
+          <h3 class="font-semibold">🤝 Compromissos e Coerência</h3>
+          <p class="text-gray-600 text-sm">Histórico de filiações partidárias, coligações, comparação entre planos de governo e ações em mandato. Dados obtidos do TSE e APIs legislativas.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg border border-gray-200 p-6 mb-6">
+      <h2 class="text-xl font-semibold mb-3">Coleta de Dados</h2>
+      <p class="text-gray-700 mb-3">
+        O pipeline de dados é executado automaticamente e segue estas etapas:
+      </p>
+      <ol class="space-y-2 text-gray-600 text-sm list-decimal list-inside">
+        <li>Consulta às APIs oficiais (Câmara, Senado, TSE, etc.)</li>
+        <li>Validação dos dados recebidos contra esquemas pré-definidos</li>
+        <li>Normalização para um formato unificado por candidato</li>
+        <li>Geração de perfis em JSON com citações para cada fato</li>
+        <li>Reconstrução do site estático com os dados atualizados</li>
+      </ol>
+    </div>
+
+    <div class="bg-white rounded-lg border border-gray-200 p-6">
+      <h2 class="text-xl font-semibold mb-3">Limitações</h2>
+      <ul class="space-y-2 text-gray-600 text-sm">
+        <li>Os dados dependem da disponibilidade e precisão das APIs oficiais.</li>
+        <li>Algumas APIs possuem limites de requisição que podem afetar a cobertura.</li>
+        <li>Votações e proposições são amostradas — nem todas as votações são analisadas individualmente.</li>
+        <li>Dados de processos judiciais dependem de acesso à API do CNJ DataJud.</li>
+        <li>Este projeto é independente e não possui afiliação com nenhum partido ou candidato.</li>
+      </ul>
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,36 @@
+---
+interface Props {
+  slug: string;
+  name: string;
+  shortName: string;
+  party: string;
+  state: string;
+  photoUrl?: string;
+}
+
+const { slug, shortName, party, state, photoUrl } = Astro.props;
+---
+
+<a
+  href={`/candidato/${slug}`}
+  class="block bg-white rounded-lg border border-gray-200 hover:border-emerald-400 hover:shadow-md transition-all p-4"
+>
+  <div class="flex items-center gap-4">
+    {photoUrl ? (
+      <img
+        src={photoUrl}
+        alt={shortName}
+        class="w-16 h-16 rounded-full object-cover border-2 border-gray-100"
+        loading="lazy"
+      />
+    ) : (
+      <div class="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center text-gray-400 text-xl font-bold">
+        {shortName.charAt(0)}
+      </div>
+    )}
+    <div>
+      <h3 class="font-semibold text-lg">{shortName}</h3>
+      <p class="text-sm text-gray-600">{party} — {state}</p>
+    </div>
+  </div>
+</a>

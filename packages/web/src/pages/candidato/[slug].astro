@@ -1,0 +1,219 @@
+---
+import Base from "../../layouts/Base.astro";
+import DimensionSection from "../../components/DimensionSection.astro";
+import { readFileSync, existsSync, readdirSync } from "node:fs";
+import { join } from "node:path";
+
+export function getStaticPaths() {
+  const dataDir = join(process.cwd(), "..", "data", "output", "candidates");
+
+  if (!existsSync(dataDir)) return [];
+
+  const files = readdirSync(dataDir).filter((f) => f.endsWith(".json"));
+  return files.map((file) => ({
+    params: { slug: file.replace(".json", "") },
+  }));
+}
+
+const { slug } = Astro.params;
+const dataDir = join(process.cwd(), "..", "data", "output", "candidates");
+const filePath = join(dataDir, `${slug}.json`);
+
+interface Fact {
+  id: string;
+  label: string;
+  value: string | number | boolean;
+  context?: string;
+  source: { name: string; url: string; fetchedAt: string };
+  dimension: string;
+  category?: string;
+}
+
+interface CandidateProfile {
+  slug: string;
+  name: string;
+  shortName: string;
+  photoUrl?: string;
+  currentParty: string;
+  state: string;
+  birthDate?: string;
+  education?: string;
+  occupation?: string;
+  officesHeld: Array<{
+    role: string;
+    location: string;
+    startYear: number;
+    endYear?: number;
+    party: string;
+  }>;
+  proposals: Array<{
+    type: string;
+    number: number;
+    year: number;
+    summary: string;
+    status: string;
+    url?: string;
+  }>;
+  legislativeThemes: string[];
+  facts: Fact[];
+  lastUpdated: string;
+  sources: string[];
+}
+
+let candidate: CandidateProfile | null = null;
+if (existsSync(filePath)) {
+  candidate = JSON.parse(readFileSync(filePath, "utf-8"));
+}
+
+const historicoFacts = candidate?.facts.filter((f) => f.dimension === "historico") ?? [];
+const integridadeFacts = candidate?.facts.filter((f) => f.dimension === "integridade") ?? [];
+const propostasFacts = candidate?.facts.filter((f) => f.dimension === "propostas") ?? [];
+const compromissosFacts = candidate?.facts.filter((f) => f.dimension === "compromissos") ?? [];
+---
+
+<Base title={candidate?.shortName ?? "Candidato"}>
+  {!candidate ? (
+    <div class="bg-red-50 border border-red-200 rounded-lg p-6 text-center">
+      <p class="text-red-800">Candidato não encontrado.</p>
+      <a href="/" class="text-emerald-600 hover:underline mt-2 inline-block">Voltar</a>
+    </div>
+  ) : (
+    <div>
+      {/* Header */}
+      <div class="flex items-start gap-6 mb-8">
+        {candidate.photoUrl ? (
+          <img
+            src={candidate.photoUrl}
+            alt={candidate.shortName}
+            class="w-24 h-24 rounded-full object-cover border-2 border-gray-200"
+          />
+        ) : (
+          <div class="w-24 h-24 rounded-full bg-gray-200 flex items-center justify-center text-gray-400 text-3xl font-bold">
+            {candidate.shortName.charAt(0)}
+          </div>
+        )}
+        <div>
+          <h1 class="text-2xl font-bold">{candidate.shortName}</h1>
+          <p class="text-gray-600">{candidate.name}</p>
+          <p class="text-sm text-gray-500 mt-1">
+            {candidate.currentParty} — {candidate.state}
+          </p>
+          {candidate.education && (
+            <p class="text-sm text-gray-500">Escolaridade: {candidate.education}</p>
+          )}
+          {candidate.birthDate && (
+            <p class="text-sm text-gray-500">
+              Nascimento: {new Date(candidate.birthDate).toLocaleDateString("pt-BR")}
+            </p>
+          )}
+        </div>
+      </div>
+
+      {/* Offices held */}
+      {candidate.officesHeld.length > 0 && (
+        <div class="bg-white rounded-lg border border-gray-200 p-6 mb-4">
+          <h2 class="text-lg font-semibold mb-3">Cargos</h2>
+          <div class="space-y-2">
+            {candidate.officesHeld.map((office) => (
+              <div class="flex items-center justify-between text-sm">
+                <span class="font-medium">{office.role}</span>
+                <span class="text-gray-500">
+                  {office.party} — {office.location} ({office.startYear}{office.endYear ? `–${office.endYear}` : "–atual"})
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Dimensions */}
+      <div class="space-y-4">
+        <DimensionSection
+          title="Histórico e Experiência"
+          icon="📊"
+          facts={historicoFacts}
+        />
+
+        <DimensionSection
+          title="Integridade e Situação Legal"
+          icon="⚖️"
+          facts={integridadeFacts}
+        />
+
+        <DimensionSection
+          title="Propostas e Posições"
+          icon="📋"
+          facts={propostasFacts}
+        />
+
+        <DimensionSection
+          title="Compromissos e Coerência"
+          icon="🤝"
+          facts={compromissosFacts}
+        />
+      </div>
+
+      {/* Proposals list */}
+      {candidate.proposals.length > 0 && (
+        <section class="bg-white rounded-lg border border-gray-200 p-6 mt-4">
+          <h2 class="text-lg font-semibold mb-3">Proposições Legislativas</h2>
+          <div class="space-y-3">
+            {candidate.proposals.slice(0, 20).map((prop) => (
+              <div class="border-b border-gray-100 pb-3 last:border-0">
+                <div class="flex items-center gap-2">
+                  <span class="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded">
+                    {prop.type} {prop.number}/{prop.year}
+                  </span>
+                  <span class={`text-xs px-2 py-0.5 rounded ${
+                    prop.status.toLowerCase().includes("aprovad") || prop.status.toLowerCase().includes("lei")
+                      ? "bg-emerald-100 text-emerald-700"
+                      : prop.status.toLowerCase().includes("arquivad")
+                        ? "bg-red-100 text-red-700"
+                        : "bg-yellow-100 text-yellow-700"
+                  }`}>
+                    {prop.status}
+                  </span>
+                </div>
+                <p class="text-sm text-gray-700 mt-1">{prop.summary}</p>
+                {prop.url && (
+                  <a
+                    href={prop.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-xs text-emerald-600 hover:underline"
+                  >
+                    Ver inteiro teor
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Legislative themes */}
+      {candidate.legislativeThemes.length > 0 && (
+        <section class="bg-white rounded-lg border border-gray-200 p-6 mt-4">
+          <h2 class="text-lg font-semibold mb-3">Temas de Atuação</h2>
+          <div class="flex flex-wrap gap-2">
+            {candidate.legislativeThemes.map((theme) => (
+              <span class="text-xs bg-emerald-50 text-emerald-700 px-3 py-1 rounded-full">
+                {theme}
+              </span>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Sources */}
+      <div class="mt-8 text-xs text-gray-400">
+        <p>Última atualização: {new Date(candidate.lastUpdated).toLocaleDateString("pt-BR")}</p>
+        <p>Fontes: {candidate.sources.join(", ")}</p>
+      </div>
+
+      <a href="/" class="inline-block mt-4 text-sm text-emerald-600 hover:underline">
+        ← Voltar para lista
+      </a>
+    </div>
+  )}
+</Base>

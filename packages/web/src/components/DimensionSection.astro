@@ -1,0 +1,56 @@
+---
+import FactItem from "./FactItem.astro";
+
+interface Fact {
+  id: string;
+  label: string;
+  value: string | number | boolean;
+  context?: string;
+  source: { name: string; url: string };
+  category?: string;
+}
+
+interface Props {
+  title: string;
+  icon: string;
+  facts: Fact[];
+}
+
+const { title, icon, facts } = Astro.props;
+
+// Group facts by category
+const grouped = new Map<string, Fact[]>();
+for (const fact of facts) {
+  const cat = fact.category || "Geral";
+  if (!grouped.has(cat)) grouped.set(cat, []);
+  grouped.get(cat)!.push(fact);
+}
+---
+
+{facts.length > 0 && (
+  <section class="bg-white rounded-lg border border-gray-200 p-6">
+    <h2 class="text-lg font-semibold flex items-center gap-2 mb-4">
+      <span>{icon}</span>
+      {title}
+    </h2>
+
+    {[...grouped.entries()].map(([category, categoryFacts]) => (
+      <div class="mb-4 last:mb-0">
+        {grouped.size > 1 && (
+          <h3 class="text-sm font-medium text-gray-500 uppercase tracking-wide mb-2">{category}</h3>
+        )}
+        <div>
+          {categoryFacts.map((fact) => (
+            <FactItem
+              label={fact.label}
+              value={fact.value}
+              context={fact.context}
+              sourceName={fact.source.name}
+              sourceUrl={fact.source.url}
+            />
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+)}
