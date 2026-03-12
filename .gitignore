@@ -7,3 +7,4 @@ packages/data/cache/
 .astro/
 .DS_Store
 *.log
+.worktrees/
