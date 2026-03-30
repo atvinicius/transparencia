@@ -18,7 +18,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-03-23T07:08:56.542Z"
+        "fetchedAt": "2026-03-30T07:28:25.501Z"
       }
     },
     {
@@ -31,7 +31,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-03-23T07:08:59.002Z"
+        "fetchedAt": "2026-03-30T07:28:27.274Z"
       }
     }
   ],
@@ -49,7 +49,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-03-23T07:08:56.542Z"
+        "fetchedAt": "2026-03-30T07:28:25.501Z"
       }
     },
     {
@@ -64,7 +64,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-03-23T07:08:56.542Z"
+        "fetchedAt": "2026-03-30T07:28:25.501Z"
       }
     },
     {
@@ -79,7 +79,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-03-23T07:08:56.542Z"
+        "fetchedAt": "2026-03-30T07:28:25.501Z"
       }
     },
     {
@@ -94,7 +94,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-03-23T07:08:56.542Z"
+        "fetchedAt": "2026-03-30T07:28:25.501Z"
       }
     },
     {
@@ -108,7 +108,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-03-23T07:08:56.542Z"
+        "fetchedAt": "2026-03-30T07:28:25.501Z"
       }
     },
     {
@@ -123,7 +123,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-03-23T07:08:56.542Z"
+        "fetchedAt": "2026-03-30T07:28:25.501Z"
       }
     },
     {
@@ -138,7 +138,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-03-23T07:08:56.542Z"
+        "fetchedAt": "2026-03-30T07:28:25.501Z"
       }
     },
     {
@@ -153,7 +153,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-03-23T07:08:56.542Z"
+        "fetchedAt": "2026-03-30T07:28:25.501Z"
       }
     },
     {
@@ -168,7 +168,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-03-23T07:08:56.542Z"
+        "fetchedAt": "2026-03-30T07:28:25.501Z"
       }
     },
     {
@@ -183,7 +183,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-03-23T07:08:56.542Z"
+        "fetchedAt": "2026-03-30T07:28:25.501Z"
       }
     }
   ],
@@ -308,7 +308,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-03-23T07:08:59.002Z"
+        "fetchedAt": "2026-03-30T07:28:27.274Z"
       }
     }
   ],
@@ -372,7 +372,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-03-23T07:09:08.654Z"
+        "fetchedAt": "2026-03-30T07:28:31.201Z"
       }
     }
   ],
@@ -391,7 +391,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-03-23T07:08:56.542Z"
+        "fetchedAt": "2026-03-30T07:28:25.501Z"
       },
       "dimension": "historico",
       "category": "Produção Legislativa"
@@ -403,7 +403,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-03-23T07:08:56.542Z"
+        "fetchedAt": "2026-03-30T07:28:25.501Z"
       },
       "dimension": "historico",
       "category": "Informações Pessoais"
@@ -416,7 +416,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-03-23T07:08:59.002Z"
+        "fetchedAt": "2026-03-30T07:28:27.274Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -429,7 +429,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-03-23T07:08:59.002Z"
+        "fetchedAt": "2026-03-30T07:28:27.274Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -442,7 +442,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-03-23T07:08:59.002Z"
+        "fetchedAt": "2026-03-30T07:28:27.274Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -455,7 +455,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-        "fetchedAt": "2026-03-23T07:08:59.002Z"
+        "fetchedAt": "2026-03-30T07:28:27.274Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -468,7 +468,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-03-23T07:09:08.654Z"
+        "fetchedAt": "2026-03-30T07:28:31.201Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -481,7 +481,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-03-23T07:09:08.654Z"
+        "fetchedAt": "2026-03-30T07:28:31.201Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -494,7 +494,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-03-23T07:09:08.654Z"
+        "fetchedAt": "2026-03-30T07:28:31.201Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -507,7 +507,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-03-23T07:09:08.654Z"
+        "fetchedAt": "2026-03-30T07:28:31.201Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -520,7 +520,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-03-23T07:09:08.654Z"
+        "fetchedAt": "2026-03-30T07:28:31.201Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -532,13 +532,13 @@
       "source": {
         "name": "Transparência (curadoria)",
         "url": "https://atvinicius.github.io/transparencia/metodologia",
-        "fetchedAt": "2026-03-23T07:09:08.655Z"
+        "fetchedAt": "2026-03-30T07:28:31.201Z"
       },
       "dimension": "historico",
       "category": "Informações Gerais"
     }
   ],
-  "lastUpdated": "2026-03-23T07:09:08.655Z",
+  "lastUpdated": "2026-03-30T07:28:31.201Z",
   "sources": [
     "Câmara dos Deputados - Dados Abertos",
     "TSE - DivulgaCandContas",
