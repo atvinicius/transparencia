@@ -18,7 +18,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-04-06T07:30:37.723Z"
+        "fetchedAt": "2026-04-13T08:04:07.432Z"
       }
     },
     {
@@ -31,7 +31,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-04-06T07:30:39.534Z"
+        "fetchedAt": "2026-04-13T08:04:09.738Z"
       }
     }
   ],
@@ -49,7 +49,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-04-06T07:30:37.723Z"
+        "fetchedAt": "2026-04-13T08:04:07.432Z"
       }
     },
     {
@@ -64,7 +64,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-04-06T07:30:37.723Z"
+        "fetchedAt": "2026-04-13T08:04:07.432Z"
       }
     },
     {
@@ -79,7 +79,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-04-06T07:30:37.723Z"
+        "fetchedAt": "2026-04-13T08:04:07.432Z"
       }
     },
     {
@@ -88,13 +88,13 @@
       "number": 1199,
       "year": 2025,
       "summary": "Altera a Lei nº 12.965, de 23 de abril de 2014 (Marco Civil da Internet), para dispor sobre a responsabilidade de provedores de aplicações de internet em casos de monetização e impulsionamento de conteúdos que incitem crimes contra o Estado Democrático de Direito.",
-      "status": "Aguardando Parecer",
+      "status": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
       "theme": "Alteração",
       "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2871512",
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-04-06T07:30:37.723Z"
+        "fetchedAt": "2026-04-13T08:04:07.432Z"
       }
     },
     {
@@ -108,7 +108,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-04-06T07:30:37.723Z"
+        "fetchedAt": "2026-04-13T08:04:07.432Z"
       }
     },
     {
@@ -117,13 +117,13 @@
       "number": 2729,
       "year": 2025,
       "summary": "Altera a Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para dispor sobre desinformação na propaganda eleitoral, propaganda eleitoral na internet e direito de resposta em propaganda eleitoral na internet.",
-      "status": "Aguardando Parecer",
+      "status": "Aguardando Designação - Aguardando Devolução de Relator(a) que deixou de ser Membro",
       "theme": "Alteração",
       "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2927313",
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-04-06T07:30:37.723Z"
+        "fetchedAt": "2026-04-13T08:04:07.432Z"
       }
     },
     {
@@ -138,7 +138,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-04-06T07:30:37.723Z"
+        "fetchedAt": "2026-04-13T08:04:07.432Z"
       }
     },
     {
@@ -153,7 +153,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-04-06T07:30:37.723Z"
+        "fetchedAt": "2026-04-13T08:04:07.432Z"
       }
     },
     {
@@ -168,7 +168,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-04-06T07:30:37.723Z"
+        "fetchedAt": "2026-04-13T08:04:07.432Z"
       }
     },
     {
@@ -183,7 +183,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-04-06T07:30:37.723Z"
+        "fetchedAt": "2026-04-13T08:04:07.432Z"
       }
     }
   ],
@@ -308,7 +308,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-04-06T07:30:39.534Z"
+        "fetchedAt": "2026-04-13T08:04:09.738Z"
       }
     }
   ],
@@ -372,7 +372,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-04-06T07:30:46.255Z"
+        "fetchedAt": "2026-04-13T08:04:12.431Z"
       }
     }
   ],
@@ -391,7 +391,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-04-06T07:30:37.723Z"
+        "fetchedAt": "2026-04-13T08:04:07.432Z"
       },
       "dimension": "historico",
       "category": "Produção Legislativa"
@@ -403,7 +403,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-04-06T07:30:37.723Z"
+        "fetchedAt": "2026-04-13T08:04:07.432Z"
       },
       "dimension": "historico",
       "category": "Informações Pessoais"
@@ -416,7 +416,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-04-06T07:30:39.534Z"
+        "fetchedAt": "2026-04-13T08:04:09.738Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -429,7 +429,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-04-06T07:30:39.534Z"
+        "fetchedAt": "2026-04-13T08:04:09.738Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -442,7 +442,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-04-06T07:30:39.534Z"
+        "fetchedAt": "2026-04-13T08:04:09.738Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -455,7 +455,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-        "fetchedAt": "2026-04-06T07:30:39.534Z"
+        "fetchedAt": "2026-04-13T08:04:09.738Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -468,7 +468,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-04-06T07:30:46.255Z"
+        "fetchedAt": "2026-04-13T08:04:12.431Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -481,7 +481,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-04-06T07:30:46.255Z"
+        "fetchedAt": "2026-04-13T08:04:12.431Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -494,7 +494,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-04-06T07:30:46.255Z"
+        "fetchedAt": "2026-04-13T08:04:12.431Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -507,7 +507,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-04-06T07:30:46.255Z"
+        "fetchedAt": "2026-04-13T08:04:12.431Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -520,7 +520,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-04-06T07:30:46.255Z"
+        "fetchedAt": "2026-04-13T08:04:12.431Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -532,13 +532,13 @@
       "source": {
         "name": "Transparência (curadoria)",
         "url": "https://atvinicius.github.io/transparencia/metodologia",
-        "fetchedAt": "2026-04-06T07:30:46.256Z"
+        "fetchedAt": "2026-04-13T08:04:12.432Z"
       },
       "dimension": "historico",
       "category": "Informações Gerais"
     }
   ],
-  "lastUpdated": "2026-04-06T07:30:46.256Z",
+  "lastUpdated": "2026-04-13T08:04:12.432Z",
   "sources": [
     "Câmara dos Deputados - Dados Abertos",
     "TSE - DivulgaCandContas",

@@ -60,7 +60,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-04-06T07:25:28.489Z"
+          "fetchedAt": "2026-04-13T07:58:46.828Z"
         },
         "dimension": "compromissos",
         "category": "Filiação Partidária"
@@ -139,7 +139,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-04-06T07:31:08.154Z"
+          "fetchedAt": "2026-04-13T08:04:24.758Z"
         },
         "dimension": "compromissos",
         "category": "Filiação Partidária"
@@ -170,7 +170,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-04-06T07:31:13.235Z"
+          "fetchedAt": "2026-04-13T08:04:32.608Z"
         },
         "dimension": "compromissos",
         "category": "Filiação Partidária"
