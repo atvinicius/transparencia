@@ -18,7 +18,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-        "fetchedAt": "2026-04-13T07:58:46.179Z"
+        "fetchedAt": "2026-04-20T08:01:39.124Z"
       }
     },
     {
@@ -31,7 +31,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
-        "fetchedAt": "2026-04-13T07:58:46.828Z"
+        "fetchedAt": "2026-04-20T08:01:39.346Z"
       }
     }
   ],
@@ -43,6 +43,82 @@
       "electionYear": 2022,
       "totalDeclared": 24874436.19,
       "items": [
+        {
+          "description": "Bovinos e bufalinos",
+          "value": 5414878.95
+        },
+        {
+          "description": "Fazenda",
+          "value": 699524.59
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 277614.78
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 669928.46
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 274482.55
+        },
+        {
+          "description": "Fazenda",
+          "value": 108259.75
+        },
+        {
+          "description": "Fazenda",
+          "value": 34000
+        },
+        {
+          "description": "Parte de 16,66% do Capital Social da empresa Limoeiro Participações Ltda",
+          "value": 510064
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 417213.47
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 585956.04
+        },
+        {
+          "description": "Fazenda",
+          "value": 503375.98
+        },
+        {
+          "description": "Saldo em Conta Corrente na Caixa Econômica Federal",
+          "value": 1966.76
+        },
+        {
+          "description": "Título de Capitalização no Banco do Brasil S/A - Ourocap Torcida PM 48",
+          "value": 2444.26
+        },
+        {
+          "description": "Fazenda",
+          "value": 378000
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 140205.69
+        },
+        {
+          "description": "Gleba de Terras",
+          "value": 109793.02
+        },
+        {
+          "description": "Uma moto NXR 150 Bros KS",
+          "value": 7100
+        },
+        {
+          "description": "Três linhas telefônicas em Goiânia/GO",
+          "value": 4640.34
+        },
+        {
+          "description": "Saldo em Conta Corrente no Banco do Brasil S/A",
+          "value": 10987.59
+        },
         {
           "description": "Fazenda",
           "value": 44518.01
@@ -76,6 +152,42 @@
           "value": 66030.6
         },
         {
+          "description": "Gleba de Terras",
+          "value": 1009656.6
+        },
+        {
+          "description": "Fazenda",
+          "value": 36000
+        },
+        {
+          "description": "Fazenda",
+          "value": 210242.3
+        },
+        {
+          "description": "Fazenda",
+          "value": 2057502.76
+        },
+        {
+          "description": "Saldo em Conta Corrente no Banco do Brasil S/A",
+          "value": 6040.11
+        },
+        {
+          "description": "Saldo em Conta Corrente no Sicoob CrediGoiás Cooperativa de Crédito Ltda.",
+          "value": 49540.08
+        },
+        {
+          "description": "Saldo em Conta Corrente no Banco Itaú Unibanco S.A.",
+          "value": 10
+        },
+        {
+          "description": "Quotas (100) de Capital Social na Coopercampi - Cooperativa Agropecuária Regional de Campinorte",
+          "value": 2247.21
+        },
+        {
+          "description": "Fazenda",
+          "value": 296379.12
+        },
+        {
           "description": "Saldo em Conta Corrente no Banco do Brasil S.A.",
           "value": 15.53
         },
@@ -86,10 +198,6 @@
         {
           "description": "Lote",
           "value": 243037.95
-        },
-        {
-          "description": "Fazenda",
-          "value": 296379.12
         },
         {
           "description": "Fazenda",
@@ -124,96 +232,8 @@
           "value": 675.55
         },
         {
-          "description": "Gleba de Terras",
-          "value": 585956.04
-        },
-        {
           "description": "Fazenda",
-          "value": 108259.75
-        },
-        {
-          "description": "Fazenda",
-          "value": 34000
-        },
-        {
-          "description": "Gleba de Terras",
-          "value": 417213.47
-        },
-        {
-          "description": "Parte de 16,66% do Capital Social da empresa Limoeiro Participações Ltda",
-          "value": 510064
-        },
-        {
-          "description": "Fazenda",
-          "value": 2057502.76
-        },
-        {
-          "description": "Saldo em Conta Corrente no Banco do Brasil S/A",
-          "value": 6040.11
-        },
-        {
-          "description": "Saldo em Conta Corrente no Sicoob CrediGoiás Cooperativa de Crédito Ltda.",
-          "value": 49540.08
-        },
-        {
-          "description": "Saldo em Conta Corrente no Banco Itaú Unibanco S.A.",
-          "value": 10
-        },
-        {
-          "description": "Quotas (100) de Capital Social na Coopercampi - Cooperativa Agropecuária Regional de Campinorte",
-          "value": 2247.21
-        },
-        {
-          "description": "Gleba de Terras",
-          "value": 140205.69
-        },
-        {
-          "description": "Fazenda",
-          "value": 36000
-        },
-        {
-          "description": "Fazenda",
-          "value": 210242.3
-        },
-        {
-          "description": "Gleba de Terras",
-          "value": 1009656.6
-        },
-        {
-          "description": "Saldo em Conta Corrente na Caixa Econômica Federal",
-          "value": 1966.76
-        },
-        {
-          "description": "Título de Capitalização no Banco do Brasil S/A - Ourocap Torcida PM 48",
-          "value": 2444.26
-        },
-        {
-          "description": "Fazenda",
-          "value": 378000
-        },
-        {
-          "description": "Fazenda",
-          "value": 503375.98
-        },
-        {
-          "description": "Gleba de Terras",
-          "value": 109793.02
-        },
-        {
-          "description": "Uma moto NXR 150 Bros KS",
-          "value": 7100
-        },
-        {
-          "description": "Três linhas telefônicas em Goiânia/GO",
-          "value": 4640.34
-        },
-        {
-          "description": "Saldo em Conta Corrente no Banco do Brasil S/A",
-          "value": 10987.59
-        },
-        {
-          "description": "Fazenda",
-          "value": 472761.05
+          "value": 285280
         },
         {
           "description": "Apartamento",
@@ -225,7 +245,7 @@
         },
         {
           "description": "Fazenda",
-          "value": 285280
+          "value": 472761.05
         },
         {
           "description": "Gleba de Terras",
@@ -234,32 +254,12 @@
         {
           "description": "Gleba de Terras",
           "value": 433112.12
-        },
-        {
-          "description": "Fazenda",
-          "value": 699524.59
-        },
-        {
-          "description": "Bovinos e bufalinos",
-          "value": 5414878.95
-        },
-        {
-          "description": "Gleba de Terras",
-          "value": 277614.78
-        },
-        {
-          "description": "Gleba de Terras",
-          "value": 669928.46
-        },
-        {
-          "description": "Gleba de Terras",
-          "value": 274482.55
         }
       ],
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-        "fetchedAt": "2026-04-13T07:58:46.179Z"
+        "fetchedAt": "2026-04-20T08:01:39.124Z"
       }
     },
     {
@@ -450,7 +450,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
-        "fetchedAt": "2026-04-13T07:58:46.828Z"
+        "fetchedAt": "2026-04-20T08:01:39.346Z"
       }
     }
   ],
@@ -514,7 +514,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
-        "fetchedAt": "2026-04-13T07:58:50.753Z"
+        "fetchedAt": "2026-04-20T08:01:40.494Z"
       }
     },
     {
@@ -576,7 +576,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
-        "fetchedAt": "2026-04-13T07:58:54.329Z"
+        "fetchedAt": "2026-04-20T08:01:41.681Z"
       }
     }
   ],
@@ -600,7 +600,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-        "fetchedAt": "2026-04-13T07:58:46.179Z"
+        "fetchedAt": "2026-04-20T08:01:39.124Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -613,7 +613,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
-        "fetchedAt": "2026-04-13T07:58:46.828Z"
+        "fetchedAt": "2026-04-20T08:01:39.346Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -626,7 +626,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-        "fetchedAt": "2026-04-13T07:58:46.179Z"
+        "fetchedAt": "2026-04-20T08:01:39.124Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -639,7 +639,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-        "fetchedAt": "2026-04-13T07:58:46.179Z"
+        "fetchedAt": "2026-04-20T08:01:39.124Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -652,7 +652,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
-        "fetchedAt": "2026-04-13T07:58:46.828Z"
+        "fetchedAt": "2026-04-20T08:01:39.346Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -665,7 +665,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-        "fetchedAt": "2026-04-13T07:58:46.179Z"
+        "fetchedAt": "2026-04-20T08:01:39.124Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -678,7 +678,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
-        "fetchedAt": "2026-04-13T07:58:46.828Z"
+        "fetchedAt": "2026-04-20T08:01:39.346Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -691,7 +691,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-        "fetchedAt": "2026-04-13T07:58:46.828Z"
+        "fetchedAt": "2026-04-20T08:01:39.346Z"
       },
       "dimension": "compromissos",
       "category": "Filiação Partidária"
@@ -704,7 +704,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-        "fetchedAt": "2026-04-13T07:58:46.828Z"
+        "fetchedAt": "2026-04-20T08:01:39.346Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -717,7 +717,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
-        "fetchedAt": "2026-04-13T07:58:50.753Z"
+        "fetchedAt": "2026-04-20T08:01:40.494Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -730,7 +730,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
-        "fetchedAt": "2026-04-13T07:58:50.753Z"
+        "fetchedAt": "2026-04-20T08:01:40.494Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -743,7 +743,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
-        "fetchedAt": "2026-04-13T07:58:50.753Z"
+        "fetchedAt": "2026-04-20T08:01:40.494Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -756,7 +756,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
-        "fetchedAt": "2026-04-13T07:58:50.753Z"
+        "fetchedAt": "2026-04-20T08:01:40.494Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -769,7 +769,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
-        "fetchedAt": "2026-04-13T07:58:50.753Z"
+        "fetchedAt": "2026-04-20T08:01:40.494Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -782,7 +782,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
-        "fetchedAt": "2026-04-13T07:58:54.329Z"
+        "fetchedAt": "2026-04-20T08:01:41.681Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -795,7 +795,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
-        "fetchedAt": "2026-04-13T07:58:54.329Z"
+        "fetchedAt": "2026-04-20T08:01:41.681Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -808,7 +808,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
-        "fetchedAt": "2026-04-13T07:58:54.329Z"
+        "fetchedAt": "2026-04-20T08:01:41.681Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -821,7 +821,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
-        "fetchedAt": "2026-04-13T07:58:54.329Z"
+        "fetchedAt": "2026-04-20T08:01:41.681Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -834,7 +834,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
-        "fetchedAt": "2026-04-13T07:58:54.329Z"
+        "fetchedAt": "2026-04-20T08:01:41.681Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -846,13 +846,13 @@
       "source": {
         "name": "Transparência (curadoria)",
         "url": "https://atvinicius.github.io/transparencia/metodologia",
-        "fetchedAt": "2026-04-13T07:58:54.331Z"
+        "fetchedAt": "2026-04-20T08:01:41.682Z"
       },
       "dimension": "historico",
       "category": "Informações Gerais"
     }
   ],
-  "lastUpdated": "2026-04-13T07:58:54.331Z",
+  "lastUpdated": "2026-04-20T08:01:41.682Z",
   "sources": [
     "TSE - DivulgaCandContas",
     "DivulgaCandContas"

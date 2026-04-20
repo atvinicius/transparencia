@@ -18,7 +18,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001600179",
-        "fetchedAt": "2026-04-13T08:04:19.889Z"
+        "fetchedAt": "2026-04-20T08:05:50.128Z"
       }
     }
   ],
@@ -30,14 +30,6 @@
       "electionYear": 2022,
       "totalDeclared": 96942541.15,
       "items": [
-        {
-          "description": "PARTICIPACAO SCP POOL O ANJO",
-          "value": 100000
-        },
-        {
-          "description": "PARTICIPACAO SCP POOL SPORTTECH",
-          "value": 95934.56
-        },
         {
           "description": "Rendimentos de aplicações financeiras",
           "value": 20206.39
@@ -59,50 +51,6 @@
           "value": 80000000
         },
         {
-          "description": "500 AÇÕES/COTAS SULA11 CUSTO AQUISICAO R$ 29,62",
-          "value": 14814.44
-        },
-        {
-          "description": "AÇÕES/COTAS CIEL3 CUSTO AQUISIÇAO R$ 3,41",
-          "value": 6822.05
-        },
-        {
-          "description": "422 AÇÕES/COTAS IRDM11 CUSTO AQUISICAO R$ 117,77",
-          "value": 49698.98
-        },
-        {
-          "description": "300 AÇÕES/COTAS DEVA11 CUSTO AQUISICAO R$103,78",
-          "value": 31134.34
-        },
-        {
-          "description": "VALOR EM CONTA PAYONNER- USD 187.315,17 CONVERTIDO COM A PTAX 31.12.2020 - 5,6407- VALOR U$ 58.733,51 ( CONVERTIDO COM A PTAX 5,5799 REAUBRL) EM 31/12/2021 ",
-          "value": 327727.11
-        },
-        {
-          "description": "CONSORCIO GOVESA- CONTRATO 105265 - SALDO DEVEDOR 271.351,82 - PAGAS 19.348,51, VALORES PAGO 2021 R$ 17.353,99.",
-          "value": 288705.81
-        },
-        {
-          "description": "CONSORCIO NEW HOLLAND- 05032/0170.00 - SALDO DEVEDOR 70.875,64- VALOR PAGO R$ 20.146,37 SADO DEVEDOR R$ 87.841,02. ",
-          "value": 34860.4
-        },
-        {
-          "description": "CHAGARA EM TRINDADE, SENDO UMA ENTRADA DE 3.000,00 E 120 PARCELAS DE 600,00 ADQUIRIDA EM 2016 CONFOME CONTRATO DE COMPRA E VENDA VALOR PAGO R$ 7.200,00. ",
-          "value": 54984.33
-        },
-        {
-          "description": "Incorporação de reservas ao capital/ Bonificações em ações",
-          "value": 2444.68
-        },
-        {
-          "description": "SALDO CONTA CORRENTE JUNTO BANCO ITAU S.A",
-          "value": 10
-        },
-        {
-          "description": "SALDO CONTA CORRENTE JUNTO XP INVESTIMENTOS CCTVM S/A ",
-          "value": 2415.72
-        },
-        {
           "description": "Lucros e dividendos recebidos",
           "value": 13712659
         },
@@ -111,28 +59,20 @@
           "value": 100000
         },
         {
+          "description": "CHAGARA EM TRINDADE, SENDO UMA ENTRADA DE 3.000,00 E 120 PARCELAS DE 600,00 ADQUIRIDA EM 2016 CONFOME CONTRATO DE COMPRA E VENDA VALOR PAGO R$ 7.200,00. ",
+          "value": 54984.33
+        },
+        {
           "description": "SALDO APLICACAO RENDA FIXA NU FINANCEIRA S.A",
           "value": 113191.2
         },
         {
-          "description": "100 AÇÕES/COTAS VIVR3 CUSTO AQUISICAO R$ 2,72",
-          "value": 272.08
-        },
-        {
-          "description": "SALA COMERCIAL GOIAS CENTER MODAS- AV. GOIAS NORTE, 4066 - ST. CRIMEIA OESTE, GOIANIA GO 35M2 ",
+          "description": "PARTICIPACAO SCP POOL O ANJO",
           "value": 100000
         },
         {
-          "description": "356 AÇÕES/COTAS RELG11 CUSTO AQUISICAO R$ 89,01",
-          "value": 31687.85
-        },
-        {
-          "description": "5300 AÇÕES/COTAS BBDC4 CUSTO AQUISICAO R$ 22,85",
-          "value": 121151.46
-        },
-        {
-          "description": "PARTICIPACAO SCP PRIMO RICO",
-          "value": 99073.63
+          "description": "PARTICIPACAO SCP POOL SPORTTECH",
+          "value": 95934.56
         },
         {
           "description": "PARTICIPACAÇAO SCP POOL EDUTECH",
@@ -163,6 +103,66 @@
           "value": 13951.27
         },
         {
+          "description": "356 AÇÕES/COTAS RELG11 CUSTO AQUISICAO R$ 89,01",
+          "value": 31687.85
+        },
+        {
+          "description": "SALA COMERCIAL GOIAS CENTER MODAS- AV. GOIAS NORTE, 4066 - ST. CRIMEIA OESTE, GOIANIA GO 35M2 ",
+          "value": 100000
+        },
+        {
+          "description": "5300 AÇÕES/COTAS BBDC4 CUSTO AQUISICAO R$ 22,85",
+          "value": 121151.46
+        },
+        {
+          "description": "100 AÇÕES/COTAS VIVR3 CUSTO AQUISICAO R$ 2,72",
+          "value": 272.08
+        },
+        {
+          "description": "PARTICIPACAO SCP PRIMO RICO",
+          "value": 99073.63
+        },
+        {
+          "description": "500 AÇÕES/COTAS SULA11 CUSTO AQUISICAO R$ 29,62",
+          "value": 14814.44
+        },
+        {
+          "description": "Incorporação de reservas ao capital/ Bonificações em ações",
+          "value": 2444.68
+        },
+        {
+          "description": "SALDO CONTA CORRENTE JUNTO BANCO ITAU S.A",
+          "value": 10
+        },
+        {
+          "description": "SALDO CONTA CORRENTE JUNTO XP INVESTIMENTOS CCTVM S/A ",
+          "value": 2415.72
+        },
+        {
+          "description": "AÇÕES/COTAS CIEL3 CUSTO AQUISIÇAO R$ 3,41",
+          "value": 6822.05
+        },
+        {
+          "description": "422 AÇÕES/COTAS IRDM11 CUSTO AQUISICAO R$ 117,77",
+          "value": 49698.98
+        },
+        {
+          "description": "300 AÇÕES/COTAS DEVA11 CUSTO AQUISICAO R$103,78",
+          "value": 31134.34
+        },
+        {
+          "description": "VALOR EM CONTA PAYONNER- USD 187.315,17 CONVERTIDO COM A PTAX 31.12.2020 - 5,6407- VALOR U$ 58.733,51 ( CONVERTIDO COM A PTAX 5,5799 REAUBRL) EM 31/12/2021 ",
+          "value": 327727.11
+        },
+        {
+          "description": "CONSORCIO GOVESA- CONTRATO 105265 - SALDO DEVEDOR 271.351,82 - PAGAS 19.348,51, VALORES PAGO 2021 R$ 17.353,99.",
+          "value": 288705.81
+        },
+        {
+          "description": "CONSORCIO NEW HOLLAND- 05032/0170.00 - SALDO DEVEDOR 70.875,64- VALOR PAGO R$ 20.146,37 SADO DEVEDOR R$ 87.841,02. ",
+          "value": 34860.4
+        },
+        {
           "description": "2155 AÇÕES/COTAS TGAR11 CUSTO AQUISICAO R$ 118,31",
           "value": 254961.78
         },
@@ -178,7 +178,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001600179",
-        "fetchedAt": "2026-04-13T08:04:19.889Z"
+        "fetchedAt": "2026-04-20T08:05:50.128Z"
       }
     }
   ],
@@ -242,7 +242,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/90/90/280001600179",
-        "fetchedAt": "2026-04-13T08:04:21.165Z"
+        "fetchedAt": "2026-04-20T08:05:50.674Z"
       }
     }
   ],
@@ -261,7 +261,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001600179",
-        "fetchedAt": "2026-04-13T08:04:19.889Z"
+        "fetchedAt": "2026-04-20T08:05:50.128Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -274,7 +274,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001600179",
-        "fetchedAt": "2026-04-13T08:04:19.889Z"
+        "fetchedAt": "2026-04-20T08:05:50.128Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -287,7 +287,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001600179",
-        "fetchedAt": "2026-04-13T08:04:19.889Z"
+        "fetchedAt": "2026-04-20T08:05:50.128Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -300,7 +300,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-        "fetchedAt": "2026-04-13T08:04:19.889Z"
+        "fetchedAt": "2026-04-20T08:05:50.128Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -313,7 +313,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/90/90/280001600179",
-        "fetchedAt": "2026-04-13T08:04:21.165Z"
+        "fetchedAt": "2026-04-20T08:05:50.674Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -326,7 +326,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/90/90/280001600179",
-        "fetchedAt": "2026-04-13T08:04:21.165Z"
+        "fetchedAt": "2026-04-20T08:05:50.674Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -339,7 +339,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/90/90/280001600179",
-        "fetchedAt": "2026-04-13T08:04:21.165Z"
+        "fetchedAt": "2026-04-20T08:05:50.674Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -352,7 +352,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/90/90/280001600179",
-        "fetchedAt": "2026-04-13T08:04:21.165Z"
+        "fetchedAt": "2026-04-20T08:05:50.674Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -365,7 +365,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/90/90/280001600179",
-        "fetchedAt": "2026-04-13T08:04:21.165Z"
+        "fetchedAt": "2026-04-20T08:05:50.674Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -377,13 +377,13 @@
       "source": {
         "name": "Transparência (curadoria)",
         "url": "https://atvinicius.github.io/transparencia/metodologia",
-        "fetchedAt": "2026-04-13T08:04:21.166Z"
+        "fetchedAt": "2026-04-20T08:05:50.674Z"
       },
       "dimension": "historico",
       "category": "Informações Gerais"
     }
   ],
-  "lastUpdated": "2026-04-13T08:04:21.166Z",
+  "lastUpdated": "2026-04-20T08:05:50.674Z",
   "sources": [
     "TSE - DivulgaCandContas",
     "DivulgaCandContas"
