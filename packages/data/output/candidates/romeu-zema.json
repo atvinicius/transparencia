@@ -18,7 +18,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
-        "fetchedAt": "2026-04-20T08:06:58.986Z"
+        "fetchedAt": "2026-04-27T08:21:20.073Z"
       }
     },
     {
@@ -31,7 +31,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/MG/2022802018/candidato/130000600702",
-        "fetchedAt": "2026-04-20T08:06:59.203Z"
+        "fetchedAt": "2026-04-27T08:21:20.340Z"
       }
     }
   ],
@@ -44,38 +44,6 @@
       "totalDeclared": 129795313.7,
       "items": [
         {
-          "description": "27,14% da empresa Ricardo Zema Participações Ltda.",
-          "value": 72300688
-        },
-        {
-          "description": "Poupança Ouro Banco do Brasil",
-          "value": 88.27
-        },
-        {
-          "description": "Aplicações de renda fixa Zema Crédito, Financiamento e Investimento S/A.",
-          "value": 1376504.6
-        },
-        {
-          "description": "Imóvel residencial ",
-          "value": 704864.25
-        },
-        {
-          "description": "Terreno recebido em doação ",
-          "value": 70000
-        },
-        {
-          "description": "Fundo de investimentos",
-          "value": 33446198.57
-        },
-        {
-          "description": "16,41% da empresa Zema Crédito, Financiamento e Investimento S/A.",
-          "value": 16834806
-        },
-        {
-          "description": "Saldo COOCREZ",
-          "value": 260.86
-        },
-        {
           "description": "5% da empresa Zema Promotora de Vendas Ltda.",
           "value": 9250
         },
@@ -84,12 +52,8 @@
           "value": 21740.81
         },
         {
-          "description": "Juros sobre capital próprio distribuído e não recebido",
-          "value": 1245643.49
-        },
-        {
-          "description": "1,5% da empresa Estrela Mineira Promotora de Negócio Crédito Ltda.",
-          "value": 18000
+          "description": "16,41% da empresa Zema Crédito, Financiamento e Investimento S/A.",
+          "value": 16834806
         },
         {
           "description": "1% da empresa AutoZema Ltda.",
@@ -104,14 +68,50 @@
           "value": 9478.85
         },
         {
+          "description": "Poupança Ouro Banco do Brasil",
+          "value": 88.27
+        },
+        {
           "description": "33,33% da empresa Zema Seguros S/A.",
           "value": 3666680
+        },
+        {
+          "description": "Juros sobre capital próprio distribuído e não recebido",
+          "value": 1245643.49
+        },
+        {
+          "description": "27,14% da empresa Ricardo Zema Participações Ltda.",
+          "value": 72300688
+        },
+        {
+          "description": "Aplicações de renda fixa Zema Crédito, Financiamento e Investimento S/A.",
+          "value": 1376504.6
+        },
+        {
+          "description": "1,5% da empresa Estrela Mineira Promotora de Negócio Crédito Ltda.",
+          "value": 18000
+        },
+        {
+          "description": "Saldo COOCREZ",
+          "value": 260.86
+        },
+        {
+          "description": "Imóvel residencial ",
+          "value": 704864.25
+        },
+        {
+          "description": "Terreno recebido em doação ",
+          "value": 70000
+        },
+        {
+          "description": "Fundo de investimentos",
+          "value": 33446198.57
         }
       ],
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
-        "fetchedAt": "2026-04-20T08:06:58.986Z"
+        "fetchedAt": "2026-04-27T08:21:20.073Z"
       }
     },
     {
@@ -214,7 +214,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/MG/2022802018/candidato/130000600702",
-        "fetchedAt": "2026-04-20T08:06:59.203Z"
+        "fetchedAt": "2026-04-27T08:21:20.340Z"
       }
     }
   ],
@@ -278,7 +278,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/MG/3/30/30/130001701690",
-        "fetchedAt": "2026-04-20T08:07:00.740Z"
+        "fetchedAt": "2026-04-27T08:21:22.519Z"
       }
     },
     {
@@ -340,7 +340,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/MG/3/30/30/130000600702",
-        "fetchedAt": "2026-04-20T08:07:01.875Z"
+        "fetchedAt": "2026-04-27T08:21:23.413Z"
       }
     }
   ],
@@ -359,7 +359,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
-        "fetchedAt": "2026-04-20T08:06:58.986Z"
+        "fetchedAt": "2026-04-27T08:21:20.073Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -372,7 +372,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/MG/2022802018/candidato/130000600702",
-        "fetchedAt": "2026-04-20T08:06:59.203Z"
+        "fetchedAt": "2026-04-27T08:21:20.340Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -385,7 +385,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
-        "fetchedAt": "2026-04-20T08:06:58.986Z"
+        "fetchedAt": "2026-04-27T08:21:20.073Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -398,7 +398,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
-        "fetchedAt": "2026-04-20T08:06:58.986Z"
+        "fetchedAt": "2026-04-27T08:21:20.073Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -411,7 +411,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/MG/2022802018/candidato/130000600702",
-        "fetchedAt": "2026-04-20T08:06:59.203Z"
+        "fetchedAt": "2026-04-27T08:21:20.340Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -424,7 +424,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
-        "fetchedAt": "2026-04-20T08:06:58.986Z"
+        "fetchedAt": "2026-04-27T08:21:20.073Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -437,7 +437,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/MG/2022802018/candidato/130000600702",
-        "fetchedAt": "2026-04-20T08:06:59.203Z"
+        "fetchedAt": "2026-04-27T08:21:20.340Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -450,7 +450,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-        "fetchedAt": "2026-04-20T08:06:59.203Z"
+        "fetchedAt": "2026-04-27T08:21:20.340Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -463,7 +463,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/MG/3/30/30/130001701690",
-        "fetchedAt": "2026-04-20T08:07:00.740Z"
+        "fetchedAt": "2026-04-27T08:21:22.519Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -476,7 +476,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/MG/3/30/30/130001701690",
-        "fetchedAt": "2026-04-20T08:07:00.740Z"
+        "fetchedAt": "2026-04-27T08:21:22.519Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -489,7 +489,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/MG/3/30/30/130001701690",
-        "fetchedAt": "2026-04-20T08:07:00.740Z"
+        "fetchedAt": "2026-04-27T08:21:22.519Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -502,7 +502,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/MG/3/30/30/130001701690",
-        "fetchedAt": "2026-04-20T08:07:00.740Z"
+        "fetchedAt": "2026-04-27T08:21:22.519Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -515,7 +515,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/MG/3/30/30/130001701690",
-        "fetchedAt": "2026-04-20T08:07:00.740Z"
+        "fetchedAt": "2026-04-27T08:21:22.519Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -528,7 +528,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/MG/3/30/30/130000600702",
-        "fetchedAt": "2026-04-20T08:07:01.875Z"
+        "fetchedAt": "2026-04-27T08:21:23.413Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -541,7 +541,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/MG/3/30/30/130000600702",
-        "fetchedAt": "2026-04-20T08:07:01.875Z"
+        "fetchedAt": "2026-04-27T08:21:23.413Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -554,7 +554,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/MG/3/30/30/130000600702",
-        "fetchedAt": "2026-04-20T08:07:01.875Z"
+        "fetchedAt": "2026-04-27T08:21:23.413Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -567,7 +567,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/MG/3/30/30/130000600702",
-        "fetchedAt": "2026-04-20T08:07:01.875Z"
+        "fetchedAt": "2026-04-27T08:21:23.413Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -580,7 +580,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/MG/3/30/30/130000600702",
-        "fetchedAt": "2026-04-20T08:07:01.875Z"
+        "fetchedAt": "2026-04-27T08:21:23.413Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -592,13 +592,13 @@
       "source": {
         "name": "Transparência (curadoria)",
         "url": "https://atvinicius.github.io/transparencia/metodologia",
-        "fetchedAt": "2026-04-20T08:07:01.877Z"
+        "fetchedAt": "2026-04-27T08:21:23.414Z"
       },
       "dimension": "historico",
       "category": "Informações Gerais"
     }
   ],
-  "lastUpdated": "2026-04-20T08:07:01.877Z",
+  "lastUpdated": "2026-04-27T08:21:23.414Z",
   "sources": [
     "TSE - DivulgaCandContas",
     "DivulgaCandContas"

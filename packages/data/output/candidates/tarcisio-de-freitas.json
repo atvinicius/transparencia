@@ -18,7 +18,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001615967",
-        "fetchedAt": "2026-04-20T08:01:29.282Z"
+        "fetchedAt": "2026-04-27T08:17:31.948Z"
       }
     }
   ],
@@ -31,34 +31,34 @@
       "totalDeclared": 2342161.77,
       "items": [
         {
-          "description": "JEEP COMPASS LONGITUDE - RENAVAM 01126100240",
-          "value": 119000
-        },
-        {
-          "description": "POUPANÇA BANCO DO BRASIL",
-          "value": 4515.81
-        },
-        {
-          "description": "APLICAÇÕES DE RENDA FIXA",
-          "value": 388.84
-        },
-        {
-          "description": "POUPEX BANCO DO BRASIL",
-          "value": 3097.12
-        },
-        {
           "description": "SQNW 303, BLOCO K, UNIDADE 102 - SETOR NOROESTE - BRASILIA",
           "value": 2137160
         },
         {
           "description": "MERCEDES BENZ C180 RENAVAM 00459219863",
           "value": 78000
+        },
+        {
+          "description": "APLICAÇÕES DE RENDA FIXA",
+          "value": 388.84
+        },
+        {
+          "description": "POUPANÇA BANCO DO BRASIL",
+          "value": 4515.81
+        },
+        {
+          "description": "JEEP COMPASS LONGITUDE - RENAVAM 01126100240",
+          "value": 119000
+        },
+        {
+          "description": "POUPEX BANCO DO BRASIL",
+          "value": 3097.12
         }
       ],
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001615967",
-        "fetchedAt": "2026-04-20T08:01:29.282Z"
+        "fetchedAt": "2026-04-27T08:17:31.948Z"
       }
     }
   ],
@@ -122,7 +122,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/10/10/250001615967",
-        "fetchedAt": "2026-04-20T08:01:30.409Z"
+        "fetchedAt": "2026-04-27T08:17:32.766Z"
       }
     }
   ],
@@ -141,7 +141,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001615967",
-        "fetchedAt": "2026-04-20T08:01:29.282Z"
+        "fetchedAt": "2026-04-27T08:17:31.948Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -154,7 +154,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001615967",
-        "fetchedAt": "2026-04-20T08:01:29.282Z"
+        "fetchedAt": "2026-04-27T08:17:31.948Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -167,7 +167,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001615967",
-        "fetchedAt": "2026-04-20T08:01:29.282Z"
+        "fetchedAt": "2026-04-27T08:17:31.948Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -180,7 +180,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-        "fetchedAt": "2026-04-20T08:01:29.282Z"
+        "fetchedAt": "2026-04-27T08:17:31.949Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -193,7 +193,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/10/10/250001615967",
-        "fetchedAt": "2026-04-20T08:01:30.409Z"
+        "fetchedAt": "2026-04-27T08:17:32.766Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -206,7 +206,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/10/10/250001615967",
-        "fetchedAt": "2026-04-20T08:01:30.409Z"
+        "fetchedAt": "2026-04-27T08:17:32.766Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -219,7 +219,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/10/10/250001615967",
-        "fetchedAt": "2026-04-20T08:01:30.409Z"
+        "fetchedAt": "2026-04-27T08:17:32.766Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -232,7 +232,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/10/10/250001615967",
-        "fetchedAt": "2026-04-20T08:01:30.409Z"
+        "fetchedAt": "2026-04-27T08:17:32.766Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -245,7 +245,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/SP/3/10/10/250001615967",
-        "fetchedAt": "2026-04-20T08:01:30.409Z"
+        "fetchedAt": "2026-04-27T08:17:32.766Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -257,13 +257,13 @@
       "source": {
         "name": "Transparência (curadoria)",
         "url": "https://atvinicius.github.io/transparencia/metodologia",
-        "fetchedAt": "2026-04-20T08:01:30.410Z"
+        "fetchedAt": "2026-04-27T08:17:32.767Z"
       },
       "dimension": "historico",
       "category": "Informações Gerais"
     }
   ],
-  "lastUpdated": "2026-04-20T08:01:30.410Z",
+  "lastUpdated": "2026-04-27T08:17:32.767Z",
   "sources": [
     "TSE - DivulgaCandContas",
     "DivulgaCandContas"
