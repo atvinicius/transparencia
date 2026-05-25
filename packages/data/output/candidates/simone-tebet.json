@@ -18,7 +18,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607833",
-        "fetchedAt": "2026-05-18T09:55:27.422Z"
+        "fetchedAt": "2026-05-25T09:58:37.502Z"
       }
     }
   ],
@@ -31,28 +31,16 @@
       "totalDeclared": 2323735.38,
       "items": [
         {
-          "description": "UMA CASA NA CIDADE DE TRES LAGOAS/MS",
-          "value": 69397.28
-        },
-        {
           "description": "UM APARTAMENTO NA CIDADE DE GRANDE/MS",
-          "value": 310000
+          "value": 81903.69
         },
         {
-          "description": "SALDO BANCÁRIO EM CONTA CORRENTE",
-          "value": 59225.08
+          "description": "UMA CASA NA CIDADE DE CAMPO GRANDE/MS",
+          "value": 52000
         },
         {
-          "description": "UM APARTAMENTO NA CIDADE DE CAMPO GRANDE/MS",
+          "description": "UM APARTAMENTO NA CIDADE DE TRES LAGOAS/MS",
           "value": 200000
-        },
-        {
-          "description": "UM TERRENO URBANO NA CIDADE DE TRES LAGOAS/MS",
-          "value": 100000
-        },
-        {
-          "description": "UM TERRENO URBANO NA CIDADE DE TRES LAGOAS/MS",
-          "value": 100000
         },
         {
           "description": "UM APARTAMENTO NA CIDADE DE TRES LAGOAS/MS",
@@ -63,16 +51,20 @@
           "value": 457209.33
         },
         {
-          "description": "UM APARTAMENTO NA CIDADE DE TRES LAGOAS/MS",
+          "description": "UM APARTAMENTO NA CIDADE DE CAMPO GRANDE/MS",
           "value": 200000
         },
         {
-          "description": "UMA CASA NA CIDADE DE CAMPO GRANDE/MS",
-          "value": 52000
+          "description": "UMA CASA NA CIDADE DE TRES LAGOAS/MS",
+          "value": 69397.28
         },
         {
-          "description": "UM APARTAMENTO NA CIDADE DE GRANDE/MS",
-          "value": 81903.69
+          "description": "UM TERRENO URBANO NA CIDADE DE TRES LAGOAS/MS",
+          "value": 100000
+        },
+        {
+          "description": "UM TERRENO URBANO NA CIDADE DE TRES LAGOAS/MS",
+          "value": 100000
         },
         {
           "description": "UM APARTAMENTO NA CIDADE DE TRES LAGOAS/MS",
@@ -85,12 +77,20 @@
         {
           "description": "UM TERRENO URBANO NA CIDADE DE TRES LAGOAS/MS",
           "value": 94000
+        },
+        {
+          "description": "UM APARTAMENTO NA CIDADE DE GRANDE/MS",
+          "value": 310000
+        },
+        {
+          "description": "SALDO BANCÁRIO EM CONTA CORRENTE",
+          "value": 59225.08
         }
       ],
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607833",
-        "fetchedAt": "2026-05-18T09:55:27.422Z"
+        "fetchedAt": "2026-05-25T09:58:37.502Z"
       }
     }
   ],
@@ -154,7 +154,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/15/15/280001607833",
-        "fetchedAt": "2026-05-18T09:55:28.304Z"
+        "fetchedAt": "2026-05-25T09:58:38.244Z"
       }
     }
   ],
@@ -173,7 +173,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607833",
-        "fetchedAt": "2026-05-18T09:55:27.422Z"
+        "fetchedAt": "2026-05-25T09:58:37.502Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -186,7 +186,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607833",
-        "fetchedAt": "2026-05-18T09:55:27.422Z"
+        "fetchedAt": "2026-05-25T09:58:37.502Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -199,7 +199,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607833",
-        "fetchedAt": "2026-05-18T09:55:27.422Z"
+        "fetchedAt": "2026-05-25T09:58:37.502Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -212,7 +212,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-        "fetchedAt": "2026-05-18T09:55:27.422Z"
+        "fetchedAt": "2026-05-25T09:58:37.502Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -225,7 +225,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/15/15/280001607833",
-        "fetchedAt": "2026-05-18T09:55:28.304Z"
+        "fetchedAt": "2026-05-25T09:58:38.244Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -238,7 +238,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/15/15/280001607833",
-        "fetchedAt": "2026-05-18T09:55:28.304Z"
+        "fetchedAt": "2026-05-25T09:58:38.244Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -251,7 +251,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/15/15/280001607833",
-        "fetchedAt": "2026-05-18T09:55:28.304Z"
+        "fetchedAt": "2026-05-25T09:58:38.244Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -264,7 +264,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/15/15/280001607833",
-        "fetchedAt": "2026-05-18T09:55:28.304Z"
+        "fetchedAt": "2026-05-25T09:58:38.244Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -277,7 +277,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/BR/1/15/15/280001607833",
-        "fetchedAt": "2026-05-18T09:55:28.304Z"
+        "fetchedAt": "2026-05-25T09:58:38.244Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -289,13 +289,13 @@
       "source": {
         "name": "Transparência (curadoria)",
         "url": "https://atvinicius.github.io/transparencia/metodologia",
-        "fetchedAt": "2026-05-18T09:55:28.305Z"
+        "fetchedAt": "2026-05-25T09:58:38.245Z"
       },
       "dimension": "historico",
       "category": "Informações Gerais"
     }
   ],
-  "lastUpdated": "2026-05-18T09:55:28.305Z",
+  "lastUpdated": "2026-05-25T09:58:38.245Z",
   "sources": [
     "TSE - DivulgaCandContas",
     "DivulgaCandContas"
