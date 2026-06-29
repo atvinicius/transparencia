@@ -4,48 +4,42 @@
     "name": "Luiz Inácio Lula da Silva",
     "shortName": "Lula",
     "party": "PT",
-    "state": "SP",
-    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001607829/BR"
+    "state": "SP"
   },
   {
     "slug": "tarcisio-de-freitas",
     "name": "Tarcísio Gomes de Freitas",
     "shortName": "Tarcísio de Freitas",
     "party": "REPUBLICANOS",
-    "state": "SP",
-    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/250001615967/SP"
+    "state": "SP"
   },
   {
     "slug": "ciro-gomes",
     "name": "Ciro Ferreira Gomes",
     "shortName": "Ciro Gomes",
     "party": "PDT",
-    "state": "CE",
-    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001612393/BR"
+    "state": "CE"
   },
   {
     "slug": "simone-tebet",
     "name": "Simone Nassar Tebet",
     "shortName": "Simone Tebet",
     "party": "MDB",
-    "state": "MS",
-    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001607833/BR"
+    "state": "MS"
   },
   {
     "slug": "ronaldo-caiado",
     "name": "Ronaldo Rodrigues Caiado",
     "shortName": "Ronaldo Caiado",
     "party": "UNIÃO",
-    "state": "GO",
-    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/90001646326/GO"
+    "state": "GO"
   },
   {
     "slug": "ratinho-junior",
     "name": "Ratinho Junior",
     "shortName": "Ratinho Junior",
     "party": "PSD",
-    "state": "PR",
-    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/160001614467/PR"
+    "state": "PR"
   },
   {
     "slug": "guilherme-boulos",
