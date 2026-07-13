@@ -18,7 +18,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-        "fetchedAt": "2026-07-06T10:11:26.488Z"
+        "fetchedAt": "2026-07-13T09:18:38.775Z"
       }
     },
     {
@@ -31,7 +31,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
-        "fetchedAt": "2026-07-06T10:11:26.718Z"
+        "fetchedAt": "2026-07-13T09:18:39.035Z"
       }
     }
   ],
@@ -259,7 +259,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-        "fetchedAt": "2026-07-06T10:11:26.488Z"
+        "fetchedAt": "2026-07-13T09:18:38.775Z"
       }
     },
     {
@@ -348,11 +348,15 @@
         },
         {
           "description": "Sem descrição",
-          "value": 5492.26
+          "value": 50.2
         },
         {
           "description": "Sem descrição",
-          "value": 50.2
+          "value": 296379.12
+        },
+        {
+          "description": "Sem descrição",
+          "value": 5492.26
         },
         {
           "description": "Sem descrição",
@@ -381,10 +385,6 @@
         {
           "description": "Sem descrição",
           "value": 4640.34
-        },
-        {
-          "description": "Sem descrição",
-          "value": 296379.12
         },
         {
           "description": "Sem descrição",
@@ -450,7 +450,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
-        "fetchedAt": "2026-07-06T10:11:26.718Z"
+        "fetchedAt": "2026-07-13T09:18:39.035Z"
       }
     }
   ],
@@ -514,7 +514,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
-        "fetchedAt": "2026-07-06T10:11:28.481Z"
+        "fetchedAt": "2026-07-13T09:18:40.181Z"
       }
     },
     {
@@ -576,7 +576,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
-        "fetchedAt": "2026-07-06T10:11:29.597Z"
+        "fetchedAt": "2026-07-13T09:18:41.487Z"
       }
     }
   ],
@@ -600,7 +600,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-        "fetchedAt": "2026-07-06T10:11:26.488Z"
+        "fetchedAt": "2026-07-13T09:18:38.775Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -613,7 +613,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
-        "fetchedAt": "2026-07-06T10:11:26.718Z"
+        "fetchedAt": "2026-07-13T09:18:39.035Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -626,7 +626,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-        "fetchedAt": "2026-07-06T10:11:26.488Z"
+        "fetchedAt": "2026-07-13T09:18:38.775Z"
       },
       "dimension": "integridade",
       "category": "Patrimônio"
@@ -639,7 +639,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-        "fetchedAt": "2026-07-06T10:11:26.488Z"
+        "fetchedAt": "2026-07-13T09:18:38.775Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -652,7 +652,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
-        "fetchedAt": "2026-07-06T10:11:26.718Z"
+        "fetchedAt": "2026-07-13T09:18:39.035Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -665,7 +665,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-        "fetchedAt": "2026-07-06T10:11:26.488Z"
+        "fetchedAt": "2026-07-13T09:18:38.775Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -678,7 +678,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
-        "fetchedAt": "2026-07-06T10:11:26.718Z"
+        "fetchedAt": "2026-07-13T09:18:39.035Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -691,7 +691,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-        "fetchedAt": "2026-07-06T10:11:26.718Z"
+        "fetchedAt": "2026-07-13T09:18:39.035Z"
       },
       "dimension": "compromissos",
       "category": "Filiação Partidária"
@@ -704,7 +704,7 @@
       "source": {
         "name": "TSE - DivulgaCandContas",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-        "fetchedAt": "2026-07-06T10:11:26.718Z"
+        "fetchedAt": "2026-07-13T09:18:39.035Z"
       },
       "dimension": "historico",
       "category": "Histórico Eleitoral"
@@ -717,7 +717,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
-        "fetchedAt": "2026-07-06T10:11:28.481Z"
+        "fetchedAt": "2026-07-13T09:18:40.181Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -730,7 +730,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
-        "fetchedAt": "2026-07-06T10:11:28.481Z"
+        "fetchedAt": "2026-07-13T09:18:40.181Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -743,7 +743,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
-        "fetchedAt": "2026-07-06T10:11:28.481Z"
+        "fetchedAt": "2026-07-13T09:18:40.181Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -756,7 +756,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
-        "fetchedAt": "2026-07-06T10:11:28.481Z"
+        "fetchedAt": "2026-07-13T09:18:40.181Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -769,7 +769,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2040602022/2022/GO/3/44/44/90001646326",
-        "fetchedAt": "2026-07-06T10:11:28.481Z"
+        "fetchedAt": "2026-07-13T09:18:40.181Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -782,7 +782,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
-        "fetchedAt": "2026-07-06T10:11:29.597Z"
+        "fetchedAt": "2026-07-13T09:18:41.487Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -795,7 +795,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
-        "fetchedAt": "2026-07-06T10:11:29.597Z"
+        "fetchedAt": "2026-07-13T09:18:41.487Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -808,7 +808,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
-        "fetchedAt": "2026-07-06T10:11:29.597Z"
+        "fetchedAt": "2026-07-13T09:18:41.487Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -821,7 +821,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
-        "fetchedAt": "2026-07-06T10:11:29.597Z"
+        "fetchedAt": "2026-07-13T09:18:41.487Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -834,7 +834,7 @@
       "source": {
         "name": "DivulgaCandContas (TSE)",
         "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/GO/3/25/25/90000613470",
-        "fetchedAt": "2026-07-06T10:11:29.597Z"
+        "fetchedAt": "2026-07-13T09:18:41.487Z"
       },
       "dimension": "integridade",
       "category": "Financiamento de Campanha"
@@ -846,13 +846,13 @@
       "source": {
         "name": "Transparência (curadoria)",
         "url": "https://atvinicius.github.io/transparencia/metodologia",
-        "fetchedAt": "2026-07-06T10:11:29.598Z"
+        "fetchedAt": "2026-07-13T09:18:41.488Z"
       },
       "dimension": "historico",
       "category": "Informações Gerais"
     }
   ],
-  "lastUpdated": "2026-07-06T10:11:29.598Z",
+  "lastUpdated": "2026-07-13T09:18:41.488Z",
   "sources": [
     "TSE - DivulgaCandContas",
     "DivulgaCandContas"
