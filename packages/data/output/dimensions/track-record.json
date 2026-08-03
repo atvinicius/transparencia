@@ -12,7 +12,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607829",
-          "fetchedAt": "2026-07-27T09:42:10.022Z"
+          "fetchedAt": "2026-08-03T09:35:59.932Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -25,7 +25,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000625869",
-          "fetchedAt": "2026-07-27T09:42:10.288Z"
+          "fetchedAt": "2026-08-03T09:36:00.362Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -38,7 +38,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-07-27T09:42:10.288Z"
+          "fetchedAt": "2026-08-03T09:36:00.362Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -50,7 +50,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-07-27T09:42:15.042Z"
+          "fetchedAt": "2026-08-03T09:36:06.650Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -72,7 +72,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001615967",
-          "fetchedAt": "2026-07-27T09:42:16.207Z"
+          "fetchedAt": "2026-08-03T09:36:08.096Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -85,7 +85,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-07-27T09:42:16.207Z"
+          "fetchedAt": "2026-08-03T09:36:08.096Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -97,7 +97,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-07-27T09:42:16.967Z"
+          "fetchedAt": "2026-08-03T09:36:10.352Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -119,7 +119,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001612393",
-          "fetchedAt": "2026-07-27T09:42:17.764Z"
+          "fetchedAt": "2026-08-03T09:36:11.349Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -132,7 +132,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000605589",
-          "fetchedAt": "2026-07-27T09:42:17.958Z"
+          "fetchedAt": "2026-08-03T09:36:11.573Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -145,7 +145,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-07-27T09:42:17.958Z"
+          "fetchedAt": "2026-08-03T09:36:11.573Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -157,7 +157,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-07-27T09:42:31.377Z"
+          "fetchedAt": "2026-08-03T09:36:12.758Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -179,7 +179,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607833",
-          "fetchedAt": "2026-07-27T09:42:34.464Z"
+          "fetchedAt": "2026-08-03T09:36:13.923Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -192,7 +192,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-07-27T09:42:34.464Z"
+          "fetchedAt": "2026-08-03T09:36:13.923Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -204,7 +204,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-07-27T09:42:35.595Z"
+          "fetchedAt": "2026-08-03T09:36:14.706Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -226,7 +226,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-          "fetchedAt": "2026-07-27T09:42:37.624Z"
+          "fetchedAt": "2026-08-03T09:36:17.210Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -239,7 +239,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
-          "fetchedAt": "2026-07-27T09:42:37.818Z"
+          "fetchedAt": "2026-08-03T09:36:17.441Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -252,7 +252,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-07-27T09:42:37.818Z"
+          "fetchedAt": "2026-08-03T09:36:17.441Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -264,7 +264,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-07-27T09:42:39.847Z"
+          "fetchedAt": "2026-08-03T09:36:19.779Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -286,7 +286,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PR/2040602022/candidato/160001614467",
-          "fetchedAt": "2026-07-27T09:42:40.949Z"
+          "fetchedAt": "2026-08-03T09:36:21.157Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -299,7 +299,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PR/2022802018/candidato/160000609226",
-          "fetchedAt": "2026-07-27T09:42:41.147Z"
+          "fetchedAt": "2026-08-03T09:36:21.382Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -312,7 +312,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-07-27T09:42:41.147Z"
+          "fetchedAt": "2026-08-03T09:36:21.382Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -324,7 +324,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-07-27T09:42:43.581Z"
+          "fetchedAt": "2026-08-03T09:36:23.650Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -346,7 +346,7 @@
         "source": {
           "name": "Câmara dos Deputados",
           "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-          "fetchedAt": "2026-07-27T09:44:49.461Z"
+          "fetchedAt": "2026-08-03T09:39:15.945Z"
         },
         "dimension": "historico",
         "category": "Produção Legislativa"
@@ -358,7 +358,7 @@
         "source": {
           "name": "Câmara dos Deputados",
           "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-          "fetchedAt": "2026-07-27T09:44:49.461Z"
+          "fetchedAt": "2026-08-03T09:39:15.945Z"
         },
         "dimension": "historico",
         "category": "Informações Pessoais"
@@ -371,7 +371,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-          "fetchedAt": "2026-07-27T09:44:50.744Z"
+          "fetchedAt": "2026-08-03T09:39:20.831Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -384,7 +384,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-07-27T09:44:50.744Z"
+          "fetchedAt": "2026-08-03T09:39:20.831Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -396,7 +396,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-07-27T09:44:51.792Z"
+          "fetchedAt": "2026-08-03T09:39:21.963Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -418,7 +418,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001612465",
-          "fetchedAt": "2026-07-27T09:44:52.772Z"
+          "fetchedAt": "2026-08-03T09:39:23.127Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -431,7 +431,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000629808",
-          "fetchedAt": "2026-07-27T09:44:52.966Z"
+          "fetchedAt": "2026-08-03T09:39:23.351Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -444,7 +444,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-07-27T09:44:52.966Z"
+          "fetchedAt": "2026-08-03T09:39:23.351Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -456,7 +456,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-07-27T09:44:55.200Z"
+          "fetchedAt": "2026-08-03T09:39:24.590Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -478,7 +478,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001600179",
-          "fetchedAt": "2026-07-27T09:44:56.216Z"
+          "fetchedAt": "2026-08-03T09:39:25.770Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -491,7 +491,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-07-27T09:44:56.216Z"
+          "fetchedAt": "2026-08-03T09:39:25.770Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -503,7 +503,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-07-27T09:44:57.015Z"
+          "fetchedAt": "2026-08-03T09:39:26.253Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -525,7 +525,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PA/2040602022/candidato/140001651993",
-          "fetchedAt": "2026-07-27T09:44:58.159Z"
+          "fetchedAt": "2026-08-03T09:39:27.611Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -538,7 +538,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PA/2022802018/candidato/140000621334",
-          "fetchedAt": "2026-07-27T09:44:58.352Z"
+          "fetchedAt": "2026-08-03T09:39:27.833Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -551,7 +551,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2014/PA/680/candidato/140000000468",
-          "fetchedAt": "2026-07-27T09:44:58.549Z"
+          "fetchedAt": "2026-08-03T09:39:28.056Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -564,7 +564,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-07-27T09:44:58.549Z"
+          "fetchedAt": "2026-08-03T09:39:28.056Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -576,7 +576,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-07-27T09:44:59.961Z"
+          "fetchedAt": "2026-08-03T09:39:29.639Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -598,7 +598,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001618036",
-          "fetchedAt": "2026-07-27T09:45:01.845Z"
+          "fetchedAt": "2026-08-03T09:39:30.652Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -611,7 +611,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000614517",
-          "fetchedAt": "2026-07-27T09:45:03.216Z"
+          "fetchedAt": "2026-08-03T09:39:30.882Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -624,7 +624,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-07-27T09:45:03.216Z"
+          "fetchedAt": "2026-08-03T09:39:30.882Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -636,7 +636,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-07-27T09:45:59.410Z"
+          "fetchedAt": "2026-08-03T09:40:28.335Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -658,7 +658,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
-          "fetchedAt": "2026-07-27T09:46:00.602Z"
+          "fetchedAt": "2026-08-03T09:40:29.705Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -671,7 +671,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/MG/2022802018/candidato/130000600702",
-          "fetchedAt": "2026-07-27T09:46:00.805Z"
+          "fetchedAt": "2026-08-03T09:40:29.934Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -684,7 +684,7 @@
         "source": {
           "name": "TSE - DivulgaCandContas",
           "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-07-27T09:46:00.805Z"
+          "fetchedAt": "2026-08-03T09:40:29.934Z"
         },
         "dimension": "historico",
         "category": "Histórico Eleitoral"
@@ -696,7 +696,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-07-27T09:46:03.716Z"
+          "fetchedAt": "2026-08-03T09:40:32.372Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
