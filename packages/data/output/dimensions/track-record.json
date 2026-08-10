@@ -5,52 +5,13 @@
     "party": "PT",
     "facts": [
       {
-        "id": "tse-eleicao-2022",
-        "label": "Resultado na eleição de 2022",
-        "value": "Eleito(a)",
-        "context": "Cargo: Presidente | Partido: PT",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607829",
-          "fetchedAt": "2026-08-03T09:35:59.932Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicao-2018",
-        "label": "Resultado na eleição de 2018",
-        "value": "Concorrendo",
-        "context": "Cargo: Presidente | Partido: PT",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000625869",
-          "fetchedAt": "2026-08-03T09:36:00.362Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicoes-total",
-        "label": "Eleições disputadas (registros TSE)",
-        "value": 2,
-        "context": "2022 (Presidente), 2018 (Presidente)",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-03T09:36:00.362Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
         "id": "role-lula",
         "label": "Cargo/função atual",
         "value": "Presidente da República (2023–)",
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-08-03T09:36:06.650Z"
+          "fetchedAt": "2026-08-10T07:28:05.169Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -65,39 +26,13 @@
     "party": "REPUBLICANOS",
     "facts": [
       {
-        "id": "tse-eleicao-2022",
-        "label": "Resultado na eleição de 2022",
-        "value": "Eleito(a)",
-        "context": "Cargo: Governador | Partido: REPUBLICANOS",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001615967",
-          "fetchedAt": "2026-08-03T09:36:08.096Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicoes-total",
-        "label": "Eleições disputadas (registros TSE)",
-        "value": 1,
-        "context": "2022 (Governador)",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-03T09:36:08.096Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
         "id": "role-tarcisio-de-freitas",
         "label": "Cargo/função atual",
         "value": "Governador de São Paulo (2023–)",
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-08-03T09:36:10.352Z"
+          "fetchedAt": "2026-08-10T07:32:29.028Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -112,52 +47,13 @@
     "party": "PDT",
     "facts": [
       {
-        "id": "tse-eleicao-2022",
-        "label": "Resultado na eleição de 2022",
-        "value": "Não eleito",
-        "context": "Cargo: Presidente | Partido: PDT",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001612393",
-          "fetchedAt": "2026-08-03T09:36:11.349Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicao-2018",
-        "label": "Resultado na eleição de 2018",
-        "value": "Não eleito",
-        "context": "Cargo: Presidente | Partido: PDT",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000605589",
-          "fetchedAt": "2026-08-03T09:36:11.573Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicoes-total",
-        "label": "Eleições disputadas (registros TSE)",
-        "value": 2,
-        "context": "2022 (Presidente), 2018 (Presidente)",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-03T09:36:11.573Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
         "id": "role-ciro-gomes",
         "label": "Cargo/função atual",
         "value": "Ex-governador do Ceará, ex-candidato à presidência",
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-08-03T09:36:12.758Z"
+          "fetchedAt": "2026-08-10T07:36:52.884Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -172,39 +68,13 @@
     "party": "MDB",
     "facts": [
       {
-        "id": "tse-eleicao-2022",
-        "label": "Resultado na eleição de 2022",
-        "value": "Não eleito",
-        "context": "Cargo: Presidente | Partido: MDB",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001607833",
-          "fetchedAt": "2026-08-03T09:36:13.923Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicoes-total",
-        "label": "Eleições disputadas (registros TSE)",
-        "value": 1,
-        "context": "2022 (Presidente)",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-03T09:36:13.923Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
         "id": "role-simone-tebet",
         "label": "Cargo/função atual",
         "value": "Ministra do Planejamento (2023–)",
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-08-03T09:36:14.706Z"
+          "fetchedAt": "2026-08-10T07:41:16.740Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -219,52 +89,13 @@
     "party": "UNIÃO",
     "facts": [
       {
-        "id": "tse-eleicao-2022",
-        "label": "Resultado na eleição de 2022",
-        "value": "Eleito(a)",
-        "context": "Cargo: Governador | Partido: UNIÃO",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/GO/2040602022/candidato/90001646326",
-          "fetchedAt": "2026-08-03T09:36:17.210Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicao-2018",
-        "label": "Resultado na eleição de 2018",
-        "value": "Eleito(a)",
-        "context": "Cargo: Governador | Partido: DEM",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/GO/2022802018/candidato/90000613470",
-          "fetchedAt": "2026-08-03T09:36:17.441Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicoes-total",
-        "label": "Eleições disputadas (registros TSE)",
-        "value": 2,
-        "context": "2022 (Governador), 2018 (Governador)",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-03T09:36:17.441Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
         "id": "role-ronaldo-caiado",
         "label": "Cargo/função atual",
         "value": "Governador de Goiás (2019–)",
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-08-03T09:36:19.779Z"
+          "fetchedAt": "2026-08-10T07:45:40.586Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -279,52 +110,13 @@
     "party": "PSD",
     "facts": [
       {
-        "id": "tse-eleicao-2022",
-        "label": "Resultado na eleição de 2022",
-        "value": "Eleito(a)",
-        "context": "Cargo: Governador | Partido: PSD",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PR/2040602022/candidato/160001614467",
-          "fetchedAt": "2026-08-03T09:36:21.157Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicao-2018",
-        "label": "Resultado na eleição de 2018",
-        "value": "Eleito(a)",
-        "context": "Cargo: Governador | Partido: PSD",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PR/2022802018/candidato/160000609226",
-          "fetchedAt": "2026-08-03T09:36:21.382Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicoes-total",
-        "label": "Eleições disputadas (registros TSE)",
-        "value": 2,
-        "context": "2022 (Governador), 2018 (Governador)",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-03T09:36:21.382Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
         "id": "role-ratinho-junior",
         "label": "Cargo/função atual",
         "value": "Governador do Paraná (2019–)",
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-08-03T09:36:23.650Z"
+          "fetchedAt": "2026-08-10T07:50:04.436Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -346,7 +138,7 @@
         "source": {
           "name": "Câmara dos Deputados",
           "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-          "fetchedAt": "2026-08-03T09:39:15.945Z"
+          "fetchedAt": "2026-08-10T07:54:29.936Z"
         },
         "dimension": "historico",
         "category": "Produção Legislativa"
@@ -358,36 +150,10 @@
         "source": {
           "name": "Câmara dos Deputados",
           "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-          "fetchedAt": "2026-08-03T09:39:15.945Z"
+          "fetchedAt": "2026-08-10T07:54:29.936Z"
         },
         "dimension": "historico",
         "category": "Informações Pessoais"
-      },
-      {
-        "id": "tse-eleicao-2018",
-        "label": "Resultado na eleição de 2018",
-        "value": "Não eleito",
-        "context": "Cargo: Presidente | Partido: PSOL",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-          "fetchedAt": "2026-08-03T09:39:20.831Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicoes-total",
-        "label": "Eleições disputadas (registros TSE)",
-        "value": 1,
-        "context": "2018 (Presidente)",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-03T09:39:20.831Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
       },
       {
         "id": "role-guilherme-boulos",
@@ -396,7 +162,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-08-03T09:39:21.963Z"
+          "fetchedAt": "2026-08-10T07:58:53.796Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -411,52 +177,13 @@
     "party": "PT",
     "facts": [
       {
-        "id": "tse-eleicao-2022",
-        "label": "Resultado na eleição de 2022",
-        "value": "2º turno",
-        "context": "Cargo: Governador | Partido: PT",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/SP/2040602022/candidato/250001612465",
-          "fetchedAt": "2026-08-03T09:39:23.127Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicao-2018",
-        "label": "Resultado na eleição de 2018",
-        "value": "Não eleito",
-        "context": "Cargo: Presidente | Partido: PT",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000629808",
-          "fetchedAt": "2026-08-03T09:39:23.351Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicoes-total",
-        "label": "Eleições disputadas (registros TSE)",
-        "value": 2,
-        "context": "2022 (Governador), 2018 (Presidente)",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-03T09:39:23.351Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
         "id": "role-fernando-haddad",
         "label": "Cargo/função atual",
         "value": "Ministro da Fazenda (2023–)",
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-08-03T09:39:24.590Z"
+          "fetchedAt": "2026-08-10T08:03:17.654Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -471,39 +198,13 @@
     "party": "PRTB",
     "facts": [
       {
-        "id": "tse-eleicao-2022",
-        "label": "Resultado na eleição de 2022",
-        "value": "Concorrendo",
-        "context": "Cargo: Presidente | Partido: PROS",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001600179",
-          "fetchedAt": "2026-08-03T09:39:25.770Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicoes-total",
-        "label": "Eleições disputadas (registros TSE)",
-        "value": 1,
-        "context": "2022 (Presidente)",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-03T09:39:25.770Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
         "id": "role-pablo-marcal",
         "label": "Cargo/função atual",
         "value": "Empresário, ex-candidato a prefeito de SP",
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-08-03T09:39:26.253Z"
+          "fetchedAt": "2026-08-10T08:07:41.512Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -518,65 +219,13 @@
     "party": "MDB",
     "facts": [
       {
-        "id": "tse-eleicao-2022",
-        "label": "Resultado na eleição de 2022",
-        "value": "Eleito(a)",
-        "context": "Cargo: Governador | Partido: MDB",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/PA/2040602022/candidato/140001651993",
-          "fetchedAt": "2026-08-03T09:39:27.611Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicao-2018",
-        "label": "Resultado na eleição de 2018",
-        "value": "2º turno",
-        "context": "Cargo: Governador | Partido: MDB",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/PA/2022802018/candidato/140000621334",
-          "fetchedAt": "2026-08-03T09:39:27.833Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicao-2014",
-        "label": "Resultado na eleição de 2014",
-        "value": "2º turno",
-        "context": "Cargo: Governador | Partido: PMDB",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2014/PA/680/candidato/140000000468",
-          "fetchedAt": "2026-08-03T09:39:28.056Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicoes-total",
-        "label": "Eleições disputadas (registros TSE)",
-        "value": 3,
-        "context": "2022 (Governador), 2018 (Governador), 2014 (Governador)",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-03T09:39:28.056Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
         "id": "role-helder-barbalho",
         "label": "Cargo/função atual",
         "value": "Governador do Pará (2019–)",
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-08-03T09:39:29.639Z"
+          "fetchedAt": "2026-08-10T08:12:05.359Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -591,52 +240,13 @@
     "party": "PL",
     "facts": [
       {
-        "id": "tse-eleicao-2022",
-        "label": "Resultado na eleição de 2022",
-        "value": "Não eleito",
-        "context": "Cargo: Presidente | Partido: PL",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/BR/2040602022/candidato/280001618036",
-          "fetchedAt": "2026-08-03T09:39:30.652Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicao-2018",
-        "label": "Resultado na eleição de 2018",
-        "value": "Eleito(a)",
-        "context": "Cargo: Presidente | Partido: PSL",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000614517",
-          "fetchedAt": "2026-08-03T09:39:30.882Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicoes-total",
-        "label": "Eleições disputadas (registros TSE)",
-        "value": 2,
-        "context": "2022 (Presidente), 2018 (Presidente)",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-03T09:39:30.882Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
         "id": "role-jair-bolsonaro",
         "label": "Cargo/função atual",
         "value": "Ex-Presidente da República (2019–2022)",
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-08-03T09:40:28.335Z"
+          "fetchedAt": "2026-08-10T08:16:29.203Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -651,52 +261,13 @@
     "party": "NOVO",
     "facts": [
       {
-        "id": "tse-eleicao-2022",
-        "label": "Resultado na eleição de 2022",
-        "value": "Eleito(a)",
-        "context": "Cargo: Governador | Partido: NOVO",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2022/MG/2040602022/candidato/130001701690",
-          "fetchedAt": "2026-08-03T09:40:29.705Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicao-2018",
-        "label": "Resultado na eleição de 2018",
-        "value": "Eleito(a)",
-        "context": "Cargo: Governador | Partido: NOVO",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/MG/2022802018/candidato/130000600702",
-          "fetchedAt": "2026-08-03T09:40:29.934Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
-        "id": "tse-eleicoes-total",
-        "label": "Eleições disputadas (registros TSE)",
-        "value": 2,
-        "context": "2022 (Governador), 2018 (Governador)",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-03T09:40:29.934Z"
-        },
-        "dimension": "historico",
-        "category": "Histórico Eleitoral"
-      },
-      {
         "id": "role-romeu-zema",
         "label": "Cargo/função atual",
         "value": "Governador de Minas Gerais (2019–)",
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-08-03T09:40:32.372Z"
+          "fetchedAt": "2026-08-10T08:20:53.051Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"

@@ -18,20 +18,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-03T09:39:15.945Z"
-      }
-    },
-    {
-      "role": "Presidente",
-      "location": "BR",
-      "startYear": 2018,
-      "endYear": 2018,
-      "party": "PSOL",
-      "elected": false,
-      "source": {
-        "name": "TSE - DivulgaCandContas",
-        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-08-03T09:39:20.831Z"
+        "fetchedAt": "2026-08-10T07:54:29.936Z"
       }
     }
   ],
@@ -49,7 +36,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-03T09:39:15.945Z"
+        "fetchedAt": "2026-08-10T07:54:29.936Z"
       }
     },
     {
@@ -64,7 +51,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-03T09:39:15.945Z"
+        "fetchedAt": "2026-08-10T07:54:29.936Z"
       }
     },
     {
@@ -73,13 +60,13 @@
       "number": 1725,
       "year": 2025,
       "summary": "Veda a oferta de novos blocos de exploração de petróleo e gás na Amazônia e obriga a recuperação ambiental nas áreas com atividades de produção desses hidrocarbonetos na região.",
-      "status": "Pronta para Pauta",
+      "status": "Aguardando Deliberação",
       "theme": "Alteração",
       "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2887650",
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-03T09:39:15.945Z"
+        "fetchedAt": "2026-08-10T07:54:29.936Z"
       }
     },
     {
@@ -94,7 +81,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-03T09:39:15.945Z"
+        "fetchedAt": "2026-08-10T07:54:29.936Z"
       }
     },
     {
@@ -108,7 +95,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-03T09:39:15.945Z"
+        "fetchedAt": "2026-08-10T07:54:29.936Z"
       }
     },
     {
@@ -123,7 +110,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-03T09:39:15.945Z"
+        "fetchedAt": "2026-08-10T07:54:29.936Z"
       }
     },
     {
@@ -138,7 +125,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-03T09:39:15.945Z"
+        "fetchedAt": "2026-08-10T07:54:29.936Z"
       }
     },
     {
@@ -153,7 +140,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-03T09:39:15.945Z"
+        "fetchedAt": "2026-08-10T07:54:29.936Z"
       }
     },
     {
@@ -168,7 +155,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-03T09:39:15.945Z"
+        "fetchedAt": "2026-08-10T07:54:29.936Z"
       }
     },
     {
@@ -183,7 +170,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-03T09:39:15.945Z"
+        "fetchedAt": "2026-08-10T07:54:29.936Z"
       }
     }
   ],
@@ -295,93 +282,9 @@
     "impacto econômico",
     "relações trabalhistas."
   ],
-  "assetDeclarations": [
-    {
-      "electionYear": 2018,
-      "totalDeclared": 15416,
-      "items": [
-        {
-          "description": "Sem descrição",
-          "value": 15416
-        }
-      ],
-      "source": {
-        "name": "TSE - DivulgaCandContas",
-        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-08-03T09:39:20.831Z"
-      }
-    }
-  ],
-  "campaignFinances": [
-    {
-      "electionYear": 2018,
-      "totalReceived": 6224116.83,
-      "totalSpent": 6188149.68,
-      "topDonors": [
-        {
-          "name": "Direção Nacional - Partido Socialismo e Liberdade",
-          "amount": 4000000,
-          "type": "Fundo Especial"
-        },
-        {
-          "name": "Direção Nacional - Partido Socialismo e Liberdade",
-          "amount": 1793295.25,
-          "type": "Fundo Especial"
-        },
-        {
-          "name": "Direção Nacional - Partido Socialismo e Liberdade",
-          "amount": 184355.58,
-          "type": "Fundo Especial"
-        },
-        {
-          "name": "PAULA MAFRA LAVIGNE",
-          "amount": 80000,
-          "type": "Outros Recursos"
-        },
-        {
-          "name": "Direção Nacional - Partido Socialismo e Liberdade",
-          "amount": 35500,
-          "type": "Fundo Especial"
-        },
-        {
-          "name": "PAGUE JUNTO TECNOLOGIA DE INTERMEDIACAO LTDA",
-          "amount": 26386,
-          "type": "Outros Recursos"
-        },
-        {
-          "name": "PAGUE JUNTO TECNOLOGIA DE INTERMEDIACAO LTDA",
-          "amount": 15313,
-          "type": "Outros Recursos"
-        },
-        {
-          "name": "PAGUE JUNTO TECNOLOGIA DE INTERMEDIACAO LTDA",
-          "amount": 14325,
-          "type": "Outros Recursos"
-        },
-        {
-          "name": "PAGUE JUNTO TECNOLOGIA DE INTERMEDIACAO LTDA",
-          "amount": 13017,
-          "type": "Outros Recursos"
-        },
-        {
-          "name": "PAGUE JUNTO TECNOLOGIA DE INTERMEDIACAO LTDA",
-          "amount": 12648,
-          "type": "Outros Recursos"
-        }
-      ],
-      "source": {
-        "name": "DivulgaCandContas (TSE)",
-        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-08-03T09:39:21.962Z"
-      }
-    }
-  ],
-  "partyHistory": [
-    {
-      "party": "PSOL",
-      "startYear": 2018
-    }
-  ],
+  "assetDeclarations": [],
+  "campaignFinances": [],
+  "partyHistory": [],
   "facts": [
     {
       "id": "camara-proposicoes-total-220639",
@@ -391,7 +294,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-03T09:39:15.945Z"
+        "fetchedAt": "2026-08-10T07:54:29.936Z"
       },
       "dimension": "historico",
       "category": "Produção Legislativa"
@@ -403,127 +306,10 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-03T09:39:15.945Z"
+        "fetchedAt": "2026-08-10T07:54:29.936Z"
       },
       "dimension": "historico",
       "category": "Informações Pessoais"
-    },
-    {
-      "id": "tse-bens-total-2018",
-      "label": "Bens declarados na eleição de 2018",
-      "value": "R$ 15.416,00",
-      "context": "1 item(ns) declarado(s)",
-      "source": {
-        "name": "TSE - DivulgaCandContas",
-        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-08-03T09:39:20.831Z"
-      },
-      "dimension": "integridade",
-      "category": "Patrimônio"
-    },
-    {
-      "id": "tse-gasto-campanha-2018",
-      "label": "Gasto de campanha declarado (2018)",
-      "value": "R$ 105.000.000,00",
-      "context": "1º turno: R$ 70.000.000,00 | 2º turno: R$ 35.000.000,00",
-      "source": {
-        "name": "TSE - DivulgaCandContas",
-        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-08-03T09:39:20.831Z"
-      },
-      "dimension": "integridade",
-      "category": "Financiamento de Campanha"
-    },
-    {
-      "id": "tse-eleicao-2018",
-      "label": "Resultado na eleição de 2018",
-      "value": "Não eleito",
-      "context": "Cargo: Presidente | Partido: PSOL",
-      "source": {
-        "name": "TSE - DivulgaCandContas",
-        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2018/BR/2022802018/candidato/280000601016",
-        "fetchedAt": "2026-08-03T09:39:20.831Z"
-      },
-      "dimension": "historico",
-      "category": "Histórico Eleitoral"
-    },
-    {
-      "id": "tse-eleicoes-total",
-      "label": "Eleições disputadas (registros TSE)",
-      "value": 1,
-      "context": "2018 (Presidente)",
-      "source": {
-        "name": "TSE - DivulgaCandContas",
-        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-        "fetchedAt": "2026-08-03T09:39:20.831Z"
-      },
-      "dimension": "historico",
-      "category": "Histórico Eleitoral"
-    },
-    {
-      "id": "divulgacand-receita-total-280000601016-2018",
-      "label": "Total recebido em doações de campanha (2018)",
-      "value": "R$ 6.224.116,83",
-      "context": "Eleição de 2018",
-      "source": {
-        "name": "DivulgaCandContas (TSE)",
-        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-08-03T09:39:21.962Z"
-      },
-      "dimension": "integridade",
-      "category": "Financiamento de Campanha"
-    },
-    {
-      "id": "divulgacand-despesa-total-280000601016-2018",
-      "label": "Total gasto em campanha (2018)",
-      "value": "R$ 6.188.149,68",
-      "context": "Eleição de 2018",
-      "source": {
-        "name": "DivulgaCandContas (TSE)",
-        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-08-03T09:39:21.962Z"
-      },
-      "dimension": "integridade",
-      "category": "Financiamento de Campanha"
-    },
-    {
-      "id": "divulgacand-doadores-total-280000601016-2018",
-      "label": "Número de doadores de campanha (2018)",
-      "value": 44,
-      "context": "Eleição de 2018",
-      "source": {
-        "name": "DivulgaCandContas (TSE)",
-        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-08-03T09:39:21.962Z"
-      },
-      "dimension": "integridade",
-      "category": "Financiamento de Campanha"
-    },
-    {
-      "id": "divulgacand-maior-doador-280000601016-2018",
-      "label": "Maior doador de campanha (2018)",
-      "value": "Direção Nacional - Partido Socialismo e Liberdade",
-      "context": "R$ 4.000.000,00 — Fundo Especial",
-      "source": {
-        "name": "DivulgaCandContas (TSE)",
-        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-08-03T09:39:21.962Z"
-      },
-      "dimension": "integridade",
-      "category": "Financiamento de Campanha"
-    },
-    {
-      "id": "divulgacand-saldo-280000601016-2018",
-      "label": "Saldo positivo de campanha (2018)",
-      "value": "R$ 35.967,15",
-      "context": "Receitas R$ 6.224.116,83 - Despesas R$ 6.188.149,68",
-      "source": {
-        "name": "DivulgaCandContas (TSE)",
-        "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/prestador/consulta/2022802018/2018/BR/1/50/50/280000601016",
-        "fetchedAt": "2026-08-03T09:39:21.962Z"
-      },
-      "dimension": "integridade",
-      "category": "Financiamento de Campanha"
     },
     {
       "id": "role-guilherme-boulos",
@@ -532,16 +318,14 @@
       "source": {
         "name": "Transparência (curadoria)",
         "url": "https://atvinicius.github.io/transparencia/metodologia",
-        "fetchedAt": "2026-08-03T09:39:21.963Z"
+        "fetchedAt": "2026-08-10T07:58:53.796Z"
       },
       "dimension": "historico",
       "category": "Informações Gerais"
     }
   ],
-  "lastUpdated": "2026-08-03T09:39:21.963Z",
+  "lastUpdated": "2026-08-10T07:58:53.796Z",
   "sources": [
-    "Câmara dos Deputados - Dados Abertos",
-    "TSE - DivulgaCandContas",
-    "DivulgaCandContas"
+    "Câmara dos Deputados - Dados Abertos"
   ]
 }
