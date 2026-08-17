@@ -4,42 +4,48 @@
     "name": "Luiz Inácio Lula da Silva",
     "shortName": "Lula",
     "party": "PT",
-    "state": "SP"
+    "state": "SP",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001607829/BR"
   },
   {
     "slug": "tarcisio-de-freitas",
     "name": "Tarcísio Gomes de Freitas",
     "shortName": "Tarcísio de Freitas",
     "party": "REPUBLICANOS",
-    "state": "SP"
+    "state": "SP",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/250001615967/SP"
   },
   {
     "slug": "ciro-gomes",
     "name": "Ciro Ferreira Gomes",
     "shortName": "Ciro Gomes",
     "party": "PDT",
-    "state": "CE"
+    "state": "CE",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001612393/BR"
   },
   {
     "slug": "simone-tebet",
     "name": "Simone Nassar Tebet",
     "shortName": "Simone Tebet",
     "party": "MDB",
-    "state": "MS"
+    "state": "MS",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001607833/BR"
   },
   {
     "slug": "ronaldo-caiado",
     "name": "Ronaldo Rodrigues Caiado",
     "shortName": "Ronaldo Caiado",
     "party": "UNIÃO",
-    "state": "GO"
+    "state": "GO",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/90001646326/GO"
   },
   {
     "slug": "ratinho-junior",
     "name": "Ratinho Junior",
     "shortName": "Ratinho Junior",
     "party": "PSD",
-    "state": "PR"
+    "state": "PR",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/160001614467/PR"
   },
   {
     "slug": "guilherme-boulos",
@@ -54,34 +60,39 @@
     "name": "Fernando Haddad",
     "shortName": "Fernando Haddad",
     "party": "PT",
-    "state": "SP"
+    "state": "SP",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/250001612465/SP"
   },
   {
     "slug": "pablo-marcal",
     "name": "Pablo Marçal",
     "shortName": "Pablo Marçal",
     "party": "PRTB",
-    "state": "SP"
+    "state": "SP",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001600179/BR"
   },
   {
     "slug": "helder-barbalho",
     "name": "Helder Zahluth Barbalho",
     "shortName": "Helder Barbalho",
     "party": "MDB",
-    "state": "PA"
+    "state": "PA",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/140001651993/PA"
   },
   {
     "slug": "jair-bolsonaro",
     "name": "Jair Messias Bolsonaro",
     "shortName": "Jair Bolsonaro",
     "party": "PL",
-    "state": "RJ"
+    "state": "RJ",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/280001618036/BR"
   },
   {
     "slug": "romeu-zema",
     "name": "Romeu Zema Neto",
     "shortName": "Romeu Zema",
     "party": "NOVO",
-    "state": "MG"
+    "state": "MG",
+    "photoUrl": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/img/2040602022/130001701690/MG"
   }
 ]
