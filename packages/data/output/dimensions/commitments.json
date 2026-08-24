@@ -4,200 +4,83 @@
     "shortName": "Lula",
     "party": "PT",
     "facts": [],
-    "partyHistory": [
-      {
-        "party": "PT",
-        "startYear": 2018
-      }
-    ]
+    "partyHistory": []
   },
   {
     "slug": "tarcisio-de-freitas",
     "shortName": "Tarcísio de Freitas",
     "party": "REPUBLICANOS",
     "facts": [],
-    "partyHistory": [
-      {
-        "party": "REPUBLICANOS",
-        "startYear": 2022
-      }
-    ]
+    "partyHistory": []
   },
   {
     "slug": "ciro-gomes",
     "shortName": "Ciro Gomes",
     "party": "PDT",
     "facts": [],
-    "partyHistory": [
-      {
-        "party": "PDT",
-        "startYear": 2018
-      }
-    ]
+    "partyHistory": []
   },
   {
     "slug": "simone-tebet",
     "shortName": "Simone Tebet",
     "party": "MDB",
     "facts": [],
-    "partyHistory": [
-      {
-        "party": "MDB",
-        "startYear": 2022
-      }
-    ]
+    "partyHistory": []
   },
   {
     "slug": "ronaldo-caiado",
     "shortName": "Ronaldo Caiado",
     "party": "UNIÃO",
-    "facts": [
-      {
-        "id": "tse-partidos-total",
-        "label": "Partidos pelos quais concorreu",
-        "value": 2,
-        "context": "DEM, UNIÃO",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-17T06:45:10.218Z"
-        },
-        "dimension": "compromissos",
-        "category": "Filiação Partidária"
-      }
-    ],
-    "partyHistory": [
-      {
-        "party": "DEM",
-        "startYear": 2018,
-        "endYear": 2022
-      },
-      {
-        "party": "UNIÃO",
-        "startYear": 2022
-      }
-    ]
+    "facts": [],
+    "partyHistory": []
   },
   {
     "slug": "ratinho-junior",
     "shortName": "Ratinho Junior",
     "party": "PSD",
     "facts": [],
-    "partyHistory": [
-      {
-        "party": "PSD",
-        "startYear": 2018
-      }
-    ]
+    "partyHistory": []
   },
   {
     "slug": "guilherme-boulos",
     "shortName": "Guilherme Boulos",
     "party": "PSOL",
     "facts": [],
-    "partyHistory": [
-      {
-        "party": "PSOL",
-        "startYear": 2018
-      }
-    ]
+    "partyHistory": []
   },
   {
     "slug": "fernando-haddad",
     "shortName": "Fernando Haddad",
     "party": "PT",
     "facts": [],
-    "partyHistory": [
-      {
-        "party": "PT",
-        "startYear": 2018
-      }
-    ]
+    "partyHistory": []
   },
   {
     "slug": "pablo-marcal",
     "shortName": "Pablo Marçal",
     "party": "PRTB",
     "facts": [],
-    "partyHistory": [
-      {
-        "party": "PROS",
-        "startYear": 2022
-      }
-    ]
+    "partyHistory": []
   },
   {
     "slug": "helder-barbalho",
     "shortName": "Helder Barbalho",
     "party": "MDB",
-    "facts": [
-      {
-        "id": "tse-partidos-total",
-        "label": "Partidos pelos quais concorreu",
-        "value": 2,
-        "context": "PMDB, MDB",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-17T06:47:38.872Z"
-        },
-        "dimension": "compromissos",
-        "category": "Filiação Partidária"
-      }
-    ],
-    "partyHistory": [
-      {
-        "party": "PMDB",
-        "startYear": 2014,
-        "endYear": 2018
-      },
-      {
-        "party": "MDB",
-        "startYear": 2018
-      }
-    ]
+    "facts": [],
+    "partyHistory": []
   },
   {
     "slug": "jair-bolsonaro",
     "shortName": "Jair Bolsonaro",
     "party": "PL",
-    "facts": [
-      {
-        "id": "tse-partidos-total",
-        "label": "Partidos pelos quais concorreu",
-        "value": 2,
-        "context": "PSL, PL",
-        "source": {
-          "name": "TSE - DivulgaCandContas",
-          "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura",
-          "fetchedAt": "2026-08-17T06:47:42.086Z"
-        },
-        "dimension": "compromissos",
-        "category": "Filiação Partidária"
-      }
-    ],
-    "partyHistory": [
-      {
-        "party": "PSL",
-        "startYear": 2018,
-        "endYear": 2022
-      },
-      {
-        "party": "PL",
-        "startYear": 2022
-      }
-    ]
+    "facts": [],
+    "partyHistory": []
   },
   {
     "slug": "romeu-zema",
     "shortName": "Romeu Zema",
     "party": "NOVO",
     "facts": [],
-    "partyHistory": [
-      {
-        "party": "NOVO",
-        "startYear": 2018
-      }
-    ]
+    "partyHistory": []
   }
 ]
