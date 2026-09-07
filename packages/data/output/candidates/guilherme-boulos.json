@@ -18,7 +18,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-31T12:37:31.263Z"
+        "fetchedAt": "2026-09-07T11:32:22.650Z"
       }
     }
   ],
@@ -36,7 +36,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-31T12:37:31.263Z"
+        "fetchedAt": "2026-09-07T11:32:22.650Z"
       }
     },
     {
@@ -51,7 +51,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-31T12:37:31.263Z"
+        "fetchedAt": "2026-09-07T11:32:22.650Z"
       }
     },
     {
@@ -66,7 +66,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-31T12:37:31.263Z"
+        "fetchedAt": "2026-09-07T11:32:22.650Z"
       }
     },
     {
@@ -81,7 +81,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-31T12:37:31.263Z"
+        "fetchedAt": "2026-09-07T11:32:22.650Z"
       }
     },
     {
@@ -95,7 +95,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-31T12:37:31.263Z"
+        "fetchedAt": "2026-09-07T11:32:22.650Z"
       }
     },
     {
@@ -110,7 +110,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-31T12:37:31.263Z"
+        "fetchedAt": "2026-09-07T11:32:22.650Z"
       }
     },
     {
@@ -119,13 +119,13 @@
       "number": 4788,
       "year": 2025,
       "summary": "Altera a Lei nº 12.741, de 8 de dezembro de 2012, para dispor sobre a obrigatoriedade de discriminar a composição do preço dos combustíveis automotivos e do gás liquefeito de petróleo (GLP) no documento fiscal emitido ao consumidor.",
-      "status": "Aguardando Parecer",
+      "status": "Aguardando Designação de Relator(a)",
       "theme": "Alteração",
       "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3008616",
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-31T12:37:31.263Z"
+        "fetchedAt": "2026-09-07T11:32:22.650Z"
       }
     },
     {
@@ -140,7 +140,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-31T12:37:31.263Z"
+        "fetchedAt": "2026-09-07T11:32:22.650Z"
       }
     },
     {
@@ -155,7 +155,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-31T12:37:31.263Z"
+        "fetchedAt": "2026-09-07T11:32:22.650Z"
       }
     },
     {
@@ -170,7 +170,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-31T12:37:31.263Z"
+        "fetchedAt": "2026-09-07T11:32:22.650Z"
       }
     }
   ],
@@ -294,7 +294,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-31T12:37:31.263Z"
+        "fetchedAt": "2026-09-07T11:32:22.650Z"
       },
       "dimension": "historico",
       "category": "Produção Legislativa"
@@ -306,7 +306,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-08-31T12:37:31.263Z"
+        "fetchedAt": "2026-09-07T11:32:22.650Z"
       },
       "dimension": "historico",
       "category": "Informações Pessoais"
@@ -318,13 +318,13 @@
       "source": {
         "name": "Transparência (curadoria)",
         "url": "https://atvinicius.github.io/transparencia/metodologia",
-        "fetchedAt": "2026-08-31T12:37:44.121Z"
+        "fetchedAt": "2026-09-07T11:32:35.665Z"
       },
       "dimension": "historico",
       "category": "Informações Gerais"
     }
   ],
-  "lastUpdated": "2026-08-31T12:37:44.121Z",
+  "lastUpdated": "2026-09-07T11:32:35.666Z",
   "sources": [
     "Câmara dos Deputados - Dados Abertos"
   ]
