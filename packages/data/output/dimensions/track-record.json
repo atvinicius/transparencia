@@ -11,7 +11,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-09-14T11:39:54.547Z"
+          "fetchedAt": "2026-09-21T11:52:52.090Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -32,7 +32,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-09-14T11:40:07.103Z"
+          "fetchedAt": "2026-09-21T11:53:04.859Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -53,7 +53,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-09-14T11:40:19.480Z"
+          "fetchedAt": "2026-09-21T11:53:20.885Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -74,7 +74,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-09-14T11:40:31.918Z"
+          "fetchedAt": "2026-09-21T11:53:35.445Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -95,7 +95,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-09-14T11:40:44.497Z"
+          "fetchedAt": "2026-09-21T11:53:48.247Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -116,7 +116,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-09-14T11:40:56.946Z"
+          "fetchedAt": "2026-09-21T11:54:00.675Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -131,45 +131,20 @@
     "party": "PSOL",
     "facts": [
       {
-        "id": "camara-proposicoes-total-220639",
-        "label": "Proposições legislativas apresentadas",
-        "value": 10,
-        "context": "como autor(a) principal",
-        "source": {
-          "name": "Câmara dos Deputados",
-          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-          "fetchedAt": "2026-09-14T11:43:17.692Z"
-        },
-        "dimension": "historico",
-        "category": "Produção Legislativa"
-      },
-      {
-        "id": "camara-escolaridade-220639",
-        "label": "Escolaridade",
-        "value": "Mestrado",
-        "source": {
-          "name": "Câmara dos Deputados",
-          "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-          "fetchedAt": "2026-09-14T11:43:17.692Z"
-        },
-        "dimension": "historico",
-        "category": "Informações Pessoais"
-      },
-      {
         "id": "role-guilherme-boulos",
         "label": "Cargo/função atual",
         "value": "Deputado Federal (2023–)",
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-09-14T11:43:30.100Z"
+          "fetchedAt": "2026-09-21T11:54:47.788Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
       }
     ],
     "votingSummaries": [],
-    "proposalCount": 10
+    "proposalCount": 0
   },
   {
     "slug": "fernando-haddad",
@@ -183,7 +158,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-09-14T11:43:42.692Z"
+          "fetchedAt": "2026-09-21T11:55:00.627Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -204,7 +179,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-09-14T11:43:55.085Z"
+          "fetchedAt": "2026-09-21T11:55:13.253Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -225,7 +200,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-09-14T11:44:07.694Z"
+          "fetchedAt": "2026-09-21T11:55:26.000Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -246,7 +221,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-09-14T11:44:20.284Z"
+          "fetchedAt": "2026-09-21T11:55:38.495Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
@@ -267,7 +242,7 @@
         "source": {
           "name": "Transparência (curadoria)",
           "url": "https://atvinicius.github.io/transparencia/metodologia",
-          "fetchedAt": "2026-09-14T11:44:32.683Z"
+          "fetchedAt": "2026-09-21T11:55:50.941Z"
         },
         "dimension": "historico",
         "category": "Informações Gerais"
