@@ -18,7 +18,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-10-12T14:23:30.756Z"
+        "fetchedAt": "2026-10-19T12:03:41.516Z"
       }
     }
   ],
@@ -36,7 +36,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-10-12T14:23:30.756Z"
+        "fetchedAt": "2026-10-19T12:03:41.516Z"
       }
     },
     {
@@ -51,7 +51,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-10-12T14:23:30.756Z"
+        "fetchedAt": "2026-10-19T12:03:41.516Z"
       }
     },
     {
@@ -66,7 +66,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-10-12T14:23:30.756Z"
+        "fetchedAt": "2026-10-19T12:03:41.516Z"
       }
     },
     {
@@ -81,7 +81,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-10-12T14:23:30.756Z"
+        "fetchedAt": "2026-10-19T12:03:41.516Z"
       }
     },
     {
@@ -95,7 +95,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-10-12T14:23:30.756Z"
+        "fetchedAt": "2026-10-19T12:03:41.516Z"
       }
     },
     {
@@ -110,7 +110,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-10-12T14:23:30.756Z"
+        "fetchedAt": "2026-10-19T12:03:41.516Z"
       }
     },
     {
@@ -125,7 +125,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-10-12T14:23:30.756Z"
+        "fetchedAt": "2026-10-19T12:03:41.516Z"
       }
     },
     {
@@ -140,7 +140,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-10-12T14:23:30.756Z"
+        "fetchedAt": "2026-10-19T12:03:41.516Z"
       }
     },
     {
@@ -155,7 +155,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-10-12T14:23:30.756Z"
+        "fetchedAt": "2026-10-19T12:03:41.516Z"
       }
     },
     {
@@ -170,7 +170,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-10-12T14:23:30.756Z"
+        "fetchedAt": "2026-10-19T12:03:41.516Z"
       }
     }
   ],
@@ -294,7 +294,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-10-12T14:23:30.756Z"
+        "fetchedAt": "2026-10-19T12:03:41.516Z"
       },
       "dimension": "historico",
       "category": "Produção Legislativa"
@@ -306,7 +306,7 @@
       "source": {
         "name": "Câmara dos Deputados",
         "url": "https://dadosabertos.camara.leg.br/api/v2/deputados/220639",
-        "fetchedAt": "2026-10-12T14:23:30.756Z"
+        "fetchedAt": "2026-10-19T12:03:41.516Z"
       },
       "dimension": "historico",
       "category": "Informações Pessoais"
@@ -318,13 +318,13 @@
       "source": {
         "name": "Transparência (curadoria)",
         "url": "https://atvinicius.github.io/transparencia/metodologia",
-        "fetchedAt": "2026-10-12T14:23:43.542Z"
+        "fetchedAt": "2026-10-19T12:03:54.182Z"
       },
       "dimension": "historico",
       "category": "Informações Gerais"
     }
   ],
-  "lastUpdated": "2026-10-12T14:23:43.542Z",
+  "lastUpdated": "2026-10-19T12:03:54.182Z",
   "sources": [
     "Câmara dos Deputados - Dados Abertos"
   ]
