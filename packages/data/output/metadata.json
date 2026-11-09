@@ -1,29 +1,29 @@
 {
-  "lastRun": "2026-11-02T14:45:15.785Z",
+  "lastRun": "2026-11-09T15:07:25.004Z",
   "sources": [
     {
       "name": "Câmara dos Deputados",
       "status": "success",
       "recordCount": 1,
-      "lastFetched": "2026-11-02T14:45:15.781Z"
+      "lastFetched": "2026-11-09T15:07:25.002Z"
     },
     {
       "name": "Senado Federal",
       "status": "partial",
       "recordCount": 0,
-      "lastFetched": "2026-11-02T14:45:15.781Z"
+      "lastFetched": "2026-11-09T15:07:25.002Z"
     },
     {
       "name": "TSE — Dados Abertos",
       "status": "partial",
       "recordCount": 0,
-      "lastFetched": "2026-11-02T14:45:15.781Z"
+      "lastFetched": "2026-11-09T15:07:25.002Z"
     },
     {
       "name": "DivulgaCandContas",
       "status": "partial",
       "recordCount": 0,
-      "lastFetched": "2026-11-02T14:45:15.781Z"
+      "lastFetched": "2026-11-09T15:07:25.002Z"
     }
   ],
   "candidateCount": 12
